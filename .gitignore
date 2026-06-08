@@ -1,0 +1,30 @@
+# --- Secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Obsidian (machine-specific / volatile state) ---
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/file-recovery.json
+.obsidian/cache
+# (appearance, app, core-plugins, graph configs are kept so settings sync)
+
+# --- Python build / cache artifacts ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+build/
+dist/
+.venv/
+venv/
+
+# --- Tool / agent scratch state ---
+.claude-flow/
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+desktop.ini

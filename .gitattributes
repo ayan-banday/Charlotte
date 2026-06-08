@@ -1,0 +1,13 @@
+# Normalize line endings across machines so the vault doesn't churn on clone.
+* text=auto eol=lf
+
+# Treat binaries as binary (no EOL conversion).
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.pdf binary
+*.mp4 binary
+*.mov binary
+*.zip binary

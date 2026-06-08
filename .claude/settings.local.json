@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"S:\\\\Charlotte\\\\02 Projects\" -Directory)",
+      "Bash(Select-Object Name)",
+      "PowerShell(\\(Get-Content \"S:\\\\Charlotte\\\\System\\\\SOUL.md\" -Raw\\).Length)",
+      "mcp__claude_ai_Fathom__list_meetings",
+      "mcp__claude_ai_Gmail__search_threads",
+      "mcp__claude_ai_Google_Calendar__list_events",
+      "mcp__claude_ai_Notion__notion-search",
+      "mcp__claude_ai_Notion__notion-fetch-page",
+      "mcp__claude_ai_Notion__notion-query-database",
+      "mcp__claude_ai_Notion__notion-create-database",
+      "mcp__claude_ai_Notion__notion-create-page",
+      "mcp__claude_ai_Notion__notion-update-page",
+      "mcp__claude_ai_Notion__notion-append-block-children",
+      "mcp__claude_ai_Notion__notion-retrieve-block",
+      "mcp__claude_ai_Notion__notion-retrieve-database",
+      "mcp__claude_ai_Notion__notion-delete-block",
+      "Bash(git check-ignore *)",
+      "Bash(git add *)",
+      "Bash(grep -E '\\(^|/\\)\\\\.env$|\\\\.git$|__pycache__|\\\\.pyc$')"
+    ]
+  }
+}

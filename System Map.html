@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charlotte — System Discovery Map</title>
+<style>
+  :root{
+    --bg:#0c0e13; --panel:#151821; --panel2:#1c2030; --line:#2a3042;
+    --ink:#e6e9f0; --dim:#8b93a7; --faint:#5b6377;
+    --hot:#ff6b5e; --hot2:#ff8a5e;
+    --deep:#5ea0ff; --deep2:#7c5eff;
+    --nav:#3ddc97; --skill:#f5c451; --flow:#c97dff; --proj:#5ed0d0;
+    --rule:#9aa3b8;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
+    font-family:"Segoe UI",system-ui,-apple-system,sans-serif;line-height:1.5}
+  a{color:var(--deep);text-decoration:none}
+  .wrap{max-width:1180px;margin:0 auto;padding:32px 22px 90px}
+  header.top{margin-bottom:6px}
+  .kick{color:var(--hot);font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:700}
+  h1{font-size:34px;margin:6px 0 4px;font-weight:800;letter-spacing:-.5px}
+  .sub{color:var(--dim);font-size:15px;max-width:760px}
+  .legend{display:flex;flex-wrap:wrap;gap:14px;margin:20px 0 6px;font-size:12.5px;color:var(--dim)}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .dot{width:11px;height:11px;border-radius:50%;display:inline-block}
+
+  nav.tabs{position:sticky;top:0;z-index:40;background:rgba(12,14,19,.92);
+    backdrop-filter:blur(8px);display:flex;flex-wrap:wrap;gap:4px;
+    padding:12px 0;margin:14px 0 26px;border-bottom:1px solid var(--line)}
+  nav.tabs button{background:transparent;border:1px solid transparent;color:var(--dim);
+    font-size:13px;font-weight:600;padding:7px 13px;border-radius:8px;cursor:pointer;
+    transition:.15s}
+  nav.tabs button:hover{color:var(--ink);background:var(--panel)}
+  nav.tabs button.active{color:#0c0e13;background:var(--hot);border-color:var(--hot)}
+
+  section{display:none;animation:fade .25s ease}
+  section.show{display:block}
+  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  h2.sec{font-size:22px;margin:4px 0 4px;font-weight:800}
+  .lead{color:var(--dim);font-size:14.5px;margin:0 0 22px;max-width:820px}
+
+  /* layered stack */
+  .stack{display:flex;flex-direction:column;gap:0;position:relative}
+  .layer{border:1px solid var(--line);border-radius:14px;background:var(--panel);
+    padding:16px 18px;margin:9px 0;position:relative}
+  .layer .lhead{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+  .layer .lhead .tag{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+    padding:3px 8px;border-radius:6px;color:#0c0e13}
+  .layer h3{margin:0;font-size:16px;font-weight:700}
+  .layer p{margin:6px 0 0;color:var(--dim);font-size:13.5px}
+  .arrow{align-self:center;color:var(--faint);font-size:18px;line-height:1;margin:-2px 0}
+
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:12px}
+  .card{border:1px solid var(--line);border-radius:12px;background:var(--panel2);
+    padding:14px 15px;cursor:pointer;transition:.15s;position:relative}
+  .card:hover{border-color:var(--faint);transform:translateY(-2px)}
+  .card h4{margin:0 0 4px;font-size:14.5px;display:flex;align-items:center;gap:8px}
+  .card .meta{font-size:11.5px;color:var(--faint);font-family:ui-monospace,Consolas,monospace}
+  .card .body{font-size:13px;color:var(--dim);margin-top:8px;display:none}
+  .card.open .body{display:block}
+  .card .body ul{margin:6px 0 0;padding-left:18px}
+  .card .body li{margin:3px 0}
+  .chip{font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:20px;color:#0c0e13}
+
+  .flowrow{display:flex;align-items:stretch;gap:0;flex-wrap:wrap}
+  .fbox{flex:1;min-width:150px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);
+    padding:13px 14px;margin:6px}
+  .fbox h4{margin:0 0 5px;font-size:14px}
+  .fbox p{margin:0;font-size:12.5px;color:var(--dim)}
+  .farrow{display:flex;align-items:center;color:var(--faint);font-size:22px;padding:0 2px}
+
+  table{width:100%;border-collapse:collapse;margin-top:8px;font-size:13px}
+  th,td{text-align:left;padding:9px 11px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--faint);font-size:11px;text-transform:uppercase;letter-spacing:.08em;font-weight:700}
+  td code,code.k{background:var(--panel2);padding:2px 6px;border-radius:5px;
+    font-family:ui-monospace,Consolas,monospace;font-size:12px;color:var(--nav)}
+  tr:hover td{background:var(--panel)}
+
+  .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+  .panelbox{border:1px solid var(--line);border-radius:14px;background:var(--panel);padding:18px}
+  .panelbox h3{margin:0 0 10px;font-size:15px}
+  .panelbox ul{margin:0;padding-left:18px;color:var(--dim);font-size:13.5px}
+  .panelbox li{margin:5px 0}
+  .panelbox li b{color:var(--ink)}
+
+  /* tree */
+  .tree{font-family:ui-monospace,Consolas,monospace;font-size:13px;line-height:1.85;
+    border:1px solid var(--line);border-radius:14px;background:var(--panel);padding:18px 20px;overflow:auto}
+  .tree .f{color:var(--nav)}
+  .tree .c{color:var(--faint)}
+  .tree .hotc{color:var(--hot)}
+  .tree .deepc{color:var(--deep)}
+
+  .cap{display:flex;align-items:center;gap:10px;margin:10px 0}
+  .cap .label{width:170px;font-size:13px;color:var(--ink)}
+  .bar{flex:1;height:14px;background:var(--panel2);border-radius:8px;overflow:hidden;border:1px solid var(--line)}
+  .bar i{display:block;height:100%;border-radius:8px}
+  .cap .num{width:140px;text-align:right;font-size:12px;color:var(--dim);font-family:ui-monospace,monospace}
+
+  .note{border-left:3px solid var(--hot);background:var(--panel);padding:11px 15px;border-radius:0 10px 10px 0;
+    color:var(--dim);font-size:13.5px;margin:18px 0}
+  .note b{color:var(--ink)}
+  footer{margin-top:50px;color:var(--faint);font-size:12px;text-align:center;border-top:1px solid var(--line);padding-top:20px}
+  .hint{color:var(--faint);font-size:12px;margin:-8px 0 18px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div class="kick">Charlotte · Cowork System</div>
+  <h1>System Discovery Map</h1>
+  <p class="sub">How the whole thing is wired — the brain, the rules, the navigation, and how skills, workflows, and projects feed each other. Click any node to open it. Tabs across the top switch the view.</p>
+  <div class="legend">
+    <span><i class="dot" style="background:var(--hot)"></i>Hot tier (always loaded)</span>
+    <span><i class="dot" style="background:var(--deep)"></i>Deep tier (on demand)</span>
+    <span><i class="dot" style="background:var(--rule)"></i>Rules / engine</span>
+    <span><i class="dot" style="background:var(--nav)"></i>Navigation</span>
+    <span><i class="dot" style="background:var(--skill)"></i>Skills</span>
+    <span><i class="dot" style="background:var(--flow)"></i>Workflows</span>
+    <span><i class="dot" style="background:var(--proj)"></i>Projects</span>
+  </div>
+</header>
+
+<nav class="tabs">
+  <button data-t="arch" class="active">Architecture</button>
+  <button data-t="memory">Memory Engine</button>
+  <button data-t="nav">Navigation</button>
+  <button data-t="triggers">Triggers</button>
+  <button data-t="vault">Vault Map</button>
+  <button data-t="naming">Naming &amp; Format</button>
+  <button data-t="chain">Skills → Workflows</button>
+</nav>
+
+<!-- ============ ARCHITECTURE ============ -->
+<section id="arch" class="show">
+  <h2 class="sec">The stack, top to bottom</h2>
+  <p class="lead">Everything starts at the Constitution and narrows to two tiny files that load every session. Depth lives below, pulled only when a task needs it. Read top-down: each layer governs the one beneath it.</p>
+
+  <div class="stack">
+    <div class="layer" style="border-color:var(--rule)">
+      <div class="lhead"><span class="tag" style="background:var(--rule)">Law</span><h3>CLAUDE.md — the Constitution (root)</h3></div>
+      <p>How Charlotte behaves: philosophy, navigation pattern, naming rules, permission-before-big-changes, the trigger table, and the pointer to the memory engine. Overrides default behavior.</p>
+    </div>
+    <div class="arrow">▼</div>
+
+    <div class="layer" style="border-color:var(--hot)">
+      <div class="lhead"><span class="tag" style="background:var(--hot)">Boot</span><h3>Session Bootstrap</h3></div>
+      <p>Before responding to <i>anything</i>, read <code class="k">/System/SOUL.md</code> + <code class="k">/System/MEMORY.md</code>. Nothing deeper unless the task needs it. ~1.3–1.8k tokens — the entire always-on knowledge.</p>
+    </div>
+    <div class="arrow">▼</div>
+
+    <div class="layer" style="border-color:var(--hot)">
+      <div class="lhead"><span class="tag" style="background:var(--hot)">Hot tier</span><h3>Identity + Memory (always in context)</h3></div>
+      <div class="cards">
+        <div class="card" onclick="this.classList.toggle('open')">
+          <h4><span class="chip" style="background:var(--hot)">SOUL</span>SOUL.md</h4>
+          <div class="meta">/System/SOUL.md · ≤ ~2,000 chars</div>
+          <div class="body">Charlotte's persona — how she talks to you. Voice, modes (Operator / Thinking partner), boundaries, banned words. <b>Speaks</b>; for writing tasks she drops this and uses Ash's voice.</div>
+        </div>
+        <div class="card" onclick="this.classList.toggle('open')">
+          <h4><span class="chip" style="background:var(--hot)">MEMORY</span>MEMORY.md</h4>
+          <div class="meta">/System/MEMORY.md · Facts ≤2,200 · Profile ≤1,375</div>
+          <div class="body"><b>## Facts</b> — what you told me (identity, goals, setup).<br><b>## Profile</b> — patterns I inferred from working with you. Hard char caps make bloat impossible.</div>
+        </div>
+      </div>
+    </div>
+    <div class="arrow">▼</div>
+
+    <div class="layer" style="border-color:var(--deep)">
+      <div class="lhead"><span class="tag" style="background:var(--deep)">Deep tier</span><h3>On-demand depth (never sits in context)</h3></div>
+      <div class="cards">
+        <div class="card" onclick="this.classList.toggle('open')">
+          <h4><span class="chip" style="background:var(--deep)">DEEP</span>Recall.md</h4>
+          <div class="meta">/System/Recall.md · grep / subagent only</div>
+          <div class="body">Durable learnings, insights, how-we-solved-something. Self-compacts recursively — summaries of summaries. Retrieved as a slice, never loaded whole.</div>
+        </div>
+        <div class="card" onclick="this.classList.toggle('open')">
+          <h4><span class="chip" style="background:var(--deep)">DEEP</span>Self-Management</h4>
+          <div class="meta">/00 Self-Management/** · RGS, goals, weekly logs</div>
+          <div class="body">Yearly anchor (RGS), monthly goal files, weekly reflection logs. Grepped on demand to answer "what was I doing in week 24?".</div>
+        </div>
+        <div class="card" onclick="this.classList.toggle('open')">
+          <h4><span class="chip" style="background:var(--rule)">ENGINE</span>System/CLAUDE.md</h4>
+          <div class="meta">/System/CLAUDE.md · loaded when a memory op runs</div>
+          <div class="body">The memory engine itself: routing rules, the 80% check, consolidation cadence, recursive compaction, recall, self-building skills.</div>
+        </div>
+      </div>
+    </div>
+    <div class="arrow">▼</div>
+
+    <div class="layer" style="border-color:var(--nav)">
+      <div class="lhead"><span class="tag" style="background:var(--nav)">Map</span><h3>File Structure Registry — the master index</h3></div>
+      <p>Instead of searching, I check the Registry: every folder, file count, and quick links. Direct match → jump. Domain → read the intro. Project → read intro, then ask.</p>
+    </div>
+    <div class="arrow">▼</div>
+
+    <div class="layer">
+      <div class="lhead"><span class="tag" style="background:var(--skill)">Action</span><h3>The working layers</h3></div>
+      <div class="cards">
+        <div class="card" onclick="this.classList.toggle('open')">
+          <h4><span class="chip" style="background:var(--skill)">SKILLS</span>Skills Library</h4>
+          <div class="meta">41 skills · 5 domains</div>
+          <div class="body">Single reusable actions. Loaded only when called, so hundreds never bloat context. Domains: Marketing, Content, Learning, Ashes Voices, Infrastructure.</div>
+        </div>
+        <div class="card" onclick="this.classList.toggle('open')">
+          <h4><span class="chip" style="background:var(--flow)">WORKFLOWS</span>Workflows</h4>
+          <div class="meta">5 active</div>
+          <div class="body">Chains of skills toward a complete end goal (e.g. Write a Newsletter = mine → hook → draft → humanize → image).</div>
+        </div>
+        <div class="card" onclick="this.classList.toggle('open')">
+          <h4><span class="chip" style="background:var(--proj)">PROJECTS</span>Projects</h4>
+          <div class="meta">4 active</div>
+          <div class="body">Where output lands. Each has an intro + brain dump. Workflows run; results get written into the project folder.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="note"><b>The shape:</b> narrow at rest (2 files), infinitely deep on demand. Law governs boot, boot loads the hot tier, the registry routes to skills/workflows, output lands in projects, and durable lessons flow back up into memory.</div>
+</section>
+
+<!-- ============ MEMORY ENGINE ============ -->
+<section id="memory">
+  <h2 class="sec">How a fact becomes memory</h2>
+  <p class="lead">When something durable shows up, it gets <i>routed</i> — not just dumped. Four destinations, plus the trash. Then caps and consolidation keep the hot tier from ever growing.</p>
+
+  <h3 style="font-size:15px;margin:0 0 4px">1 · Routing — where each thing lands</h3>
+  <div class="flowrow">
+    <div class="fbox"><h4>Input</h4><p>You say something, or I notice a pattern while we work.</p></div>
+    <div class="farrow">→</div>
+    <div class="fbox" style="border-color:var(--hot)"><h4 style="color:var(--hot)">Fact you stated</h4><p>About yourself → <code class="k">MEMORY.md ## Facts</code></p></div>
+    <div class="farrow">→</div>
+    <div class="fbox" style="border-color:var(--hot)"><h4 style="color:var(--hot)">Pattern I noticed</h4><p>Behavior, not statement → <code class="k">MEMORY.md ## Profile</code></p></div>
+  </div>
+  <div class="flowrow">
+    <div class="fbox" style="border-color:var(--deep)"><h4 style="color:var(--deep)">Durable learning</h4><p>Insight / how-we-solved-it → <code class="k">Recall.md</code></p></div>
+    <div class="farrow">→</div>
+    <div class="fbox" style="border-color:var(--proj)"><h4 style="color:var(--proj)">An event</h4><p>What happened today → daily log / weekly file</p></div>
+    <div class="farrow">→</div>
+    <div class="fbox" style="border-color:var(--faint)"><h4 style="color:var(--faint)">Trivial</h4><p>Re-discoverable / session-only → dropped</p></div>
+  </div>
+
+  <h3 style="font-size:15px;margin:24px 0 6px">2 · The 80% check &amp; hard caps</h3>
+  <p class="lead" style="margin-bottom:10px">Before any write to a capped section, I measure its char count. At ≥80% I don't append — I <b>consolidate first</b>: merge duplicates, tighten language, demote the oldest/lowest-value entries down to Recall. Bloat is structurally impossible.</p>
+  <div class="panelbox">
+    <div class="cap"><div class="label">MEMORY.md · Facts</div><div class="bar"><i style="width:44%;background:linear-gradient(90deg,var(--hot),var(--hot2))"></i></div><div class="num">cap 2,200 chars</div></div>
+    <div class="cap"><div class="label">MEMORY.md · Profile</div><div class="bar"><i style="width:38%;background:linear-gradient(90deg,var(--hot),var(--hot2))"></i></div><div class="num">cap 1,375 chars</div></div>
+    <div class="cap"><div class="label">SOUL.md</div><div class="bar"><i style="width:55%;background:linear-gradient(90deg,var(--hot),var(--hot2))"></i></div><div class="num">cap ~2,000 chars</div></div>
+    <div class="cap"><div class="label" style="color:var(--deep)">Recall.md (deep)</div><div class="bar"><i style="width:20%;background:linear-gradient(90deg,var(--deep),var(--deep2))"></i></div><div class="num">no cap · self-compacts</div></div>
+  </div>
+
+  <h3 style="font-size:15px;margin:24px 0 6px">3 · Recursive compaction</h3>
+  <div class="flowrow">
+    <div class="fbox"><h4>Hot tier fills</h4><p>A capped section hits 80%.</p></div>
+    <div class="farrow">→</div>
+    <div class="fbox"><h4>Demote down</h4><p>Oldest entries pushed to Recall as <i>summaries</i>, not raw events.</p></div>
+    <div class="farrow">→</div>
+    <div class="fbox"><h4>Recall grows</h4><p>When Recall itself gets long, its own oldest entries become higher-level summaries.</p></div>
+    <div class="farrow">→</div>
+    <div class="fbox"><h4>Result</h4><p>Memory deepens forever; the hot tier never grows.</p></div>
+  </div>
+
+  <h3 style="font-size:15px;margin:24px 0 6px">4 · When consolidation runs</h3>
+  <div class="grid2">
+    <div class="panelbox"><h3>Cadence</h3><ul>
+      <li><b>~Every 10 exchanges</b> — self-triggered, no timer needed.</li>
+      <li><b>Session end</b> — "wrap up" / "we're done".</li>
+      <li><b>80% trigger</b> — a capped section fills.</li>
+      <li><b>On demand</b> — you say "consolidate".</li>
+    </ul></div>
+    <div class="panelbox"><h3>The routine</h3><ul>
+      <li>Scan recent exchange.</li>
+      <li>Extract durable facts → route them (above).</li>
+      <li>Enforce caps (consolidate if ≥80%).</li>
+      <li><b>Harvest skills</b> — flag complex/recurring/corrected tasks, ask "save this as a skill?"</li>
+    </ul></div>
+  </div>
+
+  <h3 style="font-size:15px;margin:24px 0 6px">5 · Recall — zero-cost retrieval</h3>
+  <div class="note" style="border-color:var(--deep)">To answer something not in the hot tier, I <b>spawn a subagent or grep</b> over <code class="k">Recall.md</code> + <code class="k">00 Self-Management/**</code> and return only the slice needed. Whole files never get loaded into main context just to look something up.</div>
+</section>
+
+<!-- ============ NAVIGATION ============ -->
+<section id="nav">
+  <h2 class="sec">How I find things — without searching</h2>
+  <p class="lead">Three reflexes depending on how specific you are. Names are the map; the Registry is the fallback. I plan + ask before a thorough directory sweep, but jump straight for a known file.</p>
+
+  <div class="grid2">
+    <div class="panelbox" style="border-color:var(--nav)">
+      <h3>① Specific file mentioned</h3>
+      <ul><li>e.g. "use email-campaign-writer"</li>
+      <li>Check the Registry → jump straight to the file.</li>
+      <li>Read it. Execute. Token-efficient, direct.</li></ul>
+    </div>
+    <div class="panelbox" style="border-color:var(--nav)">
+      <h3>② Domain mentioned</h3>
+      <ul><li>e.g. "show me marketing skills"</li>
+      <li>Read <code class="k">00 Introduction to [Domain].md</code></li>
+      <li>Show what's available → wait for direction.</li></ul>
+    </div>
+    <div class="panelbox" style="border-color:var(--nav)">
+      <h3>③ Project mentioned</h3>
+      <ul><li>e.g. "help with the webinar"</li>
+      <li>Read the project intro → check brain dump.</li>
+      <li>Understand context → ask what you need.</li></ul>
+    </div>
+  </div>
+
+  <div class="note"><b>Read introductions first, always.</b> Intro files explain a domain's philosophy and how to build in it. Index files list inventory only. Two different jobs — never merged.</div>
+
+  <div class="panelbox" style="margin-top:16px">
+    <h3>Permission gate</h3>
+    <ul><li>Generating documents, modifying multiple files, or changing system structure → <b>I ask first.</b></li>
+    <li>Reading one file or a light lookup → I just do it.</li>
+    <li>Thorough directory search → I plan + ask, then commit.</li></ul>
+  </div>
+</section>
+
+<!-- ============ TRIGGERS ============ -->
+<section id="triggers">
+  <h2 class="sec">Trigger phrases → what fires</h2>
+  <p class="lead">Say the phrase, I read the rule/workflow file and run its protocol. This is the wired-in control panel.</p>
+  <table>
+    <thead><tr><th>You say</th><th>Reads</th><th>What happens</th></tr></thead>
+    <tbody>
+      <tr><td><code>record this rule</code></td><td>Context/Rule Recording Protocol.md</td><td>Save rule to /Context/, add trigger to CLAUDE.md.</td></tr>
+      <tr><td><code>store this prompt</code></td><td>Context/Prompt Storage Rule.md</td><td>Save prompt to Skills Library, update indices.</td></tr>
+      <tr><td><code>sync claude.md</code></td><td>Context/CLAUDE.md Update Protocol.md</td><td>Scan system state, update File Structure Registry.</td></tr>
+      <tr><td><code>reflecting daily</code></td><td>Context/Daily Reflection Rule.md</td><td>Daily reflection: month → week → priorities.</td></tr>
+      <tr><td><code>weekly reflection</code></td><td>Weekly Reflection Rule</td><td>Review week, summarize, connect to monthly.</td></tr>
+      <tr><td><code>monthly reflection</code></td><td>Monthly Reflection Rule</td><td>Review month, assess priorities, plan next.</td></tr>
+      <tr><td><code>clear up the dispatch</code></td><td>Workflows/Process Idea Batches.md</td><td>Read idea batch → auto-route → suggest → you decide → clear.</td></tr>
+      <tr><td><code>write a newsletter</code></td><td>Workflows/Write a Newsletter.md</td><td>Interview → mine → hook → draft (Ash's voice) → humanize → image.</td></tr>
+      <tr><td><code>consolidate</code> / <code>remember this</code></td><td>System/CLAUDE.md</td><td>Run consolidation: route facts, enforce caps, harvest skills.</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ============ VAULT MAP ============ -->
+<section id="vault">
+  <h2 class="sec">The vault, folder by folder</h2>
+  <p class="lead">Numeric prefixes sort the workflow front-to-back: capture → self-management → projects → archive → notes. System lives apart as the brain.</p>
+  <div class="tree">
+<span class="hotc">System/</span>            <span class="c">← the brain (SOUL · MEMORY · Recall · CLAUDE engine)</span>
+00 Inbox/           <span class="c">← unprocessed captures · 00 Dispatch.md</span>
+00 Self-Management/ <span class="deepc">← RGS anchor · monthly goals · weekly reflection logs</span>
+01 Daily Logs/      <span class="c">← YYYY-MM-DD.md daily notes</span>
+02 Projects/        <span class="c">← 4 active · each: intro + brain dump + work files</span>
+  ├─ Webinar Funnel (Procrastination)
+  ├─ Deep Generalist for Jani
+  ├─ Newsletter — Becoming the Person Your Goals Belong To
+  └─ Tanzeer call learning bottleneck
+03 Projects Archive/ <span class="c">← completed (How to Write a Newsletter, Do Hard Things)</span>
+05 Notes and Ideas/ <span class="c">← thinking space · Sourcebooks · Random Ideas</span>
+Context/            <span class="c">← rules &amp; protocols (the trigger targets) · Goals/</span>
+<span class="f">Skills Library/</span>     <span class="c">← 41 skills, 5 domains (see Skills→Workflows tab)</span>
+<span class="f">Workflows/</span>         <span class="c">← 5 chains · Index + Introduction</span>
+[C] Backlog.md      <span class="c">← single source of truth for todos</span>
+File Structure Registry.md  <span class="c">← master map / navigation</span>
+CLAUDE.md           <span class="c">← the Constitution (root law)</span>
+  </div>
+  <div class="note"><b>The <code class="k">[C]</code> prefix</b> marks core/canonical files (RGS, Backlog, monthly Goals, Workflows Index). <b><code class="k">00 Introduction to…</code></b> is the standard entry point for any domain or project.</div>
+</section>
+
+<!-- ============ NAMING ============ -->
+<section id="naming">
+  <h2 class="sec">Naming &amp; formatting conventions</h2>
+  <p class="lead">Names are navigation and documentation. Read the filename, know exactly what it is — no searching.</p>
+  <table>
+    <thead><tr><th>Type</th><th>Pattern</th><th>Example</th></tr></thead>
+    <tbody>
+      <tr><td>Skills</td><td>lowercase-hyphenated, action/outcome</td><td><code>email-campaign-writer.md</code></td></tr>
+      <tr><td>Workflows</td><td>Descriptive action, Title Case</td><td><code>Launch a Webinar Funnel.md</code></td></tr>
+      <tr><td>Introductions</td><td><code>00 Introduction to [Domain]</code></td><td><code>00 Introduction to Marketing.md</code></td></tr>
+      <tr><td>Index files</td><td>purpose-driven, no brackets</td><td><code>Skills Index.md</code></td></tr>
+      <tr><td>Brain Dumps</td><td><code>Brain Dump for [Project]</code></td><td><code>Brain Dump for Webinar Funnel.md</code></td></tr>
+      <tr><td>Daily logs</td><td><code>YYYY-MM-DD</code></td><td><code>2026-05-02.md</code></td></tr>
+      <tr><td>Templates</td><td>bracketed</td><td><code>[Template] Project Name.md</code></td></tr>
+      <tr><td>Core files</td><td><code>[C]</code> prefix</td><td><code>[C] Backlog.md</code></td></tr>
+    </tbody>
+  </table>
+
+  <div class="grid2" style="margin-top:18px">
+    <div class="panelbox"><h3>Intro file = philosophy</h3><ul>
+      <li>What the domain does + how to build in it.</li>
+      <li>References the index. <b>No</b> file inventory.</li>
+      <li>Frontmatter carries a dated change note.</li></ul></div>
+    <div class="panelbox"><h3>Index file = inventory</h3><ul>
+      <li>What exists, what each does, when updated.</li>
+      <li>Existence and status only.</li>
+      <li>Updated whenever a file is added/removed/renamed.</li></ul></div>
+  </div>
+
+  <div class="note"><b>Obsidian links match filenames exactly</b> — <code class="k">[[email-campaign-writer]]</code>, never broken. <b>New files = frontmatter only</b> (date created/updated + <code class="k"># Title</code>) until you specify what goes inside. <b>Don't create files unless explicitly asked.</b></div>
+</section>
+
+<!-- ============ CHAIN ============ -->
+<section id="chain">
+  <h2 class="sec">How skills compose into workflows into projects</h2>
+  <p class="lead">A skill is one move. A workflow chains moves toward a finished thing. A project is where the finished thing lands — and the lessons flow back into memory.</p>
+
+  <h3 style="font-size:15px;margin:0 0 4px">Worked example — "Write a Newsletter"</h3>
+  <div class="flowrow">
+    <div class="fbox" style="border-color:var(--skill)"><h4>1 · Mine</h4><p><code class="k">newsletter-writing-system</code> — pull stories &amp; proof from your material.</p></div>
+    <div class="farrow">→</div>
+    <div class="fbox" style="border-color:var(--skill)"><h4>2 · Hook</h4><p><code class="k">content-hook-research</code> — work the opening until it grips.</p></div>
+    <div class="farrow">→</div>
+    <div class="fbox" style="border-color:var(--skill)"><h4>3 · Draft</h4><p>APAGA structure, voice-checked vs <code class="k">ash-newsletter-voice</code>.</p></div>
+    <div class="farrow">→</div>
+    <div class="fbox" style="border-color:var(--skill)"><h4>4 · Humanize</h4><p><code class="k">text-humanizer</code> — strip AI tells, obey banned words.</p></div>
+    <div class="farrow">→</div>
+    <div class="fbox" style="border-color:var(--skill)"><h4>5 · Image</h4><p><code class="k">newsletter-image-generator</code> — visual asset.</p></div>
+  </div>
+  <div class="note" style="border-color:var(--flow)"><b>Voice switch:</b> Charlotte <i>speaks</i> to you in her persona. The moment we <i>write</i>, she drops it and uses Ash's voice (<code class="k">ash-newsletter-voice</code> / <code class="k">ash-substack-voice</code>). Charlotte speaks; Ash writes.</div>
+
+  <h3 style="font-size:15px;margin:22px 0 6px">The 5 skill domains</h3>
+  <div class="cards">
+    <div class="card" onclick="this.classList.toggle('open')"><h4><span class="chip" style="background:var(--skill)">13</span>Marketing</h4><div class="meta">Sales &amp; Conversion Copy · Webinar Architecture</div><div class="body"><ul><li>direct-response-copy, vsl-generator, email-campaign-writer, email-sequence, newsletter-writing-system, jani-insight-email, jani-voice</li><li>webinar: planning, hook, intro, value, transition, close</li></ul></div></div>
+    <div class="card" onclick="this.classList.toggle('open')"><h4><span class="chip" style="background:var(--skill)">15</span>Content</h4><div class="meta">Writing · Production · Ideation</div><div class="body"><ul><li>Writing: long/short-form, storytelling, text-humanizer, voice-correct</li><li>Production: raw-cut, carousel, image-gen, manim-video, video-use, jani-reels</li><li>Ideation: content-mining, ideas-generator, hook-research, thought-collector</li></ul></div></div>
+    <div class="card" onclick="this.classList.toggle('open')"><h4><span class="chip" style="background:var(--skill)">3</span>Learning &amp; Education</h4><div class="meta">study systems</div><div class="body"><ul><li>exam-backcasting-system</li><li>learning-study-coach</li><li>book-to-textbook-converter</li></ul></div></div>
+    <div class="card" onclick="this.classList.toggle('open')"><h4><span class="chip" style="background:var(--skill)">2</span>Ashes Voices</h4><div class="meta">the writing voice (not Charlotte's)</div><div class="body"><ul><li>ash-newsletter-voice — narrative, framework-forward</li><li>ash-substack-voice — direct opinion, shorter-form</li></ul></div></div>
+    <div class="card" onclick="this.classList.toggle('open')"><h4><span class="chip" style="background:var(--skill)">8</span>Infrastructure &amp; Tools</h4><div class="meta">the meta-skills</div><div class="body"><ul><li>doc editors: docx, pdf, pptx, xlsx</li><li><b>skill-creator</b> — builds new skills</li><li><b>project-creator</b>, task-scheduler, system-help</li></ul></div></div>
+  </div>
+
+  <h3 style="font-size:15px;margin:22px 0 6px">Self-building loop</h3>
+  <div class="flowrow">
+    <div class="fbox"><h4>Do a task</h4><p>Something complex, recurring, or you correct me on.</p></div>
+    <div class="farrow">→</div>
+    <div class="fbox"><h4>Flag it</h4><p>During consolidation: "save this as a skill, ash?"</p></div>
+    <div class="farrow">→</div>
+    <div class="fbox"><h4>Author</h4><p><code class="k">skill-creator</code> builds it in the right domain.</p></div>
+    <div class="farrow">→</div>
+    <div class="fbox"><h4>Register</h4><p>Add to Skills Index + domain intro.</p></div>
+    <div class="farrow">→</div>
+    <div class="fbox"><h4>Self-improve</h4><p>Future corrections → "Refinements" note, bump version.</p></div>
+  </div>
+  <div class="note"><b>The whole system grows itself:</b> work creates skills, skills chain into workflows, workflows fill projects, projects produce lessons, lessons consolidate into memory — and memory shapes the next round of work.</div>
+</section>
+
+<footer>
+  Charlotte · Cowork System Map · generated 2026-06-07 · reflects 41 skills / 5 workflows / 4 active projects.<br>
+  Click nodes to expand. This file is a static snapshot — re-generate after structural changes (say "sync claude.md" first).
+</footer>
+
+</div>
+<script>
+  const tabs=document.querySelectorAll('nav.tabs button');
+  const secs=document.querySelectorAll('section');
+  tabs.forEach(b=>b.addEventListener('click',()=>{
+    tabs.forEach(x=>x.classList.remove('active'));
+    secs.forEach(s=>s.classList.remove('show'));
+    b.classList.add('active');
+    document.getElementById(b.dataset.t).classList.add('show');
+    window.scrollTo({top:0,behavior:'smooth'});
+  }));
+</script>
+</body>
+</html>
