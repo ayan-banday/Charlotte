@@ -24,7 +24,7 @@ Wait for their answers before doing anything else.
 Once you have their answers, create:
 
 ```
-02 Projects/<Project Name>/
+EFFORTS/Active/<Project Name>/
 └── <Project Name> Overview.md
 ```
 
@@ -55,23 +55,9 @@ project: <Project Name>
 <if they didn't, write: 1. (to be defined — we'll figure these out as we go)>
 ```
 
-## Step 3 — Update CLAUDE.md
+## Step 3 — Register the project
 
-This step is critical — if you don't do this, the good-morning skill and future sessions won't know this project exists.
-
-Open the `CLAUDE.md` file in the workspace root. Find the `## Active Projects` section. If it still has the placeholder text ("No projects yet"), replace it. Otherwise, add the new project after the existing ones.
-
-Add this block:
-
-```markdown
-### <Project Name>
-**Goal:** <their goal>
-**Why:** <their why>
-**Key file:** `<Project Name> Overview.md`
-**Open problems:** <brief list or "to be defined">
-```
-
-Also update the `## Folder Structure` section to include the new project folder under `02 Projects/`.
+So future sessions know it exists, add one line under the **EFFORTS/** section of `AIOS/Vault Map.md` naming the new project. That is the whole registration — no index, no CLAUDE.md edit.
 
 ## Step 4 — Confirm and offer to dive in
 

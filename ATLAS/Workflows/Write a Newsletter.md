@@ -45,7 +45,7 @@ Run `[[text-humanizer]]` on the full draft to strip AI tells.
 Run `[[newsletter-image-generator]]` for the banner — Ash's brand/logo (not a client's).
 
 ### Step 6: Save
-Drop the draft + image into `02 Projects/Newsletter Becoming the Person Your Goals Belong To/`
+Drop the draft + image into `EFFORTS/Active/Newsletter Becoming the Person Your Goals Belong To/`
 (or the relevant newsletter project).
 
 ---
