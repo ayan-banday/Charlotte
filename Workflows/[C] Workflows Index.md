@@ -44,7 +44,7 @@ Rules-based categorization. Organized by Core Capability → Domain → Problem 
 | Workflow | Problem | Steps | Status |
 |---|---|---|---|
 | [[Process Idea Batches]] | Route captured ideas from Dispatch to their homes (projects, self-management, domains) | 1. Read batch → 2. Auto-route (self-management, newsletters) → 3. Suggest placement (everything else) → 4. User decides → 5. Clear file | Active |
-| [[Process The Que]] | Daily automated routing of Notion Que items to vault homes — zero-friction capture surface | 1. Query Status=New → 2. Auto-route (self-management, newsletters) → 3. Flag rest as Needs Ash → 4. Write log | Active — runs nightly at 21:00 |
+| [[Process the Que]] | Daily automated routing of Notion Que items to vault homes — zero-friction capture surface | 1. Query Status=New → 2. Auto-route (self-management, newsletters) → 3. Flag rest as Needs Ash → 4. Write log | Active — runs nightly at 21:00 |
 
 ---
 
