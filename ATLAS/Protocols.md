@@ -11,6 +11,12 @@ The few procedures Charlotte runs. Triggers are listed in `MI.md`'s vocabulary; 
 
 ---
 
+## 0. The Curator (self-recursion — the primary mechanism)
+
+`System/The Curator.md` is the one automatic mechanism: it processes a session/transcript with parallel subagents and **suggests** what to save — it does not save new content on its own. Triggers: **"curate" / "consolidate" / session end** (full pass) · **"save this verbatim" / a transcript lands** (Chronicler + DIGEST). Proposals land in `System/Curator Inbox.md`; Ash applies what he wants. The Curator subsumes the consolidation + sync work; the reflection loop below is the human-driven path it proposes into.
+
+---
+
 ## 1. Reflection loop (capture → distil → patterns)
 
 **Purpose:** find the patterns. Build a durable profile Ash decides from — energy, regulation, how he works, where he drifts. Reflection is the input; `System/Patterns.md` is the output. Capture cheap daily, distil once a week, promote only what recurs.

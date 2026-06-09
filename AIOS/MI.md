@@ -60,6 +60,8 @@ Plain markdown, tiered. The hot tier stays small.
 
 **Recall (zero-cost).** To answer something outside the hot tier, grep `Recall.md` + `CALENDAR/**` (or send a subagent) and return only the slice needed. Never load whole files into main context to look something up.
 
+**The Curator** (`System/The Curator.md`) is the automatic mechanism that does the consolidating and proposing — it runs on "curate" / session end, spins up parallel subagents, and **suggests** saves into `System/Curator Inbox.md`. It never saves new content on its own (the save rule). "save this verbatim" → the `chronicler` skill saves a raw transcript to `CALENDAR/History/`.
+
 ## Self-building skills
 Flag any task that was complex, recurring, or corrected by Ash. **Suggest** saving it as a skill (per the save rule — never auto). On yes: author with `skill-creator` in `ATLAS/Skills/`, match the existing format, add it to the Skill Map. When Ash later corrects a skill's output, append a "Refinements" note and bump its `version`. Skills stay on-demand.
 

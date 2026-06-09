@@ -1,0 +1,5 @@
+@echo off
+REM Nightly Curator pass. NOT scheduled by default — run "curate" in a session first.
+REM Enable later via Windows Task Scheduler once the proposals are trustworthy.
+cd /d "S:\Charlotte"
+"C:\Users\ayanb\.local\bin\claude.exe" -p "You are Charlotte, assistant to Ash. Working directory S:\Charlotte. TASK: run a Curator pass. Step 1: read S:\Charlotte\System\The Curator.md in full -- it is your instruction set. Step 2: run a full pass (DIGEST + DRIFT + TIDY) over changes since the last run, using git diff and CALENDAR\History. THE SAVE RULE IS ABSOLUTE: write every new-content suggestion to S:\Charlotte\System\Curator Inbox.md ONLY -- do not save new facts, patterns, profile lines, skills, or voice changes; do not touch MEMORY.md, Patterns.md, SOUL.md, or VOICES.md. The only changes you may commit are TIDY housekeeping of already-saved files (map sync, compaction). Save no raw files. When done, append a one-line summary to the Inbox." >> "S:\Charlotte\CALENDAR\Daily\curator-output.log" 2>&1

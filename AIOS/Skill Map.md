@@ -61,6 +61,7 @@ Skills live in `ATLAS/Skills/[Domain]/`. This is the interface — reach for a s
 - `ash-substack-voice` — direct, opinion-driven, shorter-form. When: Substack / shorter thought-leadership.
 
 ## Infrastructure & Tools
+- `chronicler` — save a conversation/transcript verbatim with a summary on top. When: Ash says "save this verbatim" (never auto).
 - `skill-creator` — author a new skill (correct structure/metadata). When: adding a reusable skill.
 - `project-creator` — initialize a project workspace. When: starting a new project.
 - `task-scheduler` — schedule recurring/timeline tasks. When: planning repeatable execution.
