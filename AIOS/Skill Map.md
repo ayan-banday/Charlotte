@@ -62,6 +62,7 @@ Skills live in `ATLAS/Skills/[Domain]/`. This is the interface — reach for a s
 
 ## Infrastructure & Tools
 - `chronicler` — save a conversation/transcript verbatim with a summary on top. When: Ash says "save this verbatim" (never auto).
+- `rock-tumbler` — sharpen Ash's draft/idea by open questions only, never drafts it. When: "tumble this" (runs in the Tumbler voice).
 - `skill-creator` — author a new skill (correct structure/metadata). When: adding a reusable skill.
 - `project-creator` — initialize a project workspace. When: starting a new project.
 - `task-scheduler` — schedule recurring/timeline tasks. When: planning repeatable execution.
