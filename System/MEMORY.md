@@ -1,6 +1,6 @@
 ---
 date created: 2026-06-07
-date updated: 2026-07-18
+date updated: 2026-08-02 — Q3/Q4 replanned; Udyaan primary; RGS retrofitted
 loaded: every session (hot tier)
 caps: "## Facts ≤ 2,200 chars · ## Profile ≤ 1,375 chars"
 rule: At ≥80% of a cap, consolidate before adding. See /CLAUDE.md.
@@ -11,25 +11,23 @@ rule: At ≥80% of a cap, consolidate before adding. See /CLAUDE.md.
 ## Facts
 *Things Ash told me. Identity, goals, setup, standing preferences.*
 
-- Name: Ayan "Ash" Banday. Signs off lowercase as "ayan".
+- Name: Ayan "Ash" Banday. **20 (July 2026).** Signs off lowercase as "ayan".
 - Newsletter / content creator. Audience: high-performers, creators, founders (~25–45).
-- 2-year target: **$200k/month by end 2026.** (full: `[C] RGS.md`)
-- Q3 2026 milestone: content ecosystem maintained, funnel tested.
-- **In college, Bangalore.** PG hunt active. Relocated from earlier Kashmir setup.
-- Background: Kashmir army camp, Operation Sindoor, engineering dropout — fuels war/force metaphors.
-- Writing voice = `ash-newsletter-voice`.
-- **Active:** Exam-Backcasting (Ethan client); pursuing Chinnuk opportunity.
-- **Dropped:** Jani (Deep Generalist), Tanzeer. **Stalled:** newsletter, Substack notes, webinar funnel.
-- No longer on prior morning meds or benzo. Therapy paused. Energy fine.
-- Prefers: simplicity, token-efficiency, vault-native markdown, terse chat.
+- **Target:** $200k/mo by end 2027. (full: `[C] RGS.md`)
+- **Q3 2026:** Udyaan lab — ₹1L contract by Sep 30, 1 problem priced, 10 capable students. Learn distribution, ads, sales, ops, finance, team mgmt through building.
+- **Q4 2026:** Udyaan ₹10L project revenue + 3 premium pitches recorded → Q1 2027 income.
+- **In college, Bangalore.** Bluebells PG October. BBA entrepreneurship — optimize, not just pass. **Matt** conversation needed on grades/study plan.
+- **Udyaan (Alysha):** primary learning vehicle. Suraj Sir = project lead (Design School). Problem-based encoding (procoding). See `02 Projects/Alysha/`.
+- **Q1 done:** Jani (10 steps ahead). **Q2 done:** Bangalore + income (client dropped Jul).
+- **Dropped:** webinar funnel as Q3 vehicle. Ethan client dropped. Jani/Tanzeer engagements ended.
+- **Open:** nutrition, morning cascade, war map, therapist, gym. Document build in public.
+- Prefers: simplicity, vault-native markdown, terse chat, framework thinking.
 
 ## Profile
 *Conclusions I drew from working with him. Patterns, not statements.*
 
-- Wakes 6am; reels → shower → meditate till 7:30; optional read at breakfast.
-- Best output ~8:15–10 when studying/working; accounting + Ethan land here when they fire.
-- **10–12 pre-college is the leak:** miserable waste, roses risk. Evenings 7+ pass-time.
-- College = kid mode + bunking + intentional unwind. Gym lapsed; wants back.
-- Studying works when he builds systems, not when abstract. Rough schedule, not rigid.
-- Top need: time visibility + problem-oriented workspace without YouTube in work blocks.
-- Thinks in frameworks; learns by doing and writing.
+- Wakes ~6am but morning cascade (breakfast out → YouTube) can kill the day. Schedule/floor still unresolved.
+- Best output ~8:15–10 when block is protected; studying works when he builds systems.
+- **10–12 pre-college dead zone;** evenings 7+ pass-time. College = unwind, not primary work.
+- Replanned Aug 2026: Udyaan over funnel. Learns by doing + documenting. BBA runs parallel, not phased.
+- Top need: time visibility + problem-oriented workspace. Thinks in frameworks; learns by building.

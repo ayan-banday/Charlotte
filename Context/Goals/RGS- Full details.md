@@ -1,5 +1,5 @@
 Purpose: Review quarterly to maintain clarity and direction  
-Last Updated: January 1, 2026
+Last Updated: August 2, 2026
 
 ---
 
@@ -11,7 +11,7 @@ Reach turquoise stage in spiral dynamics — integration of real-world experienc
 
 ### What I Want (2 Years from Now)
 
-$200k/month revenue
+$200k/month revenue by end of 2027
 
 ### Why This Matters (The Real Goal)
 
@@ -253,26 +253,26 @@ Key realization: Have massive resources not yet fully utilized (network, coaches
 
 ---
 
-### Q1 (Jan-Mar): Work with Someone 10 Steps Ahead While Generating Income
+### Q1 (Jan-Mar): Work with Someone 10 Steps Ahead While Generating Income — DONE
 
-Get hired by/work with exceptional client/operator who forces learning and pays well enough to sustain.
+Worked with **Jani** (Deep Generalist) — operator 10 steps ahead. Generated income. Ethan/Exam-Backcasting also ran in this window.
 
-What this enables:
+What this enabled:
 
-- Avoids solo-business limitation (not limited by own insights)
+- Avoided solo-business limitation (not limited by own insights)
     
-- Forced learning in safer, guided environment
+- Forced learning in a guided environment
     
-- Generates money while building capability simultaneously
+- Generated money while building capability simultaneously
     
 - Skill development accelerated through proximity to expertise
     
 
 ---
 
-### Q2 (Apr-Jun): Generate $3,000/Month and Relocate to Bangalore
+### Q2 (Apr-Jun): Generate $3,000/Month and Relocate to Bangalore — DONE
 
-Earning $3,000/month through any combination of client work and content — enough to fund the move and sustain independent operation. The content ecosystem is built and a funnel has converted at least once.
+Earning $3,000/month through client work; relocated to Bangalore. Content funnel not built; income later took a hit (client drop July) but the quarter's relocation + income targets were met in-period.
 
 Done means: $3,000 is in the account in a single month, I have relocated to Bangalore, and at least $20 has been earned from a real offer.
 
@@ -302,40 +302,56 @@ What this enables:
 
 ---
 
-### Q3 (Jul-Sep): Content Ecosystem Maintained, System Perfected
+### Q3 (Jul-Sep): Udyaan Lab — Learn by Building
 
-Moved out and adjusting to Bangalore. Less building, more maintaining and perfecting what was built in Q2. The funnel is refined enough that someone has paid.
+Bangalore settled. Udyaan (Alysha / Project Udyaan Season 1) is the operating lab for management, distribution, sales, operations, and finance. Funnel play retired; learn business functions through a real project with real revenue stakes. Document the build in public (organic distribution reps).
 
-Done means: $20 has been earned from a real offer — landing page live, VSL done, someone paid.
+Done means (Sep 30):
+
+- ₹1 lakh contract signed or invoiced (industry problem revenue)
+    
+- 1 problem defined and priced (binary: dollar amount on it)
+    
+- 10 capable entrepreneurship students in cohort (not 100 — manageable scale for problem-based encoding / procoding)
+    
+- Distribution habit established; ads tested in September
+    
+- BBA floor maintained (conversation with Matt on study plan; class feeds Udyaan)
 
 What this enables:
 
-- Proof that the system works without constant intervention
+- Track record through delivered outcomes, not theory
     
-- Adjustment period in new environment without losing momentum
+- MULTIPLICATION skills (teams, curriculum, sales motion) before personal scale
     
-- Content flywheel self-sustaining enough to free capacity for Q4
+- Case study material for Q4 premium pitches
     
-- Foundation for scaling to a real premium offer in Q4
+- Capability bridge toward $200k/mo: distribution, ads, team management, sales, copy, finance
     
 
 ---
 
-## Q4 (Oct-Dec): Close One $10,000/Month Client
+## Q4 (Oct-Dec): Udyaan Scale + Premium Pitch Material
 
-Land one premium client engagement at $10,000/month regardless of how it comes in.
+Udyaan Phases 2–3: prune to top 5 problems (by Oct 31), build, presell, invoice. Project revenue target **₹10 lakh by Dec 31**. Personal parallel: **3 premium client pitches recorded** as case study → Q1 2027 income play (old $10k/mo client milestone moves here).
 
-Done means: One client signed at $10,000/month with money in the account.
+Done means (Dec 31):
+
+- Udyaan: ₹10L project revenue booked
+    
+- Top 5 problems chosen, MVPs shipped, invoices raised
+    
+- 3 premium client pitches recorded (proof + positioning exercise)
+    
+- Management, ads, distribution, sales at project scale
 
 What this enables:
 
-- Forces positioning and bigger-picture thinking
+- Portfolio proof that delivery is worth premium pricing
     
-- Validates that delivery is worth premium pricing
+- Path to $200k/month becomes concrete through demonstrated ops, not theory
     
-- Path to $200,000/month becomes concrete, not theoretical
-    
-- Forces legal, compliance, and operational maturity
+- Q1 2027: convert Udyaan case study + pitches into premium client or scaled offer
     
 
   
