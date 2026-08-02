@@ -95,7 +95,9 @@ portable, token-bounded. (Hermes/OpenClaw-style, adapted to markdown.)
 
 **Files:**
 - Goal Drift.md
+- Substack Catch.md (raw thought inbox for notes; append-only, cleared at weekly notes session)
 - /Sourcebooks/ (reference materials, book notes)
+- /Swipe Files/ (Substack Notes Swipe.md — other people's notes, verbatim, evidence base for substack-note-writer)
 
 ---
 
@@ -204,6 +206,25 @@ portable, token-bounded. (Hermes/OpenClaw-style, adapted to markdown.)
 4. Process Idea Batches.md (routes captured ideas to appropriate homes — Dispatch source)
 5. Write a Newsletter.md (idea → mine → hook → draft in Ash's voice → humanize → image)
 6. Process The Que.md (daily automated routing from Notion Que → vault, runs nightly at 21:00)
+
+---
+
+## /StudyOS/
+
+**Purpose:** Self-contained study engine. Builds assessor-grade guides, generates adversarial questions, tracks where Ash is actually weak, and runs gap closure until a topic converges.
+
+**Loading:** Deep tier — never auto-loaded. Triggered by "study" / "let's study", which reads `/StudyOS/SYSTEM.md` and nothing else from Charlotte.
+
+**Core files:**
+- SYSTEM.md (laws + map + checklists; authoritative within a study session only)
+- system/spec.md (single source of truth on study mechanics)
+- courses/registry.md (what courses exist, gap-closure type, guide status)
+
+**Structure:** `system/` (spec, prompts, playbooks, templates) · `courses/` (per-course guides, clusters, status) · `gaps/` (generated per-topic roll-ups) · `inputs/` (raw source material)
+
+**Bridge:** end of every study session appends 3–5 lines to `00 Self-Management/Weeks/Week [ISO].md`. One-directional — StudyOS never reads from Charlotte.
+
+**Warning:** `courses/**/cluster_*_study_sheet.md` are never read whole. Grep or offset-read only.
 
 ---
 

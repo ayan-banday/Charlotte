@@ -136,6 +136,12 @@ ANTI-PATTERNS — NEVER DO THESE
 
 ---
 
+## NOTES
+
+Substack **notes** (short standalone feed posts) have their own layer on top of this voice: `substack-note-writer` in Content Writing. It holds the thirteen laws (camera test, no invented details, claim-first, cold open, and the rest), the nine shapes, and the transform process. The laws live there only. For notes, that file wins where it conflicts with this one.
+
+---
+
 ## FULL VOICE ANALYSIS
 
 ### Voice DNA

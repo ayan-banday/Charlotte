@@ -43,6 +43,7 @@ Unified catalog of all active skills after Phase 2 consolidation.
 | storytelling | Turn ideas into narrative-driven communication | Use when content needs emotional resonance | /Skills Library/Content/Content Writing/storytelling.md |
 | text-humanizer | Remove signs of AI writing from text | Use before publishing when copy sounds robotic | /Skills Library/Content/Content Writing/text-humanizer/text-humanizer.md |
 | voice-correct | Capture voice mismatches and convert them into better writing rules | Use when edits are made to fix tone/style mismatch | /Skills Library/Content/Content Writing/voice-correct.md |
+| substack-note-writer | Transform raw thoughts into Substack notes via 13 enforced laws + 9 shapes | Use on any raw thought meant for a note, or the weekly notes session | /Skills Library/Content/Content Writing/substack-note-writer.md |
 
 ### Content Production
 

@@ -1,6 +1,6 @@
 ---
 date created: 2026-06-07
-date updated: 2026-06-07
+date updated: 2026-07-18
 loaded: NOT auto-loaded — Charlotte greps it on demand (like Recall.md). Ash is never asked.
 purpose: The durable personality profile. What Ash keeps doing — energy, regulation, work, drift.
   Recurrence is the test: repeats → pattern; once → Watching → dropped. Decay by judgment.
@@ -17,34 +17,35 @@ The personality profile Charlotte consults to decide with him. Tight lines, newe
 `[strong]` = recurs across weeks. `[noted]` = seen, holding. Week refs = last seen.
 
 ## Energy & timing
-- Wakes ~6:30 (was 4–6am with disruption); sun-on-waking resets state regardless of activity. [strong · W23]
-- Dual-track day: deep/writing in the morning at peak clarity, prep + creative later. [strong · W21]
-- Afternoon (post ~1pm) dysregulates without structure; gym or a planned block holds it. [strong · W21]
+- Wakes ~6am; reels 10–20min → shower/music → meditate till ~7:30. [strong · W29]
+- Morning peak ~8:15–10: study/work when it fires (accounting, Ethan). [strong · W29]
+- **10–12 pre-college dead zone:** waste time, miserable; roses still biting. [strong · W29]
+- Evenings 5–7 rest; 7+ pass-time (YouTube/House MD). Gym lapsed W29. [noted · W29]
+- Rough schedule only — won't hold a rigid calendar. [noted · W29]
 
 ## State & regulation
-- Full stop (no next task) → dysregulation, no matter how deep the prior flow. [strong · W21]
-- Open loop (one or two steps of the next thing) forces continuation, kills the cold start. [strong · W21]
-- He abuses the open loop to spread thin work across an empty day, then fills gaps with YouTube/games. [noted · W21]
-- Oxytocin (friends' voice notes, emotional recall) is his fastest exit from a dopamine hole. [strong · W21]
-- Forced activation with no heavy work after = dysregulation without an outlet. [strong · W21]
-- Regulates via sunlight, walks, music-over-podcast, real connection. Body-scan/somatic meditation lands hard. [strong · W21]
-- Sleep is the keystone risk: 3am bladder waking, benzo at 3am, weak wind-down (exciting YouTube → roses). Melatonin+magnesium+gym helping. [strong · W23]
+- Full stop (no next task) → drift, no matter how good the prior block. [strong · W21]
+- Open loop forces continuation; he also spreads thin work then fills gaps with YouTube. [strong · W21/W29]
+- Regulates via walks, music, meditation, real connection when it happens. [strong · W29]
+- Energy fine off old meds/benzo. Therapy paused. [W29]
+- Roses still a wind-down risk; no benzo fallback anymore. [noted · W29]
 
 ## Work mechanics
-- Prep + execution in one block kills both; do light prep in the low-energy afternoon. [strong · W21]
-- 15-min big-picture pre-study beats building sourcebooks; sourcebooks waste morning focus. [strong · W21]
-- Understanding precedes tools: AI amplifies input quality, it doesn't replace first-principles. [noted · W21]
-- Newsletter flow that works: idea → brain-dump → collect through the week → one section/day → outline → write in one 2–3hr block. Attention section is the hardest; he procrastinates the polish (images/quotes). [strong · W21]
+- Studying lands when he **builds systems** (accounting = fun). Abstract-only stalls. [strong · W29]
+- Prep + execution in one block kills both; light prep in low-energy slots. [strong · W21]
+- 15-min pre-study beats sourcebooks; understanding before tools. [strong · W21]
+- Client: Ethan/exam-backcasting only. Jani + Tanzeer dropped. [W29]
+- Newsletter flow still valid but not shipping; distribution bottleneck unchanged. [strong · W23/W29]
 
 ## Tendencies & drift
-- The recurring root blocker: no forcing function / no focus project → learning + RGS stagnate, cheap dopamine fills in. [strong · W23]
-- Anticipation problem: when the future (college, Bangalore) outshines the present, ADHD loses the interest signal and he can't work. [strong · W23]
-- Excitement spikes (Bangalore, new AI tools) tip into "can't work" rather than fuel. [noted · W23]
-- Direction settling: dropping the product-marketing agency → build his own audience + warm-lead 1:1 coaching; money via audience + connections (Craig). [noted · W23]
-- Bottleneck is distribution, not craft: writing is good enough, not enough eyeballs → needs marketing + lead magnets + Substack notes. [strong · W23]
+- Time leak is the problem now, not total absence of work — 10–12 + evenings bleed the day. [strong · W29]
+- College = kid mode + bunking (3x W29) AND intentional unwind from grind-ideas. [strong · W29]
+- Pursuing Chinnuk opportunity; PG hunt + social week added complexity. [W29]
+- Needs time visibility + problem-oriented workspace with distractions removed. [strong · W29]
+- Won't follow hard schedules; purpose beats calendar. [noted · W29]
 
 ## Watching
 *One-off candidates. One week grace; recur → graduate, else drop.*
-- Activity set too narrow (only work / read / YouTube / walk) — starves novelty. [W21]
-- Wants a partner he can pour into; reads as connection need, not sexual. [W21]
-- Restarted therapy; consistent money starting to land. [W23]
+- Claude Code signed out — tool blocker; Anti-Gravity/IDE workaround. [W29]
+- Games installed but not playing — delete anyway. [W29]
+- Wants a partner to pour into; connection need. [W21]

@@ -70,6 +70,8 @@ date updated: YYYY-MM-DD
 
 ## TRIGGERS
 
+**Triggers outrank OPERATING navigation.** If a message matches a trigger and also reads like a lookup ("pull what we have on X", "where am I in X"), the trigger wins. Match on intent, not exact wording. Entering the mode *is* the answer to "where am I" — never pre-answer it with a vault sweep or a subagent search. Fire first, report from inside the mode.
+
 | Trigger | Rule / Workflow | What happens |
 |---|---|---|
 | "record this rule" | `/Context/Rule Recording Protocol.md` | Save rule to /Context/. Add trigger here. |
@@ -81,6 +83,8 @@ date updated: YYYY-MM-DD
 | "clear up / process dispatch" | `/Workflows/Process Idea Batches.md` | Read Dispatch. Extract self-mgmt to week file. Auto-route newsletters. Suggest the rest. Clear file. |
 | "process the que" | `/Workflows/Process The Que.md` | Query Notion Que for Status=New. Auto-route self-management + newsletters. Flag the rest. Write log. |
 | "write a newsletter" | `/Workflows/Write a Newsletter.md` | Interview → mine → hook research → draft (Ash's voice) → humanize → image. |
+| **Any intent to study college/uni material** — "study", "let's study", "revise X", naming a course or topic, "where am I in [subject]", "what should I study today" | `/StudyOS/SYSTEM.md` | Enter study mode. This is the only place college/uni study happens. Load the StudyOS chain only: `SYSTEM.md` → `courses/registry.md` → report position → on his answer, that course's `context.md` + `topic_guide.md` + `gaps/`. Digest to week file at end. |
+| "note this" / raw thought for a note / "notes session" | `substack-note-writer` (Content Writing) | Capture to Substack Catch, or transform thought into note drafts (13-law gate), or weekly mine → 7 candidates. |
 | "consolidate" / "remember this" / session end | Memory engine (below) | Route durable facts, enforce caps, recursive-compact, harvest skills. |
 
 ---
@@ -91,7 +95,7 @@ Plain markdown, vault-native. Tiers keep the hot context small.
 
 **Tiers.**
 - *Hot (always loaded):* `SOUL.md` + `MEMORY.md`. The entire at-rest knowledge of Ash. Hard-capped.
-- *Deep (grep on demand, never auto-loaded, Ash never asked):* `Recall.md`, `00 Self-Management/Patterns.md`, `00 Self-Management/Weeks/**`.
+- *Deep (grep on demand, never auto-loaded, Ash never asked):* `Recall.md`, `00 Self-Management/Patterns.md`, `00 Self-Management/Weeks/**`, `StudyOS/**`.
 
 **Routing a durable fact.**
 - Fact Ash stated about himself → `MEMORY.md ## Facts`
