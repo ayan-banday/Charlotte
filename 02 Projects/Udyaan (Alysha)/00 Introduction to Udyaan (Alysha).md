@@ -1,6 +1,6 @@
 ---
 date created: 2026-08-03
-date updated: 2026-08-04 — Developmental plan restructured to 7-section documentation standard
+date updated: 2026-08-04 — Developmental plan live; G9 research done; Packaging POA drafted
 ---
 
 # Udyaan (Alysha)
@@ -9,7 +9,7 @@ Smart biodegradable packaging for fresh produce — cuts post-harvest loss, prot
 
 **Connected to RGS:** Q3 (₹1L contract, price one problem, 10 students) · Q4 (₹10L Udyaan revenue, 3 premium pitches)
 
-**Status:** Discovery → R&D planning — problem priced; five solution requirements locked; developmental plan live
+**Status:** Discovery → R&D planning — problem priced; G9 pilot locked; developmental plan + packaging POA live
 
 **Buyer:** Oyedesi (agri-business). Farmers won't pay.
 
@@ -17,7 +17,7 @@ Smart biodegradable packaging for fresh produce — cuts post-harvest loss, prot
 
 ## Why This Exists
 
-Farmers and agri-businesses lose 30–45% of produce value because fresh crops spoil between farm and market. On a normal ₹5 lakh agri-business deal, that is about ₹1.6 lakh lost. Packaging is the wedge. Udyaan solves for Oyedesi, not the farmer as buyer.
+Farmers and agri-businesses lose 30–45% of produce value because fresh crops spoil between farm and market. On a normal ₹5 lakh agri-business deal, that is about ₹1.6 lakh lost. **Pilot crop: G9 (Grand Naine) bananas** — climacteric, 30–40% post-harvest loss, tests all packaging layers. Packaging is the wedge. Udyaan solves for Oyedesi, not the farmer as buyer.
 
 ---
 
@@ -30,11 +30,14 @@ Farmers and agri-businesses lose 30–45% of produce value because fresh crops s
 - Problem scoped and priced: 30–45% loss · ₹1.6L per ₹5L deal · buyer = Oyedesi
 - Five solution requirements locked (ethylene, compression, biodegradable, organic signal, ambient short windows)
 - Developmental plan drafted: timelines + G9 R&D POA + Jain visits + budget
+- G9 banana research baseline complete ([[C] G9 Banana Research]])
+- Packaging POA drafted ([[C] Udyaan Packaging POA]])
 - Finance sourcebook created; Ch 1 read (managerial + financial accounting overlap for pricing)
 
 **In progress:**
-- G9 banana research deep dive (next in POA)
 - Loss funnel research + stage validation
+- Problem statement (must-ship Week 1)
+- BBA study plan conversation with Ma'am (Aug 4)
 - Metamorphosis books (personal task)
 
 **Blocked:** Jain visit scheduling + Oyedesi reimbursement path confirmation.
@@ -62,6 +65,8 @@ Farmers and agri-businesses lose 30–45% of produce value because fresh crops s
 - **[[C] Udyaan Project Schematics]]** — loss funnel, solution architecture, research, metrics.
 - **[[C] Udyaan Problem Statement]]** — working draft of the priced problem.
 - **[[C] Udyaan Developmental Plan]]** — Project Documentation Standard: problem, work breakdown, revenue, team, timeline, social impact, final deliverable.
+- **[[C] G9 Banana Research]]** — pilot crop research (done).
+- **[[C] Udyaan Packaging POA]]** — plan of action + requirements for creating packaging.
 
 ---
 
@@ -71,6 +76,8 @@ Farmers and agri-businesses lose 30–45% of produce value because fresh crops s
 |---|---|---|---|
 | Problem statement written | Week 1 (Aug 9) | Draft + priced in developmental plan | In progress |
 | Problem priced | ₹1.6L / ₹5L deal | Locked in developmental plan | Done |
+| G9 research baseline | Week 1 | Done | ✓ |
+| Packaging POA | Week 1 (Aug 9) | Draft | In progress |
 | R&D hypothesis deliverable | Best 5–6d / realistic 8–10d | POA drafted | Not started |
 | Students in cohort | 10 by Aug 31 | 0 recorded | Not started |
 | ₹1L contract | Sep 30 | — | Not started |
@@ -80,4 +87,4 @@ Farmers and agri-businesses lose 30–45% of produce value because fresh crops s
 
 ## Last Updated
 
-2026-08-04 — Developmental plan restructured to 7-section Project Documentation Standard.
+2026-08-04 — Developmental plan live. G9 research done. Packaging POA drafted.

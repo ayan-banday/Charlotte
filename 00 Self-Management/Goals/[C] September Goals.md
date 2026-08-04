@@ -1,19 +1,22 @@
+---
+date created: 2026-04-29
+date updated: 2026-08-02 — Binary Q3 close
+---
+
 # September 2026 Goals
 
-Q3 Milestone: Content ecosystem maintained, funnel tested.
+**Q3:** Sign ₹1 lakh contract, price one problem, and recruit 10 students.
 
 ---
 
-## Priorities
+## Done Means (Sep 30)
 
-[Your September priorities]
-
----
-
-## Done Means
-
-[What does successful September look like?]
+- [ ] ₹1 lakh contract signed or invoiced
+- [ ] 1 problem has a price on it
+- [ ] 10 students in the entrepreneurship cohort
+- [ ] 1 ad campaign run (live with spend)
+- [ ] Conversation with Matt on BBA study plan completed
 
 ---
 
-Last updated: 4/29/2026
+Last updated: 2026-08-02

@@ -7,7 +7,7 @@ date updated: 2026-08-04 — Added Udyaan (Alysha) project folder + Developmenta
 
 Master map of all folders and systems. Use this instead of searching to navigate quickly.
 
-Last updated: 2026-08-04 — Added Udyaan (Alysha) + Developmental Plan.
+Last updated: 2026-08-04 — Udyaan (Alysha): Developmental Plan + G9 research + Packaging POA.
 
 ---
 
@@ -69,12 +69,14 @@ portable, token-bounded. (Hermes/OpenClaw-style, adapted to markdown.)
 - Projects Index.md (inventory of all active projects)
 
 **Active Projects:**
-1. **Udyaan (Alysha)** — Primary Q3/Q4. Smart biodegradable packaging for Oyedesi. Buyer = agri-business.
+1. **Udyaan (Alysha)** — Primary Q3/Q4. Smart biodegradable packaging for Oyedesi. G9 pilot.
    - `00 Introduction to Udyaan (Alysha).md`
    - `01 Brain Dump for Udyaan (Alysha).md`
    - `[C] Udyaan Problem Statement.md`
    - `[C] Udyaan Project Schematics.md`
    - `[C] Udyaan Developmental Plan.md` — Project Documentation Standard (7 sections)
+   - `[C] G9 Banana Research.md`
+   - `[C] Udyaan Packaging POA.md`
 2. Webinar Funnel (Procrastination) — Parked (Q3 pivot to Udyaan)
 3. Deep Generalist for Jani — Phase 1 encoding in progress
 4. Newsletter Becoming the Person Your Goals Belong To — Ideation

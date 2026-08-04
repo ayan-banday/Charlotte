@@ -9,7 +9,7 @@ Active projects with current status and last update dates.
 
 | Project | Purpose | Status | Last Updated |
 |---|---|---|---|
-| Udyaan (Alysha) | Smart biodegradable packaging for fresh produce — Oyedesi buyer; ethylene + compression + bio + organic signal | Discovery → R&D plan: developmental plan live | 2026-08-04 |
+| Udyaan (Alysha) | Smart biodegradable packaging — Oyedesi buyer, G9 pilot; ethylene + compression + bio + organic signal | Discovery → R&D: developmental plan live, G9 research done, Packaging POA draft | 2026-08-04 |
 | Webinar Funnel (Procrastination) | Build conversion-optimized webinar for ICS students addressing meta-system optimization problem | Parked (Q3 pivot) | 2026-05-10 |
 | Deep Generalist for Jani | Turn Jani into cognitively capable, psychologically resilient deep generalist through systematic encoding | Phase 1: Encoding in progress | 2026-05-10 |
 | Newsletter Becoming the Person Your Goals Belong To | Identity-first newsletter for high-performers who chase goals from need | Ideation | 2026-05-18 |

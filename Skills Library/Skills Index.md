@@ -41,7 +41,7 @@ Unified catalog of all active skills after Phase 2 consolidation.
 | long-form-content | Develop deep educational long-form content | Use for essays, long scripts, and deep posts | /Skills Library/Content/Content Writing/long-form-content.md |
 | short-form-content | Create concise short-form content for social platforms | Use for reels captions, short posts, and snippets | /Skills Library/Content/Content Writing/short-form-content.md |
 | storytelling | Turn ideas into narrative-driven communication | Use when content needs emotional resonance | /Skills Library/Content/Content Writing/storytelling.md |
-| text-humanizer | Remove signs of AI writing from text | Use before publishing when copy sounds robotic | /Skills Library/Content/Content Writing/text-humanizer/text-humanizer.md |
+| text-humanizer | Remove signs of AI writing from text | Use before publishing when copy sounds robotic | /Skills Library/Content/Content Writing/text-humanizer/SKILL.md |
 | voice-correct | Capture voice mismatches and convert them into better writing rules | Use when edits are made to fix tone/style mismatch | /Skills Library/Content/Content Writing/voice-correct.md |
 
 ### Content Production

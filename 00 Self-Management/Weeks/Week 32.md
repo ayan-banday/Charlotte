@@ -1,6 +1,6 @@
 ---
 date created: 2026-08-02
-date updated: 2026-08-03
+date updated: 2026-08-03 — G9 pilot + packaging POA; study plan convo Aug 4
 week: 32
 dates: August 3–9, 2026
 august_week: 1
@@ -9,13 +9,15 @@ q3: Sign ₹1 lakh contract, price one problem, recruit 10 students
 
 # Week 32
 
-August Week 1. Needle movers first. Learning stack = on bottleneck, not parallel tracks.
+August Week 1. **Focus:** G9 banana research + packaging POA. **Floor:** BBA classes + Ma'am study plan (Aug 4).
 
 ---
 
 ## Moves the needle (must-ship)
 
-- [ ] 1 clear problem statement written *(must-ship if everything else slips — draft done Aug 3, needs funnel validation + price)*
+- [ ] [[C] Udyaan Packaging POA]] finalized *(primary deliverable — draft done Aug 3)*
+- [x] [[C] G9 Banana Research]] baseline *(done Aug 3)*
+- [ ] 1 clear problem statement written *(G9-specific — draft needs validation + price)*
 - [ ] 1 conversation with Suraj Sir completed
 - [ ] 3 student convos recorded (why they'd join → copy + sales learning)
 - [ ] Gap selling notes revised
@@ -25,7 +27,7 @@ August Week 1. Needle movers first. Learning stack = on bottleneck, not parallel
 ## Floor (ongoing, not phased)
 
 - [ ] BBA: pass exams, show up to entrepreneurship classes
-- [ ] Conversation on BBA grades + study plan (Matt / Ma'am)
+- [ ] **Study plan conversation with Ma'am — Tuesday Aug 4** *(prep: [[C] BBA Study Plan POA]])*
 - [ ] Managerial accounting (as it overlaps Udyaan pricing)
 
 ---
@@ -79,10 +81,22 @@ August Week 1. Needle movers first. Learning stack = on bottleneck, not parallel
   - Problem: farmers lose ~30–45% produce value (packaging 2–3%, transport/grading, shelf life).
   - Solution reqs: ethylene management, compression protection, biodegradable, pesticide/organic indicator signal.
 - Udyaan project folder + schematics + problem statement draft created.
+- **Evening update:** G9 banana locked as pilot crop. Packaging POA + G9 research written.
 
 **Patterns:** Morning block partially protected (sourcebook shipped before 8:14). YouTube 7:05–7:20 + dead zone 8:14–9:00. Real work happened post-college (Jane meeting = needle mover).
 
-## Tuesday, August 5
+## Tuesday, August 4
+
+**Floor (must-do):**
+- BBA classes
+- **Study plan conversation with Ma'am** — bring [[C] BBA Study Plan POA]]
+
+**Udyaan:**
+- Review packaging POA draft ([[C] Udyaan Packaging POA]])
+- Start farmer/trader interviews for G9 loss data
+- Gap selling read (feeds later convos)
+
+## Wednesday, August 5
 
 - AM: gap selling read + POA + questions (notebook LLM) for friend entrepreneur convo
 - 9:45–11:00: Ma'am Sheradha — distribution, reels mgmt, team comms, procoding, Udyaan plan

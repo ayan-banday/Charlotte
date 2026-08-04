@@ -1,10 +1,13 @@
 ---
 date created: 2026-08-03
 date updated: 2026-08-03
+pilot_crop: G9 (Grand Naine)
 status: DRAFT — Week 1 must-ship
 ---
 
 # Udyaan Problem Statement (Draft)
+
+**Pilot crop:** G9 (Grand Naine) banana — see [[C] G9 Banana Research]]
 
 **Status:** Working draft. Needs funnel validation + pricing before ship.
 
@@ -12,13 +15,13 @@ status: DRAFT — Week 1 must-ship
 
 ## One-liner
 
-Indian farmers and fresh-produce traders lose up to a third of their harvest value — and sometimes nearly half — because produce spoils, gets crushed, or loses marketability between the farm and the mandi shelf.
+Indian G9 banana farmers and traders lose **30–40% of harvest value** because Grand Naine ripens fast, bruises in transport, and reaches the mandi in poor condition — with no way to verify organic or pesticide-free status at the pack level.
 
 ---
 
 ## Who has the problem
 
-- **Primary:** Farmers and agri-business operators moving fresh vegetables and fruits to mandis
+- **Primary:** G9 banana farmers and agri-traders (India produces ~30% of global bananas)
 - **Secondary:** Traders, mandi operators, organic certification buyers who can't verify pesticide-free status at point of sale
 - **Economic actor:** Anyone whose margin is eaten by waste, not by demand
 
@@ -85,7 +88,7 @@ A smart biodegradable pack that:
 
 - [ ] Validate 30–45% with field data (or narrow to specific crop)
 - [ ] Stage-by-stage % from NABCONS breakdown
-- [ ] Pick pilot commodity (tomato? guava? leafy greens?)
+**Pilot crop decision (Aug 3):** G9 (Grand Naine) — see [[C] G9 Banana Research]] · Packaging plan: [[C] Udyaan Packaging POA]]
 - [ ] Put rupee amount on addressable loss for pilot segment
 - [ ] Suraj Sir sign-off
 

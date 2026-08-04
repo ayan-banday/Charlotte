@@ -1,15 +1,17 @@
 ---
 date created: 2026-08-03
 date updated: 2026-08-03
+pilot_crop: G9 (Grand Naine)
 ---
 
 # Udyaan Project Schematics
 
 Visual map of the problem, solution, and build sequence. Update as research validates numbers.
+**Pilot crop:** **G9 (Grand Naine)** — see [[C] G9 Banana Research]] · Deliverable: [[C] Udyaan Packaging POA]]
 
 ---
 
-## 1. Problem Funnel — Post-Harvest Loss
+## 1. Problem Funnel — Post-Harvest Loss (G9)
 
 ```
 FARM HARVEST
@@ -21,19 +23,29 @@ FARM HARVEST
     │
     ▼
 ┌─────────────────────────────────────┐
-│  TRANSPORT + GRADING                │  TBD %          │  compression damage here
+│  TRANSPORT + GRADING                │  15%         │  compression damage here
 └─────────────────────────────────────┘
     │
     ▼
 ┌─────────────────────────────────────┐
-│  MARKET REACH + SHELF LIFE          │  TBD %          │  ethylene / time decay
+│  MARKET REACH + SHELF LIFE          │   12-18%          │  ethylene / time decay
 └─────────────────────────────────────┘
     │
     ▼
-TOTAL LOSS: Ash est 30–45%  │  National official: 5–15% (veg/fruit, NABCONS 2022)
+TOTAL LOSS: G9 literature 30–40%  │  National fruit avg: 6–15% (NABCONS 2022)
 ```
 
-### Research baseline (NABCONS 2022, MoFPI)
+### G9-specific loss (Grand Naine)
+
+| Stage | Mechanism | Est. loss | Packaging lever |
+|---|---|---|---|
+| Harvest + handling | Crown damage, latex, bruising | High | Pre-pack protocol |
+| Packaging (farm → mandi) | No ethylene control | 2–3%+ | LDPE 300g + 1% vents |
+| Transport + stacking | Compression, heat | Significant | Rigid tray + CFB |
+| Mandi + shelf | Ethylene buildup | Significant | Scavenger sachet |
+| **G9 total** | | **30–40%** | |
+
+### Research baseline (NABCONS 2022, MoFPI — national, all fruits)
 
 | Commodity | Loss % | Volume lost |
 |---|---|---|
@@ -47,10 +59,11 @@ TOTAL LOSS: Ash est 30–45%  │  National official: 5–15% (veg/fruit, NABCON
 
 ### Funnel research tasks
 
-- [ ] Break NABCONS losses by stage (harvest / handling / storage / transport / market)
-- [ ] Pick 1–2 target commodities for pilot (tomato? leafy greens?)
-- [ ] Calculate addressable loss = packaging-fixable % × crop volume × farmgate price
-- [ ] Interview 3 farmers/traders on where they actually lose money
+- [x] Pick pilot crop → **G9 (Grand Naine)**
+- [ ] Validate G9 loss % with Udyaan farmer partners
+- [ ] Farmgate price per kg G9 (rupee calc)
+- [ ] Map current pack in Udyaan supply chain
+- [ ] Interview 2–3 farmers/traders on loss points
 
 ---
 
@@ -138,17 +151,19 @@ Q4               ₹10L revenue · 3 premium pitches · top 5 problems
 
 ---
 
-## 5. Active Tasks (from Aug 3)
+## 5. Active Tasks (updated Aug 3)
 
 | # | Task | Owner | Due | Status |
 |---|---|---|---|---|
-| 1 | Finalize written problem statement | Ash | Aug 9 | Draft |
-| 2 | Research loss funnel by stage + rupee amount | Ash | Aug 9 | Started |
-| 3 | Suraj Sir conversation | Ash | Aug 9 | Pending |
-| 4 | 3 student convos recorded | Ash | Aug 9 | Pending |
-| 5 | Gap selling notes revised | Ash | Aug 9 | Pending |
-| 6 | Define pesticide/organic indicator mechanism | Ash + team | Week 2 | Open |
-| 7 | Material/supplier scan for biodegradable + ethylene | Cohort | Week 2+ | Not started |
+| 1 | G9 banana research baseline | Ash | Aug 9 | ✓ Done |
+| 2 | Packaging POA + requirements | Ash | Aug 9 | Draft |
+| 3 | Finalize problem statement (G9-specific) | Ash | Aug 9 | Draft |
+| 4 | BBA study plan conversation with Ma'am | Ash | Aug 4 | Prep ready |
+| 5 | Suraj Sir conversation | Ash | Aug 9 | Pending |
+| 6 | 3 student convos recorded | Ash | Aug 9 | Pending |
+| 7 | Gap selling notes revised | Ash | Aug 9 | Pending |
+| 8 | Farmer/trader interviews (G9 loss data) | Ash | Aug 9 | Not started |
+| 9 | Material supplier scan (biodegradable) | Ash + cohort | Week 2 | Not started |
 
 ---
 
@@ -162,4 +177,4 @@ Q4               ₹10L revenue · 3 premium pitches · top 5 problems
 
 ## Last Updated
 
-2026-08-03 — Initial schematic from head office meeting. Funnel numbers flagged for validation.
+2026-08-03 — G9 locked as pilot. Packaging POA + G9 research linked.
