@@ -1,6 +1,6 @@
 ---
 date created: 2026-04-29
-date updated: 2026-08-03 — Added Udyaan (Alysha) as primary active project
+date updated: 2026-08-04 — Udyaan developmental plan live (Oyedesi buyer, R&D POA)
 ---
 
 # Projects Folder Map
@@ -91,7 +91,7 @@ When you ask for help with a project:
 
 ## Current Projects
 
-- [[00 Introduction to Udyaan (Alysha)]] — Primary Q3/Q4 vehicle. Smart packaging for post-harvest loss. Problem statement Week 1 must-ship.
+- [[00 Introduction to Udyaan (Alysha)]] — Primary Q3/Q4 vehicle. Smart packaging for Oyedesi post-harvest loss. Developmental plan + R&D POA live.
 - [[00 Introduction to Webinar Funnel (Procrastination)]] — Parked (Q3 pivot to Udyaan)
 - [[00 Introduction to Deep Generalist for Jani]] — Turn Jani into a Deep Generalist. Objective 1: Med school encoding via Examiners Guide.
 - [[00 Introduction to Newsletter Becoming the Person Your Goals Belong To]] — Identity-first newsletter: become the person your goals belong to, not harder execution
