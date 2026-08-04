@@ -1,13 +1,13 @@
 ---
 date created: 2026-05-02
-date updated: 2026-06-08 — Added Process The Que workflow + Que Routing Log. External: Notion "The Que" DB (URL in Process The Que.md frontmatter).
+date updated: 2026-08-04 — Added Udyaan (Alysha) project folder + Developmental Plan to registry.
 ---
 
 # File Structure Registry
 
 Master map of all folders and systems. Use this instead of searching to navigate quickly.
 
-Last updated: 2026-06-08 — Added Process The Que (Notion capture routing) + Que Routing Log.
+Last updated: 2026-08-04 — Added Udyaan (Alysha) + Developmental Plan.
 
 ---
 
@@ -69,10 +69,16 @@ portable, token-bounded. (Hermes/OpenClaw-style, adapted to markdown.)
 - Projects Index.md (inventory of all active projects)
 
 **Active Projects:**
-1. Webinar Funnel (Procrastination) — Phase 1 webinar design in progress
-2. Deep Generalist for Jani — Phase 1 encoding in progress
-3. Newsletter Becoming the Person Your Goals Belong To — Ideation
-4. Tanzeer call learning bottleneck — Brain dump space for learning process analysis (call May 19)
+1. **Udyaan (Alysha)** — Primary Q3/Q4. Smart biodegradable packaging for Oyedesi. Buyer = agri-business.
+   - `00 Introduction to Udyaan (Alysha).md`
+   - `01 Brain Dump for Udyaan (Alysha).md`
+   - `[C] Udyaan Problem Statement.md`
+   - `[C] Udyaan Project Schematics.md`
+   - `[C] Udyaan Developmental Plan.md` — Project Documentation Standard (7 sections)
+2. Webinar Funnel (Procrastination) — Parked (Q3 pivot to Udyaan)
+3. Deep Generalist for Jani — Phase 1 encoding in progress
+4. Newsletter Becoming the Person Your Goals Belong To — Ideation
+5. Tanzeer call learning bottleneck — Brain dump space for learning process analysis (call May 19)
 
 **Template:**
 - [Template] Project Name/ (reference structure for new projects)
