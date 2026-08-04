@@ -61,7 +61,7 @@ Farmers and agri-businesses lose 30–45% of produce value because fresh crops s
 - **01 Brain Dump** — raw notes, meeting captures, open questions.
 - **[[C] Udyaan Project Schematics]]** — loss funnel, solution architecture, research, metrics.
 - **[[C] Udyaan Problem Statement]]** — working draft of the priced problem.
-- **[[C] Udyaan Developmental Plan]]** — problem + requirements + timelines + R&D POA (G9, materials, Jain visits, budget, hypothesis).
+- **[[C] Udyaan Developmental Plan]]** — Project Documentation Standard: problem, work breakdown, revenue, team, timeline, social impact, final deliverable.
 
 ---
 
@@ -80,4 +80,4 @@ Farmers and agri-businesses lose 30–45% of produce value because fresh crops s
 
 ## Last Updated
 
-2026-08-04 — Developmental plan added. Buyer locked as Oyedesi. Five solution requirements + R&D timelines live.
+2026-08-04 — Developmental plan restructured to 7-section Project Documentation Standard.
