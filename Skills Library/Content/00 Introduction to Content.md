@@ -1,6 +1,6 @@
 ---
 date created: 2026-05-01
-date updated: 2026-05-10 — Sync update. Verified 15 content skills across 3 sub-domains.
+date updated: 2026-08-02 — Added Cursor SKILL.md for text-humanizer.
 ---
 
 # Content

@@ -1,19 +1,15 @@
 # November 2026 Goals
 
-Q4 Milestone: Close one $10k/month client.
+**Q4:** Book ₹10 lakh Udyaan revenue and record 3 premium client pitches.
 
 ---
 
-## Priorities
+## Done Means (Nov 30)
 
-[Your November priorities]
-
----
-
-## Done Means
-
-[What does successful November look like?]
+- [ ] MVPs shipping for top 5 problems
+- [ ] ≥1 premium client pitch recorded
+- [ ] Pre-sell pipeline active
 
 ---
 
-Last updated: 4/29/2026
+Last updated: 2026-08-02

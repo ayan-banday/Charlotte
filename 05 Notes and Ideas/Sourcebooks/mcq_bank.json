@@ -1,0 +1,282 @@
+[
+  {
+    "number": 1,
+    "difficulty": "Easy",
+    "question": "A startup founder wants to decide whether to launch a new product based on projected production costs and expected profits. Which accounting system would provide the most useful information?",
+    "options": {
+      "A": "Financial Accounting",
+      "B": "Managerial Accounting",
+      "C": "Tax Accounting",
+      "D": "Auditing"
+    },
+    "correct_answer": "B",
+    "chapter": "Ch1",
+    "chapter_title": "How do I know which numbers to trust? (MA vs FA)"
+  },
+  {
+    "number": 2,
+    "difficulty": "Easy",
+    "question": "Which of the following users primarily relies on Financial Accounting information?",
+    "options": {
+      "A": "Production Manager",
+      "B": "Marketing Manager",
+      "C": "Bank providing a business loan",
+      "D": "Operations Supervisor"
+    },
+    "correct_answer": "C",
+    "chapter": "Ch1",
+    "chapter_title": "How do I know which numbers to trust? (MA vs FA)"
+  },
+  {
+    "number": 3,
+    "difficulty": "Easy",
+    "question": "Which report is most likely prepared by a managerial accountant?",
+    "options": {
+      "A": "Income Statement",
+      "B": "Cash Flow Statement",
+      "C": "Budget Variance Report",
+      "D": "Statement of Shareholders' Equity"
+    },
+    "correct_answer": "C",
+    "chapter": "Ch1",
+    "chapter_title": "How do I know which numbers to trust? (MA vs FA)"
+  },
+  {
+    "number": 4,
+    "difficulty": "Easy",
+    "question": "Which accounting system is generally future-oriented?",
+    "options": {
+      "A": "Financial Accounting",
+      "B": "Managerial Accounting",
+      "C": "Cost Accounting",
+      "D": "Auditing"
+    },
+    "correct_answer": "B",
+    "chapter": "Ch1",
+    "chapter_title": "How do I know which numbers to trust? (MA vs FA)"
+  },
+  {
+    "number": 5,
+    "difficulty": "Easy",
+    "question": "Financial Accounting reports are usually prepared:",
+    "options": {
+      "A": "Every day",
+      "B": "Whenever management requests them",
+      "C": "Periodically according to reporting requirements",
+      "D": "Only when a company incurs losses"
+    },
+    "correct_answer": "C",
+    "chapter": "Ch1",
+    "chapter_title": "How do I know which numbers to trust? (MA vs FA)"
+  },
+  {
+    "number": 6,
+    "difficulty": "Medium",
+    "question": "A company is deciding whether to outsource production or manufacture in-house. Which accounting information would be most relevant?",
+    "options": {
+      "A": "Income Statement",
+      "B": "Cost Analysis Report",
+      "C": "Balance Sheet",
+      "D": "Statement of Cash Flows"
+    },
+    "correct_answer": "B",
+    "chapter": "Ch3",
+    "chapter_title": "How do I calculate what something really costs?"
+  },
+  {
+    "number": 7,
+    "difficulty": "Medium",
+    "question": "Which statement BEST explains why managerial accounting is not governed by GAAP or IFRS?",
+    "options": {
+      "A": "It is only used by accountants.",
+      "B": "It is designed for internal decision-making and can be customized.",
+      "C": "It only records cash transactions.",
+      "D": "It is less important than financial accounting."
+    },
+    "correct_answer": "B",
+    "chapter": "Ch1",
+    "chapter_title": "How do I know which numbers to trust? (MA vs FA)"
+  },
+  {
+    "number": 8,
+    "difficulty": "Medium",
+    "question": "An investor compares two companies using their published financial statements. Which characteristic of Financial Accounting makes this comparison possible?",
+    "options": {
+      "A": "Flexible reporting",
+      "B": "Customized reports",
+      "C": "Standardized accounting principles",
+      "D": "Internal performance measures"
+    },
+    "correct_answer": "C",
+    "chapter": "Ch1",
+    "chapter_title": "How do I know which numbers to trust? (MA vs FA)"
+  },
+  {
+    "number": 9,
+    "difficulty": "Medium",
+    "question": "Which of the following decisions is LEAST likely to require Managerial Accounting information?",
+    "options": {
+      "A": "Setting the selling price of a product",
+      "B": "Evaluating departmental efficiency",
+      "C": "Approving next year's operating budget",
+      "D": "Filing annual financial statements with regulators"
+    },
+    "correct_answer": "D",
+    "chapter": "Ch1",
+    "chapter_title": "How do I know which numbers to trust? (MA vs FA)"
+  },
+  {
+    "number": 10,
+    "difficulty": "Medium",
+    "question": "A startup prepares a report showing the actual manufacturing cost exceeded the budget by 12%. This report is an example of:",
+    "options": {
+      "A": "Balance Sheet",
+      "B": "Variance Analysis",
+      "C": "Income Statement",
+      "D": "Cash Flow Statement"
+    },
+    "correct_answer": "B",
+    "chapter": "Ch1",
+    "chapter_title": "How do I know which numbers to trust? (MA vs FA)"
+  },
+  {
+    "number": 11,
+    "difficulty": "Medium",
+    "question": "Which statement correctly compares Managerial and Financial Accounting?",
+    "options": {
+      "A": "Both are intended primarily for external users.",
+      "B": "Managerial Accounting focuses on the future, while Financial Accounting mainly reports past performance.",
+      "C": "Financial Accounting is prepared only when requested by management.",
+      "D": "Managerial Accounting follows mandatory reporting standards."
+    },
+    "correct_answer": "B",
+    "chapter": "Ch1",
+    "chapter_title": "How do I know which numbers to trust? (MA vs FA)"
+  },
+  {
+    "number": 12,
+    "difficulty": "Medium",
+    "question": "A venture capitalist asks a startup founder for audited financial statements before investing. The VC is primarily interested in:",
+    "options": {
+      "A": "Internal budget reports",
+      "B": "Standardized financial reports",
+      "C": "Employee performance reports",
+      "D": "Production schedules"
+    },
+    "correct_answer": "B",
+    "chapter": "Ch1",
+    "chapter_title": "How do I know which numbers to trust? (MA vs FA)"
+  },
+  {
+    "number": 13,
+    "difficulty": "Difficult",
+    "question": "A startup's CEO receives two reports: Report A predicts next year's production costs. Report B summarizes last year's profits for shareholders. Which pairing is correct?",
+    "options": {
+      "A": "Report A \u2013 Financial Accounting; Report B \u2013 Managerial Accounting",
+      "B": "Report A \u2013 Managerial Accounting; Report B \u2013 Financial Accounting",
+      "C": "Both reports are Financial Accounting",
+      "D": "Both reports are Managerial Accounting"
+    },
+    "correct_answer": "B",
+    "chapter": "Ch1",
+    "chapter_title": "How do I know which numbers to trust? (MA vs FA)"
+  },
+  {
+    "number": 14,
+    "difficulty": "Difficult",
+    "question": "Which situation demonstrates the MOST appropriate use of Managerial Accounting?",
+    "options": {
+      "A": "Preparing audited financial statements for shareholders",
+      "B": "Estimating the break-even sales required before launching a new product",
+      "C": "Filing annual tax returns",
+      "D": "Reporting earnings to the stock exchange"
+    },
+    "correct_answer": "B",
+    "chapter": "Ch4",
+    "chapter_title": "Break-even (future)"
+  },
+  {
+    "number": 15,
+    "difficulty": "Difficult",
+    "question": "A manufacturing startup notices declining profits. Which information would most effectively help management identify the cause?",
+    "options": {
+      "A": "Statement of Shareholders' Equity",
+      "B": "Cost Report and Variance Analysis",
+      "C": "Annual Income Statement only",
+      "D": "Auditor's Report"
+    },
+    "correct_answer": "B",
+    "chapter": "Ch6",
+    "chapter_title": "Spot problems (future)"
+  },
+  {
+    "number": 16,
+    "difficulty": "Difficult",
+    "question": "A company consistently reports profits in its financial statements but struggles to pay suppliers on time. Which report would BEST help external lenders understand this issue?",
+    "options": {
+      "A": "Budget Report",
+      "B": "Cash Flow Statement",
+      "C": "Cost Analysis Report",
+      "D": "Performance Dashboard"
+    },
+    "correct_answer": "B",
+    "chapter": "Ch2",
+    "chapter_title": "How do I tell if my company is actually making money? (P&L, BS, Cash Flow)"
+  },
+  {
+    "number": 17,
+    "difficulty": "Difficult",
+    "question": "Which statement is MOST accurate?",
+    "options": {
+      "A": "Financial Accounting is useful only for large corporations.",
+      "B": "Managerial Accounting can include estimates and forecasts for decision-making.",
+      "C": "Financial Accounting ignores accounting standards.",
+      "D": "Managerial Accounting reports are mandatory under IFRS."
+    },
+    "correct_answer": "B",
+    "chapter": "Ch1",
+    "chapter_title": "How do I know which numbers to trust? (MA vs FA)"
+  },
+  {
+    "number": 18,
+    "difficulty": "Difficult",
+    "question": "Which entrepreneur would benefit MOST from Managerial Accounting?",
+    "options": {
+      "A": "One preparing annual reports for regulators",
+      "B": "One deciding whether to discontinue an unprofitable product line",
+      "C": "One submitting financial statements to a bank",
+      "D": "One filing corporate taxes"
+    },
+    "correct_answer": "B",
+    "chapter": "Ch1",
+    "chapter_title": "How do I know which numbers to trust? (MA vs FA)"
+  },
+  {
+    "number": 19,
+    "difficulty": "Difficult",
+    "question": "Which of the following best explains why investors rely more on Financial Accounting than Managerial Accounting?",
+    "options": {
+      "A": "Financial Accounting reports are confidential.",
+      "B": "Financial Accounting follows standardized reporting principles that improve comparability and reliability.",
+      "C": "Managerial Accounting contains more accurate information.",
+      "D": "Financial Accounting predicts future profits better than Managerial Accounting."
+    },
+    "correct_answer": "B",
+    "chapter": "Ch1",
+    "chapter_title": "How do I know which numbers to trust? (MA vs FA)"
+  },
+  {
+    "number": 20,
+    "difficulty": "Difficult",
+    "question": "A startup founder receives the following reports: Product Cost Analysis, Budget Variance Report, Cash Flow Statement, Income Statement. Which combination would be MOST useful for deciding whether to launch a new product?",
+    "options": {
+      "A": "Cash Flow Statement and Income Statement",
+      "B": "Product Cost Analysis and Budget Variance Report",
+      "C": "Income Statement and Balance Sheet",
+      "D": "Statement of Shareholders' Equity and Cash Flow Statement"
+    },
+    "correct_answer": "B",
+    "chapter": "Ch3",
+    "chapter_title": "How do I calculate what something really costs?"
+  }
+]

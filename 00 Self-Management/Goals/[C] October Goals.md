@@ -1,19 +1,20 @@
+---
+date created: 2026-04-29
+date updated: 2026-08-02 — Binary Q4 objectives
+---
+
 # October 2026 Goals
 
-Q4 Milestone: Close one $10k/month client.
+**Q4:** Book ₹10 lakh Udyaan revenue and record 3 premium client pitches.
 
 ---
 
-## Priorities
+## Done Means (Oct 31)
 
-[Your October priorities]
-
----
-
-## Done Means
-
-[What does successful October look like?]
+- [ ] Top 5 problems chosen
+- [ ] Pipeline value in ₹ documented across scoped problems
+- [ ] 3 premium client pitch targets identified
 
 ---
 
-Last updated: 4/29/2026
+Last updated: 2026-08-02

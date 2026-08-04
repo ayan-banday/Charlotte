@@ -1,5 +1,5 @@
 Purpose: Review quarterly to maintain clarity and direction  
-Last Updated: January 1, 2026
+Last Updated: August 2, 2026
 
 ---
 
@@ -11,7 +11,7 @@ Reach turquoise stage in spiral dynamics — integration of real-world experienc
 
 ### What I Want (2 Years from Now)
 
-$200k/month revenue
+$200k/month revenue by end of 2027
 
 ### Why This Matters (The Real Goal)
 
@@ -253,89 +253,51 @@ Key realization: Have massive resources not yet fully utilized (network, coaches
 
 ---
 
-### Q1 (Jan-Mar): Work with Someone 10 Steps Ahead While Generating Income
+### Q1 (Jan-Mar): Work with Someone 10 Steps Ahead While Generating Income — DONE
 
-Get hired by/work with exceptional client/operator who forces learning and pays well enough to sustain.
+Worked with **Jani** (Deep Generalist) — operator 10 steps ahead. Generated income. Ethan/Exam-Backcasting also ran in this window.
 
-What this enables:
+What this enabled:
 
-- Avoids solo-business limitation (not limited by own insights)
+- Avoided solo-business limitation (not limited by own insights)
     
-- Forced learning in safer, guided environment
+- Forced learning in a guided environment
     
-- Generates money while building capability simultaneously
+- Generated money while building capability simultaneously
     
 - Skill development accelerated through proximity to expertise
     
 
 ---
 
-### Q2 (Apr-Jun): Generate $3,000/Month and Relocate to Bangalore
+### Q2 (Apr-Jun): Generate $3,000/Month and Relocate to Bangalore — DONE
 
-Earning $3,000/month through any combination of client work and content — enough to fund the move and sustain independent operation. The content ecosystem is built and a funnel has converted at least once.
+Earning $3,000/month through client work; relocated to Bangalore. Content funnel not built; income later took a hit (client drop July) but the quarter's relocation + income targets were met in-period.
 
 Done means: $3,000 is in the account in a single month, I have relocated to Bangalore, and at least $20 has been earned from a real offer.
-
-What needs to happen (mechanism):
-
-- 7+ hours of content published online
-    
-- Email list live and growing
-    
-- A place to host a community exists
-    
-- A funnel takes people from attention to payment
-    
-- One conversation with current client on what would have to be true to charge $3,000–$5,000 for a product or course together
-    
-
-What this enables:
-
-- Removes financial dependency on current location and family infrastructure
-    
-- Environment upgrade creates forcing function for higher performance (gym, workspace, peer group)
-    
-- Content ecosystem is funded and running — learning accelerates through proximity to better operators
-    
-- Proves the mechanism works: attention → trust → transaction
     
 
 ---
 
-### Q3 (Jul-Sep): Content Ecosystem Maintained, System Perfected
+### Q3 (Jul-Sep): Sign ₹1 Lakh Contract, Price One Problem, and Recruit 10 Students
 
-Moved out and adjusting to Bangalore. Less building, more maintaining and perfecting what was built in Q2. The funnel is refined enough that someone has paid.
+**Done means (Sep 30):**
 
-Done means: $20 has been earned from a real offer — landing page live, VSL done, someone paid.
-
-What this enables:
-
-- Proof that the system works without constant intervention
-    
-- Adjustment period in new environment without losing momentum
-    
-- Content flywheel self-sustaining enough to free capacity for Q4
-    
-- Foundation for scaling to a real premium offer in Q4
-    
+- [ ] ₹1 lakh contract signed or invoiced
+- [ ] 1 problem has a price on it
+- [ ] 10 students in the entrepreneurship cohort
+- [ ] 1 ad campaign run (live with spend)
+- [ ] Conversation with Matt on BBA study plan completed
 
 ---
 
-## Q4 (Oct-Dec): Close One $10,000/Month Client
+## Q4 (Oct-Dec): Book ₹10 Lakh Udyaan Revenue and Record 3 Premium Client Pitches
 
-Land one premium client engagement at $10,000/month regardless of how it comes in.
+**Done means:**
 
-Done means: One client signed at $10,000/month with money in the account.
-
-What this enables:
-
-- Forces positioning and bigger-picture thinking
-    
-- Validates that delivery is worth premium pricing
-    
-- Path to $200,000/month becomes concrete, not theoretical
-    
-- Forces legal, compliance, and operational maturity
+- [ ] Top 5 problems chosen by Oct 31
+- [ ] ₹10 lakh Udyaan revenue booked by Dec 31
+- [ ] 3 premium client pitches recorded by Dec 31
     
 
   

@@ -9,7 +9,19 @@ Raw thinking space. Promote to schematics or problem statement when structured.
 
 ---
 
-## Aug 3 — Jane meeting + Uddiyana/Elisha discussion
+## Aug 3 (evening) — G9 pilot crop locked
+
+**Decision:** Focus on **G9 (Grand Naine)** bananas for Udyaan packaging pilot.
+
+**Why:** 30–40% post-harvest loss, climacteric (ethylene test), dominant Indian cultivar, export specs exist to benchmark against.
+
+**Deliverables created:**
+- [[C] G9 Banana Research]] — science baseline
+- [[C] Udyaan Packaging POA]] — 5-phase plan + requirements (R1–R8)
+
+**Tomorrow (Aug 4):** BBA study plan with Ma'am — prep at [[C] BBA Study Plan POA]]
+
+---
 
 **Context:** After college (till 2pm), went to head office. Met Jane. Discussion on Uddiyana and Elisha.
 

@@ -1,19 +1,14 @@
 # December 2026 Goals
 
-Q4 Milestone: Close one $10k/month client.
+**Q4:** Book ₹10 lakh Udyaan revenue and record 3 premium client pitches.
 
 ---
 
-## Priorities
+## Done Means (Dec 31)
 
-[Your December priorities]
-
----
-
-## Done Means
-
-[What does successful December look like?]
+- [ ] ₹10 lakh Udyaan revenue booked
+- [ ] 3 premium client pitches recorded
 
 ---
 
-Last updated: 4/29/2026
+Last updated: 2026-08-02
