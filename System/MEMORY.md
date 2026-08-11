@@ -1,6 +1,6 @@
 ---
 date created: 2026-06-07
-date updated: 2026-08-02 — Q3/Q4 replanned; Udyaan primary; Tuesday plan captured
+date updated: 2026-08-09 — GTM v2.2; Aug = 100-student launch; Ash = copy + webinar
 loaded: every session (hot tier)
 caps: "## Facts ≤ 2,200 chars · ## Profile ≤ 1,375 chars"
 rule: At ≥80% of a cap, consolidate before adding. See /CLAUDE.md.
@@ -14,7 +14,7 @@ rule: At ≥80% of a cap, consolidate before adding. See /CLAUDE.md.
 - Name: Ayan "Ash" Banday. **20 (July 2026).** Signs off lowercase as "ayan".
 - Newsletter / content creator. Audience: high-performers, creators, founders (~25–45).
 - **Target:** $200k/mo by end 2027. (full: `[C] RGS.md`)
-- **Q3 2026:** Sign ₹1L contract, price 1 problem, 10 students, 1 ad campaign, BBA study-plan convo. (full: `[C] RGS.md`, `Week 32.md`)
+- **Q3 2026:** Sign ₹1L contract, price 1 problem, recruit students. **Aug GTM:** 100-founder cohort, hard launch 17 Aug. Ash = soft-launch copy + webinar. (full: `[C] August Goals.md`, GTM v2.2)
 - **Q4 2026:** Udyaan ₹10L project revenue + 3 premium pitches recorded → Q1 2027 income.
 - **In college, Bangalore.** Bluebells PG October. BBA entrepreneurship — optimize, not just pass. **Matt** conversation needed on grades/study plan.
 - **Udyaan (Alysha):** primary vehicle. Suraj Sir = project lead. Ma'am Sheradha = distribution/curriculum. Procoding = problem-based encoding. See `02 Projects/Alysha/`.
@@ -26,7 +26,7 @@ rule: At ≥80% of a cap, consolidate before adding. See /CLAUDE.md.
 ## Profile
 *Conclusions I drew from working with him. Patterns, not statements.*
 
-- Wakes ~6am but morning cascade (breakfast out → YouTube) can kill the day. Schedule/floor still unresolved.
+- Wakes ~6am — **Week 33 rhythm locks 6:00 daily.** Morning cascade (breakfast out → YouTube) still the risk between 8:45 travel and 9:45 block.
 - Best output ~8:15–10 when block is protected; studying works when he builds systems.
 - **10–12 pre-college dead zone;** evenings 7+ pass-time. College = unwind, not primary work.
 - Replanned Aug 2026: Udyaan over funnel. Learns by doing + documenting. BBA runs parallel, not phased.

@@ -1,26 +1,32 @@
 ---
 date created: 2026-08-02
-date updated: 2026-08-03 — G9 pilot + packaging POA; study plan convo Aug 4
+date updated: 2026-08-09
 week: 32
 dates: August 3–9, 2026
 august_week: 1
-q3: Sign ₹1 lakh contract, price one problem, recruit 10 students
+gtm_phase: 0 — Foundation
 ---
 
 # Week 32
 
-August Week 1. **Focus:** G9 banana research + packaging POA. **Floor:** BBA classes + Ma'am study plan (Aug 4).
+August Week 1. **Focus:** G9 research + packaging POA + GTM foundation. **Floor:** BBA + Ma'am study plan (Aug 4).
 
 ---
 
 ## Moves the needle (must-ship)
 
-- [ ] [[C] Udyaan Packaging POA]] finalized *(primary deliverable — draft done Aug 3)*
+- [x] [[C] Udyaan Packaging POA]] / packaging hypothesis *(draft done Aug 3)*
 - [x] [[C] G9 Banana Research]] baseline *(done Aug 3)*
-- [ ] 1 clear problem statement written *(G9-specific — draft needs validation + price)*
-- [ ] 1 conversation with Suraj Sir completed
-- [ ] 3 student convos recorded (why they'd join → copy + sales learning)
-- [ ] Gap selling notes revised
+- [x] Problem statement written + priced
+- [x] Industry visit — Dyedesi
+- [x] Organic packaging doc (ratios + pesticide)
+- [x] CMS curriculum update with Shradha Ma'am
+- [x] Student entrepreneur convos *(had them — insights not captured yet → Week 33)*
+- [x] Procoding experiment started · 1 cohort member onboarded
+- [x] Plan for Vivek · TedX plan of action
+- [~] Gap selling — revised, dropped for GTM
+- [ ] Suraj Sir conversation — deferred
+- [~] Founders Finance toolkit — in progress; Sir email sent
 
 ---
 
@@ -118,3 +124,5 @@ August Week 1. **Focus:** G9 banana research + packaging POA. **Floor:** BBA cla
 ---
 
 ## Week reflection
+
+Product lane shipped: G9 locked, problem priced, Dyedesi visit, packaging hypothesis, curriculum forward. GTM lane partial: student convos happened but language not captured for copy. Schedule floor inconsistent — 6am hit once (Mon finance sourcebook), finance chapter failed Mon–Fri, Sat lost to concert. August replanned around GTM v2.2 (100 founders, hard launch 17 Aug). Ash lane = copy + webinar; team owns ops locks, rubrics, selection.

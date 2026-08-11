@@ -48,13 +48,13 @@ Farmers and agri-businesses lose 30–45% of produce value because fresh crops s
 
 ## Key People
 
-| Person | Role |
-|---|---|
-| **Oyedesi** | Buyer / agri-business — economic actor for the pack |
-| **Suraj Sir** | Project lead |
-| **Ma'am Sheradha** | Distribution, curriculum, procoding |
-| **Jane** | Head office — strategic alignment (met Aug 3) |
-| **Ash** | Problem definition, documentation, R&D plan, student cohort |
+| Person             | Role                                                        |
+| ------------------ | ----------------------------------------------------------- |
+| **Oyedesi**        | Buyer / agri-business — economic actor for the pack         |
+| **Sujay Sir**      | Project lead                                                |
+| **Ma'am Sheradha** | Distribution, curriculum, procoding                         |
+| **Jane**           | Head office — strategic alignment (met Aug 3)               |
+| **Ash**            | Problem definition, documentation, R&D plan, student cohort |
 
 ---
 

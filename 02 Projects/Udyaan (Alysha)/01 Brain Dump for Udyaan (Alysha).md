@@ -59,3 +59,17 @@ Farmers / business people waste ~30% of produce and the money they could make be
 
 - Industrial visit insights — didn't happen Mon; classes ran instead?
 - Procoding experiment — not started (Week 2 target in August goals)
+
+---
+
+## Aug 10 — business-fundamentals course for enrolled Udyaan students
+
+**Ask from Ma'am:** A plan of action covering the course structure, modular design, and timeline.
+
+**Intended learner outcome:** Existing Udyaan students understand business fundamentals through first principles, become more capable of starting a business, and use the course as a practical reasoning base. Building it also serves as Ash's own revision loop.
+
+**Immediate deliverables:**
+- [ ] Course blueprint: purpose, learner, modules, learning flow, and course method
+- [ ] Course timeline sent to Ma'am by Tue 11 Aug
+
+**Open:** Exact curriculum, module sequence, delivery format, and assessment / project mechanism.

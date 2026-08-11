@@ -3,10 +3,10 @@
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
     "includeName": true,
-    "pageSize": "Letter",
+    "pageSize": "Tabloid",
     "landscape": false,
-    "margin": "0",
-    "downscalePercent": 78
+    "margin": "2",
+    "downscalePercent": 84
   },
   "spellcheck": false,
   "attachmentFolderPath": "03 Projects Archive/Images"

@@ -1,4 +1,4 @@
-Purpose: Review quarterly to maintain clarity and direction  
+sPurpose: Review quarterly to maintain clarity and direction  
 Last Updated: August 2, 2026
 
 ---

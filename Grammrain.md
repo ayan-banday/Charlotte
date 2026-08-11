@@ -1,0 +1,3 @@
+- Course learning outcomes for each subject
+- Per-subject assessment briefs
+- Help mapping those outcomes to the capabilities above
