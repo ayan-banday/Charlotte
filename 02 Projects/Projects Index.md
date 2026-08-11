@@ -9,6 +9,7 @@ Active projects with current status and last update dates.
 
 | Project | Purpose | Status | Last Updated |
 |---|---|---|---|
+| Udyan - From Idea to Business | Build students' business capability through market discovery, offer creation, demand testing, selling, building, and iteration | Blueprint proposal live; curriculum design pending | 2026-08-11 |
 | Udyaan (Alysha) | Smart biodegradable packaging — Oyedesi buyer, G9 pilot; ethylene + compression + bio + organic signal | Discovery → R&D: developmental plan live, G9 research done, Packaging POA draft | 2026-08-04 |
 | Webinar Funnel (Procrastination) | Build conversion-optimized webinar for ICS students addressing meta-system optimization problem | Parked (Q3 pivot) | 2026-05-10 |
 | Deep Generalist for Jani | Turn Jani into cognitively capable, psychologically resilient deep generalist through systematic encoding | Phase 1: Encoding in progress | 2026-05-10 |
