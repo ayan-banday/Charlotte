@@ -23,7 +23,7 @@ task needs something the hot tier doesn't hold. Keeps main context lean.
 
 ### Udyaan project scaffold — 2026-08-03
 
-Project folder live: `02 Projects/Udyaan (Alysha)/`. **G9 banana** locked as pilot crop. Deliverables: G9 research (done), Packaging POA (draft). BBA study plan convo Aug 4. Week focus: G9 research + packaging POA + floor (BBA).
+Project folder live: `02 Projects/Udyaan/`. **G9 banana** locked as pilot crop. Deliverables: G9 research (done), Packaging POA (draft). Week focus: G9 research + packaging POA + applied finance learning.
 
 ---
 
@@ -49,4 +49,4 @@ Project folder live: `02 Projects/Udyaan (Alysha)/`. **G9 banana** locked as pil
 
 ### Q3/Q4 pivot — 2026-08-02
 
-Funnel retired mid-Q3. Udyaan (Alysha) replaces content-ecosystem milestone. Learning = distribution, ads, sales, ops, finance, management through building + documenting. 10 capable students (not 100). Procoding = problem-based encoding.
+Funnel retired mid-Q3. Udyaan replaces content-ecosystem milestone. Learning = distribution, ads, sales, ops, finance, management through building + documenting. 10 capable students (not 100). Procoding = problem-based encoding.

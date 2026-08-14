@@ -77,7 +77,7 @@ August Week 1. **Focus:** G9 banana research + packaging POA. **Floor:** BBA cla
 **College + work (9:00–evening)**
 - Classes till 2:00.
 - Head office: meeting with Jane.
-- Discussion on Uddiyana + Elisha — problem/solution direction locked:
+- Udyaan problem/solution direction locked:
   - Problem: farmers lose ~30–45% produce value (packaging 2–3%, transport/grading, shelf life).
   - Solution reqs: ethylene management, compression protection, biodegradable, pesticide/organic indicator signal.
 - Udyaan project folder + schematics + problem statement draft created.

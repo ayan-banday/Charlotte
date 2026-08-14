@@ -91,8 +91,8 @@ When you ask for help with a project:
 
 ## Current Projects
 
-- [[00 Introduction to Udyan - From Idea to Business]] — New Udyan subcourse: experiential business-building course for students; blueprint proposal live.
-- [[00 Introduction to Udyaan (Alysha)]] — Primary Q3/Q4 vehicle. Oyedesi buyer, G9 pilot. Developmental plan + Packaging POA + G9 research live.
+- [[00 Introduction to Udyaan - From Idea to Business]] — New Udyaan subcourse: experiential business-building course for students; blueprint proposal live.
+- [[00 Introduction to Udyaan]] — Primary Q3/Q4 vehicle. Oyedesi buyer, G9 pilot. Developmental plan + Packaging POA + G9 research live.
 - [[00 Introduction to Webinar Funnel (Procrastination)]] — Parked (Q3 pivot to Udyaan)
 - [[00 Introduction to Deep Generalist for Jani]] — Turn Jani into a Deep Generalist. Objective 1: Med school encoding via Examiners Guide.
 - [[00 Introduction to Newsletter Becoming the Person Your Goals Belong To]] — Identity-first newsletter: become the person your goals belong to, not harder execution

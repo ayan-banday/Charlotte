@@ -22,7 +22,7 @@ git fetch origin main
 git checkout main
 git pull origin main
 
-$plan = "02 Projects\Udyaan (Alysha)\[C] Udyaan Developmental Plan.md"
+$plan = "02 Projects\Udyaan\[C] Udyaan Developmental Plan.md"
 if (Test-Path -LiteralPath $plan) {
     Write-Host "OK — Developmental Plan synced:"
     Write-Host "  $VaultPath\$plan"

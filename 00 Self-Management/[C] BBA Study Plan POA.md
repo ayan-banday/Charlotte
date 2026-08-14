@@ -1,75 +1,61 @@
 ---
 date created: 2026-08-03
-date updated: 2026-08-03
-conversation: Ma'am — Tuesday Aug 4
-status: prep for tomorrow
+date updated: 2026-08-13 — Replaced class-attendance plan with self-directed institute learning
+status: active learning allocation
 ---
 
-# BBA Study Plan — POA for Ma'am Conversation
+# Self-Directed BBA Learning Plan
 
-**When:** Tuesday, August 4
-**Goal:** Walk in with a clear ask — not "help me study" but a specific plan to optimize BBA for entrepreneurship + Udyaan, not just pass.
+**Goal:** Use BBA as a learning resource, not a class-attendance obligation. Learn directly through Udyaan, professor meetings, and targeted self-study.
 
-**Links:** [[Week 32]] · [[00 Introduction to Udyaan (Alysha)]]
+**Links:** [[Week 32]] · [[00 Introduction to Udyaan]]
 
----
+## Operating Decision
 
-## What You Need From This Conversation
+- No routine class attendance.
+- Arrive at the institute around **9:30am**.
+- Spend the first **90 minutes** learning the current business bottleneck, usually finance/accounting. Use professor meetings directly when they can compress the learning.
+- Use Udyaan projects as the lab: pricing, unit economics, customer research, offers, distribution, and operations count as study when documented.
+- Other BBA areas are maintenance only unless they directly constrain the work.
 
-1. **Alignment:** BBA should support Udyaan (entrepreneurship track), not compete with it
-2. **Grades floor:** What's the minimum viable grade to stay on track?
-3. **Study plan:** Which subjects matter for entrepreneurship vs which are pass-only?
-4. **Schedule fit:** How to structure college days so post-2pm work blocks stay protected
-5. **Matt conversation:** Does ma'am route this, or is it separate?
+## Weekly Allocation
 
----
+| Area | Hours/week | What it includes |
+|---|---:|---|
+| Udyaan packaging business | 12 | R&D, validation, buyer work, outreach, documentation |
+| Udyaan course | 6 | Curriculum decisions, lesson/artifact build, recording |
+| Applied learning | 7.5 | Five 90-minute institute blocks, primarily finance/accounting and the live bottleneck |
+| Expert learning and feedback | 2 | Professor meetings, learning from people online, prepared questions, feedback, follow-up |
+| Public learning record | 2 | Convert course/build recordings into usable public proof |
+| Coordination buffer | 3 | Travel, admin, unforeseen meetings, iteration |
+| **Total** | **32.5** | Outside personal maintenance |
 
-## Your Position (Bring This)
+## Daily Shape
 
-- Primary vehicle = Udyaan lab (Q3/Q4 revenue target)
-- BBA entrepreneurship track is **parallel, not phased** — but needs optimization, not maximum effort everywhere
-- Managerial accounting directly overlaps Udyaan pricing work (already studying via finance sourcebook)
-- College till 2pm most days — evenings and mornings are build time
+- **9:30–11:00:** Applied learning. Finance first, or the bottleneck the work has exposed.
+- **11:00 onward:** Udyaan execution, course build, professor meetings, and field work.
+- **One weekly review:** tally actual time by the six categories above. Reallocate the next week from evidence, not intention.
 
----
+## Learning Priorities
 
-## Questions to Ask Ma'am
-
-1. Which BBA subjects directly feed entrepreneurship outcomes vs are credential-only?
-2. What's the grade threshold I need to maintain this semester?
-3. Can coursework be aligned to Udyaan (e.g., packaging project as assignment where possible)?
-4. How do other entrepreneurship students balance lab work + classes?
-5. What does she recommend for exam prep minimum effective dose?
-6. Is there a study plan template or pacing guide for this semester?
-
----
-
-## Proposed Study Plan Framework (Draft — Validate Tomorrow)
-
-| Priority | Subject / area | Effort level | Why |
+| Priority | Area | Effort level | Why |
 |---|---|---|---|
-| **High** | Entrepreneurship | Active | Direct Udyaan overlap |
-| **High** | Managerial accounting | Active | Pricing, unit economics for packaging |
-| **Medium** | Marketing / branding | Moderate | Distribution, cohort recruitment |
-| **Floor** | Other core subjects | Pass threshold only | Credential, not bottleneck |
-| **Skip depth** | Subjects with no Udyaan overlap | Attend + minimum prep | Protect build hours |
+| **High** | Finance / managerial accounting | Five 90-minute blocks per week | Pricing, unit economics, financial models |
+| **High** | Entrepreneurship | Built through Udyaan | Real customer, offer, and delivery decisions |
+| **Medium** | Marketing / distribution | Applied as needed | Course recruitment and commercial work |
+| **Targeted** | Professors, practitioners, and people online | Meetings or deliberate learning with prepared questions | Direct feedback and conceptual compression |
+| **Maintenance** | Other BBA areas | Only when a live constraint appears | Avoid abstract study for its own sake |
 
-**Weekly time budget (proposed):**
-- College attendance: non-negotiable
-- BBA study outside class: **5–7 hrs/week** (not 15+)
-- Udyaan build: **15–20 hrs/week** (mornings + post-college)
+## Director / Professor Update
 
----
+> I am using Udyaan as my applied BBA lab. I come into the institute at 9:30 and begin with a 90-minute learning block, mainly finance and the current business bottleneck. Then I apply it through the packaging project and the entrepreneurship course, and use professors and people working online for direct feedback. My active weekly allocation is 32.5 hours: 12 on the Udyaan business, 6 on the course, 7.5 on applied learning, 2 on expert learning and feedback, 2 on recording the work publicly, and 3 for coordination. If a new responsibility is added, we should choose what comes off this allocation.
 
-## Deliverable From Tomorrow's Conversation
+## Weekly Tally Template
 
-- [ ] Agreed grade floor per subject
-- [ ] Semester study plan (even if rough — ma'am's version)
-- [ ] Clarity on Matt conversation (separate or combined?)
-- [ ] Any coursework ↔ Udyaan alignment opportunities
-
----
+| Week | Udyaan business | Course | Applied learning | Expert learning | Public record | Buffer | Total | What changed next week? |
+|---|---:|---:|---:|---:|---:|---:|---:|---|
+|  |  |  |  |  |  |  |  |  |
 
 ## Last Updated
 
-2026-08-03 — Prep doc for Aug 4 conversation.
+2026-08-13 — Class-attendance assumption removed. Learning is now self-directed, institute-based, and applied through Udyaan.

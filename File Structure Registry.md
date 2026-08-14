@@ -1,13 +1,13 @@
 ---
 date created: 2026-05-02
-date updated: 2026-08-04 — Added Udyaan (Alysha) project folder + Developmental Plan to registry.
+date updated: 2026-08-13 — Renamed Udyaan project; provisional label removed.
 ---
 
 # File Structure Registry
 
 Master map of all folders and systems. Use this instead of searching to navigate quickly.
 
-Last updated: 2026-08-04 — Udyaan (Alysha): Developmental Plan + G9 research + Packaging POA.
+Last updated: 2026-08-13 — Udyaan: Developmental Plan + G9 research + Packaging POA.
 
 ---
 
@@ -69,9 +69,9 @@ portable, token-bounded. (Hermes/OpenClaw-style, adapted to markdown.)
 - Projects Index.md (inventory of all active projects)
 
 **Active Projects:**
-1. **Udyaan (Alysha)** — Primary Q3/Q4. Smart biodegradable packaging for Oyedesi. G9 pilot.
-   - `00 Introduction to Udyaan (Alysha).md`
-   - `01 Brain Dump for Udyaan (Alysha).md`
+1. **Udyaan** — Primary Q3/Q4. Smart biodegradable packaging for Oyedesi. G9 pilot.
+   - `00 Introduction to Udyaan.md`
+   - `01 Brain Dump for Udyaan.md`
    - `[C] Udyaan Problem Statement.md`
    - `[C] Udyaan Project Schematics.md`
    - `[C] Udyaan Developmental Plan.md` — Project Documentation Standard (7 sections)
