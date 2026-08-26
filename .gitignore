@@ -24,6 +24,16 @@ venv/
 # --- Tool / agent scratch state ---
 .claude-flow/
 
+# --- Charlotte routed output and generated state ---
+Black Hole/**
+!Black Hole/00 Introduction to Black Hole.md
+output/
+tmp/
+_codex_tmp/
+**/node_modules/
+.graphify/cache/
+capture_queue.jsonl
+
 # --- OS cruft ---
 .DS_Store
 Thumbs.db

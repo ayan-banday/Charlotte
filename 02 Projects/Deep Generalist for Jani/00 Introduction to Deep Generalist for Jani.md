@@ -77,6 +77,13 @@ The system is built around deep processing: Run before each study session. Itera
 
 ---
 
+## Key Workflows
+
+- [[exam-backcasting-system]] — encode and review the current learning objective
+- [[Reflection Protocol]] — review progress and update durable patterns
+
+---
+
 ## Notes and Updates
 
 *(Add running notes here as the project evolves)*

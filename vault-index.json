@@ -1,0 +1,428 @@
+{
+  "version": 1,
+  "updated_at": "2026-08-26T10:15:31Z",
+  "sync_source": "git-commit",
+  "projects": [
+    {
+      "name": "Deep Generalist for Jani",
+      "status": "active",
+      "folder": "02 Projects/Deep Generalist for Jani",
+      "intro": "02 Projects/Deep Generalist for Jani/00 Introduction to Deep Generalist for Jani.md",
+      "brain_dump": "02 Projects/Deep Generalist for Jani/01 Brain Dump for Deep Generalist for Jani.md",
+      "workflows": [
+        "exam-backcasting-system",
+        "Reflection Protocol"
+      ],
+      "gcal_keywords": [
+        "deep"
+      ]
+    },
+    {
+      "name": "Newsletter Becoming the Person Your Goals Belong To",
+      "status": "active",
+      "folder": "02 Projects/Newsletter Becoming the Person Your Goals Belong To",
+      "intro": "02 Projects/Newsletter Becoming the Person Your Goals Belong To/00 Introduction to Newsletter Becoming the Person Your Goals Belong To.md",
+      "brain_dump": "02 Projects/Newsletter Becoming the Person Your Goals Belong To/01 Brain Dump for Newsletter Becoming the Person Your Goals Belong To.md",
+      "workflows": [],
+      "gcal_keywords": [
+        "newsletter"
+      ]
+    },
+    {
+      "name": "Tanzeer call learning bottleneck",
+      "status": "active",
+      "folder": "02 Projects/Tanzeer call learning bottleneck",
+      "intro": "02 Projects/Tanzeer call learning bottleneck/00 Introduction to Tanzeer call learning bottleneck.md",
+      "brain_dump": "02 Projects/Tanzeer call learning bottleneck/01 Brain Dump for Tanzeer call learning bottleneck.md",
+      "workflows": [
+        "Process Idea Batches",
+        "Reflection Protocol"
+      ],
+      "gcal_keywords": [
+        "tanzeer"
+      ]
+    },
+    {
+      "name": "Udyaan",
+      "status": "active",
+      "folder": "02 Projects/Udyaan",
+      "intro": "02 Projects/Udyaan/00 Introduction to Udyaan.md",
+      "brain_dump": "02 Projects/Udyaan/01 Brain Dump for Udyaan.md",
+      "workflows": [
+        "R&D Documentation",
+        "Weekly Reflection"
+      ],
+      "gcal_keywords": [
+        "udyaan"
+      ]
+    }
+  ],
+  "workflows": [
+    {
+      "name": "Build an Email Campaign",
+      "path": "Workflows/Build an Email Campaign.md",
+      "triggers": [
+        "build an email campaign"
+      ]
+    },
+    {
+      "name": "Design a Welcome Sequence",
+      "path": "Workflows/Design a Welcome Sequence.md",
+      "triggers": [
+        "design a welcome sequence"
+      ]
+    },
+    {
+      "name": "Launch a Webinar Funnel",
+      "path": "Workflows/Launch a Webinar Funnel.md",
+      "triggers": [
+        "launch a webinar funnel"
+      ]
+    },
+    {
+      "name": "Process Idea Batches",
+      "path": "Workflows/Process Idea Batches.md",
+      "triggers": [
+        "**clear up the dispatch**",
+        "**process dispatch**"
+      ]
+    },
+    {
+      "name": "Process The Que",
+      "path": "Workflows/Process The Que.md",
+      "triggers": [
+        "process the que"
+      ]
+    },
+    {
+      "name": "Write a Newsletter",
+      "path": "Workflows/Write a Newsletter.md",
+      "triggers": [
+        "write a newsletter",
+        "i want to write a newsletter",
+        "let's do this week's issue"
+      ]
+    }
+  ],
+  "triggers": {
+    "**clear up the dispatch**": "Workflows/Process Idea Batches.md",
+    "**process dispatch**": "Workflows/Process Idea Batches.md",
+    "build an email campaign": "Workflows/Build an Email Campaign.md",
+    "design a welcome sequence": "Workflows/Design a Welcome Sequence.md",
+    "i want to write a newsletter": "Workflows/Write a Newsletter.md",
+    "launch a webinar funnel": "Workflows/Launch a Webinar Funnel.md",
+    "let's do this week's issue": "Workflows/Write a Newsletter.md",
+    "process the que": "Workflows/Process The Que.md",
+    "write a newsletter": "Workflows/Write a Newsletter.md"
+  },
+  "skills": [
+    {
+      "name": "ash-newsletter-voice",
+      "path": "Skills Library/Ashes Voices/ash-newsletter-voice.md"
+    },
+    {
+      "name": "ash-substack-voice",
+      "path": "Skills Library/Ashes Voices/ash-substack-voice.md"
+    },
+    {
+      "name": "content-hook-research",
+      "path": "Skills Library/Content/Content Ideation & Strategy/content-hook-research.md"
+    },
+    {
+      "name": "content-mining",
+      "path": "Skills Library/Content/Content Ideation & Strategy/content-mining.md"
+    },
+    {
+      "name": "newsletter-ideas-generator",
+      "path": "Skills Library/Content/Content Ideation & Strategy/newsletter-ideas-generator.md"
+    },
+    {
+      "name": "thought-collector",
+      "path": "Skills Library/Content/Content Ideation & Strategy/thought-collector.md"
+    },
+    {
+      "name": "instagram-carousel-generator",
+      "path": "Skills Library/Content/Content Production/instagram-carousel-generator.md"
+    },
+    {
+      "name": "jani-reels-voice",
+      "path": "Skills Library/Content/Content Production/jani-reels-voice.md"
+    },
+    {
+      "name": "manim-video",
+      "path": "Skills Library/Content/Content Production/manim-video.md"
+    },
+    {
+      "name": "newsletter-image-generator",
+      "path": "Skills Library/Content/Content Production/newsletter-image-generator.md"
+    },
+    {
+      "name": "raw-cut",
+      "path": "Skills Library/Content/Content Production/raw-cut/raw-cut.md"
+    },
+    {
+      "name": "README",
+      "path": "Skills Library/Content/Content Production/video-use/README.md"
+    },
+    {
+      "name": "README",
+      "path": "Skills Library/Content/Content Production/video-use/skills/manim-video/README.md"
+    },
+    {
+      "name": "animation-design-thinking",
+      "path": "Skills Library/Content/Content Production/video-use/skills/manim-video/references/animation-design-thinking.md"
+    },
+    {
+      "name": "animations",
+      "path": "Skills Library/Content/Content Production/video-use/skills/manim-video/references/animations.md"
+    },
+    {
+      "name": "camera-and-3d",
+      "path": "Skills Library/Content/Content Production/video-use/skills/manim-video/references/camera-and-3d.md"
+    },
+    {
+      "name": "decorations",
+      "path": "Skills Library/Content/Content Production/video-use/skills/manim-video/references/decorations.md"
+    },
+    {
+      "name": "equations",
+      "path": "Skills Library/Content/Content Production/video-use/skills/manim-video/references/equations.md"
+    },
+    {
+      "name": "graphs-and-data",
+      "path": "Skills Library/Content/Content Production/video-use/skills/manim-video/references/graphs-and-data.md"
+    },
+    {
+      "name": "mobjects",
+      "path": "Skills Library/Content/Content Production/video-use/skills/manim-video/references/mobjects.md"
+    },
+    {
+      "name": "paper-explainer",
+      "path": "Skills Library/Content/Content Production/video-use/skills/manim-video/references/paper-explainer.md"
+    },
+    {
+      "name": "production-quality",
+      "path": "Skills Library/Content/Content Production/video-use/skills/manim-video/references/production-quality.md"
+    },
+    {
+      "name": "rendering",
+      "path": "Skills Library/Content/Content Production/video-use/skills/manim-video/references/rendering.md"
+    },
+    {
+      "name": "scene-planning",
+      "path": "Skills Library/Content/Content Production/video-use/skills/manim-video/references/scene-planning.md"
+    },
+    {
+      "name": "troubleshooting",
+      "path": "Skills Library/Content/Content Production/video-use/skills/manim-video/references/troubleshooting.md"
+    },
+    {
+      "name": "updaters-and-trackers",
+      "path": "Skills Library/Content/Content Production/video-use/skills/manim-video/references/updaters-and-trackers.md"
+    },
+    {
+      "name": "visual-design",
+      "path": "Skills Library/Content/Content Production/video-use/skills/manim-video/references/visual-design.md"
+    },
+    {
+      "name": "SKILL",
+      "path": "Skills Library/Content/Content Production/video-use/skills/manim-video/SKILL.md"
+    },
+    {
+      "name": "video-use",
+      "path": "Skills Library/Content/Content Production/video-use/video-use.md"
+    },
+    {
+      "name": "long-form-content",
+      "path": "Skills Library/Content/Content Writing/long-form-content.md"
+    },
+    {
+      "name": "short-form-content",
+      "path": "Skills Library/Content/Content Writing/short-form-content.md"
+    },
+    {
+      "name": "storytelling",
+      "path": "Skills Library/Content/Content Writing/storytelling.md"
+    },
+    {
+      "name": "README",
+      "path": "Skills Library/Content/Content Writing/text-humanizer/README.md"
+    },
+    {
+      "name": "reference",
+      "path": "Skills Library/Content/Content Writing/text-humanizer/reference.md"
+    },
+    {
+      "name": "SKILL",
+      "path": "Skills Library/Content/Content Writing/text-humanizer/SKILL.md"
+    },
+    {
+      "name": "text-humanizer",
+      "path": "Skills Library/Content/Content Writing/text-humanizer/text-humanizer.md"
+    },
+    {
+      "name": "WARP",
+      "path": "Skills Library/Content/Content Writing/text-humanizer/WARP.md"
+    },
+    {
+      "name": "voice-correct",
+      "path": "Skills Library/Content/Content Writing/voice-correct.md"
+    },
+    {
+      "name": "capture-routing-batch",
+      "path": "Skills Library/Infrastructure & Tools/capture-routing-batch.md"
+    },
+    {
+      "name": "document-docx-editor",
+      "path": "Skills Library/Infrastructure & Tools/document-docx-editor.md"
+    },
+    {
+      "name": "document-pdf-editor",
+      "path": "Skills Library/Infrastructure & Tools/document-pdf-editor.md"
+    },
+    {
+      "name": "document-pptx-editor",
+      "path": "Skills Library/Infrastructure & Tools/document-pptx-editor.md"
+    },
+    {
+      "name": "document-xlsx-editor",
+      "path": "Skills Library/Infrastructure & Tools/document-xlsx-editor.md"
+    },
+    {
+      "name": "google-calendar-events",
+      "path": "Skills Library/Infrastructure & Tools/google-calendar-events.md"
+    },
+    {
+      "name": "google-drive-artifacts",
+      "path": "Skills Library/Infrastructure & Tools/google-drive-artifacts.md"
+    },
+    {
+      "name": "graphify-navigation",
+      "path": "Skills Library/Infrastructure & Tools/graphify-navigation.md"
+    },
+    {
+      "name": "project-creator",
+      "path": "Skills Library/Infrastructure & Tools/project-creator.md"
+    },
+    {
+      "name": "skill-creator",
+      "path": "Skills Library/Infrastructure & Tools/skill-creator.md"
+    },
+    {
+      "name": "system-help",
+      "path": "Skills Library/Infrastructure & Tools/system-help.md"
+    },
+    {
+      "name": "task-scheduler",
+      "path": "Skills Library/Infrastructure & Tools/task-scheduler.md"
+    },
+    {
+      "name": "telegram-capture",
+      "path": "Skills Library/Infrastructure & Tools/telegram-capture.md"
+    },
+    {
+      "name": "book-to-textbook-converter",
+      "path": "Skills Library/Learning & Education Systems/book-to-textbook-converter.md"
+    },
+    {
+      "name": "exam-backcasting-system",
+      "path": "Skills Library/Learning & Education Systems/exam-backcasting-system.md"
+    },
+    {
+      "name": "learning-study-coach",
+      "path": "Skills Library/Learning & Education Systems/learning-study-coach.md"
+    },
+    {
+      "name": "direct-response-copy",
+      "path": "Skills Library/Marketing/Sales & Conversion Copy/direct-response-copy.md"
+    },
+    {
+      "name": "campaign-strategy",
+      "path": "Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/campaign-strategy.md"
+    },
+    {
+      "name": "content-mining",
+      "path": "Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/content-mining.md"
+    },
+    {
+      "name": "email-brief",
+      "path": "Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/email-brief.md"
+    },
+    {
+      "name": "email-campaign-writer",
+      "path": "Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/email-campaign-writer.md"
+    },
+    {
+      "name": "email-writer",
+      "path": "Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/email-writer.md"
+    },
+    {
+      "name": "welcome-sequence",
+      "path": "Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/welcome-sequence.md"
+    },
+    {
+      "name": "email-sequence",
+      "path": "Skills Library/Marketing/Sales & Conversion Copy/email-sequence/email-sequence.md"
+    },
+    {
+      "name": "copy-guidelines",
+      "path": "Skills Library/Marketing/Sales & Conversion Copy/email-sequence/references/copy-guidelines.md"
+    },
+    {
+      "name": "email-types",
+      "path": "Skills Library/Marketing/Sales & Conversion Copy/email-sequence/references/email-types.md"
+    },
+    {
+      "name": "sequence-templates",
+      "path": "Skills Library/Marketing/Sales & Conversion Copy/email-sequence/references/sequence-templates.md"
+    },
+    {
+      "name": "jani-insight-email",
+      "path": "Skills Library/Marketing/Sales & Conversion Copy/jani-insight-email.md"
+    },
+    {
+      "name": "newsletter-writing-system",
+      "path": "Skills Library/Marketing/Sales & Conversion Copy/newsletter-writing-system/newsletter-writing-system.md"
+    },
+    {
+      "name": "mining",
+      "path": "Skills Library/Marketing/Sales & Conversion Copy/newsletter-writing-system/prompts/mining.md"
+    },
+    {
+      "name": "newsletter-writing",
+      "path": "Skills Library/Marketing/Sales & Conversion Copy/newsletter-writing-system/prompts/newsletter-writing.md"
+    },
+    {
+      "name": "example-vsl-transcript",
+      "path": "Skills Library/Marketing/Sales & Conversion Copy/vsl-generator/references/example-vsl-transcript.md"
+    },
+    {
+      "name": "vsl-generator",
+      "path": "Skills Library/Marketing/Sales & Conversion Copy/vsl-generator/vsl-generator.md"
+    },
+    {
+      "name": "webinar-close",
+      "path": "Skills Library/Marketing/Webinar Architecture/webinar-close.md"
+    },
+    {
+      "name": "webinar-hook",
+      "path": "Skills Library/Marketing/Webinar Architecture/webinar-hook.md"
+    },
+    {
+      "name": "webinar-intro",
+      "path": "Skills Library/Marketing/Webinar Architecture/webinar-intro.md"
+    },
+    {
+      "name": "webinar-planning",
+      "path": "Skills Library/Marketing/Webinar Architecture/webinar-planning.md"
+    },
+    {
+      "name": "webinar-transition",
+      "path": "Skills Library/Marketing/Webinar Architecture/webinar-transition.md"
+    },
+    {
+      "name": "webinar-value",
+      "path": "Skills Library/Marketing/Webinar Architecture/webinar-value.md"
+    }
+  ]
+}

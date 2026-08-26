@@ -1,34 +1,31 @@
 #!/usr/bin/env bash
-# Charlotte vault sync — run on git commit (and optional 5:30pm scheduled task).
-# Regenerates vault-index.json, mirrors Projects Index, incremental Graphify update.
+# Charlotte vault sync: rebuild the machine index after a git commit.
+# Graphify is an optional local dependency; the index remains useful without it.
 #
 # Install: git config core.hooksPath .githooks
-# Manus: implement Python indexer; this shell stub documents the contract.
 
 set -euo pipefail
-ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
 echo "[charlotte-sync] $(date -Iseconds)"
 
-# TODO (Manus): replace with scripts/charlotte_index.py
-if command -v python3 >/dev/null 2>&1 && [[ -f "$ROOT/scripts/charlotte_index.py" ]]; then
-  python3 "$ROOT/scripts/charlotte_index.py"
-else
-  echo "[charlotte-sync] charlotte_index.py not installed — skip index rebuild"
+if ! command -v python3 >/dev/null 2>&1; then
+  echo "[charlotte-sync] ERROR: python3 is required to rebuild vault-index.json" >&2
+  exit 1
 fi
 
-# Incremental Graphify update (curated corpus v1)
+python3 "$ROOT/scripts/charlotte_index.py" "$ROOT"
+
 if command -v graphify >/dev/null 2>&1; then
   graphify "$ROOT" --update \
     --include "02 Projects" \
     --include "Skills Library" \
     --include "Workflows" \
     --include "System" \
-    --include "Context" \
-    || echo "[charlotte-sync] graphify --update failed (non-fatal)"
-elif command -v python3 >/dev/null 2>&1 && python3 -c "import graphify_vault" 2>/dev/null; then
-  echo "[charlotte-sync] run graphify --update manually if graphify CLI name differs"
+    --include "Context"
+else
+  echo "[charlotte-sync] Graphify CLI not installed; skipped semantic graph update" >&2
 fi
 
 echo "[charlotte-sync] done"

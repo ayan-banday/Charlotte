@@ -1,8 +1,17 @@
 @echo off
+setlocal
 REM Charlotte sync — run from Task Scheduler at 17:30 or manually on Windows.
-cd /d S:\Charlotte
-bash scripts/charlotte-sync.sh
+REM The first argument may override the vault path; default is the script's parent.
+set "VAULT=%~1"
+if not defined VAULT set "VAULT=%~dp0.."
+for %%I in ("%VAULT%") do set "VAULT=%%~fI"
+
+where bash >nul 2>&1
 if errorlevel 1 (
-  REM Fallback if Git Bash not in PATH — Manus: implement charlotte_index.py + python call here
-  echo charlotte-sync: see scripts/charlotte-sync.sh
+  echo charlotte-sync: Git Bash is required to run scripts\charlotte-sync.sh
+  exit /b 1
 )
+
+cd /d "%VAULT%"
+bash "%VAULT%\scripts\charlotte-sync.sh"
+exit /b %errorlevel%

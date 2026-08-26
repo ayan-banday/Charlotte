@@ -87,6 +87,11 @@ Farmers and agri-businesses lose 30–45% of produce value because fresh crops s
 
 ---
 
+## Key Workflows
+
+- [[R&D Documentation]] — maintain the developmental plan and evidence
+- [[Weekly Reflection]] — review project progress and blockers
+
 ## Last Updated
 
 2026-08-04 — Developmental plan live. G9 research done. Packaging POA drafted.

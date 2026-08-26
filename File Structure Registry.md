@@ -1,13 +1,13 @@
 ---
 date created: 2026-05-02
-date updated: 2026-08-17 — Added Graphify vault knowledge-graph operating plan.
+date updated: 2026-08-26 — Sync layer, archive cleanup, Command Center, connector stubs, and Graphify operating plan retained.
 ---
 
 # File Structure Registry
 
 Master map of all folders and systems. Use this instead of searching to navigate quickly.
 
-Last updated: 2026-08-17 — Graphify plan added to Context.
+Last updated: 2026-08-26 — Active-project inventory, routing surfaces, and Graphify guidance refreshed.
 
 ---
 
@@ -77,7 +77,6 @@ portable, token-bounded. (Hermes/OpenClaw-style, adapted to markdown.)
    - `[C] Udyaan Developmental Plan.md` — Project Documentation Standard (7 sections)
    - `[C] G9 Banana Research.md`
    - `[C] Udyaan Packaging POA.md`
-2. Webinar Funnel (Procrastination) — Parked (Q3 pivot to Udyaan)
 3. Deep Generalist for Jani — Phase 1 encoding in progress
 4. Newsletter Becoming the Person Your Goals Belong To — Ideation
 5. Tanzeer call learning bottleneck — Brain dump space for learning process analysis (call May 19)
@@ -94,6 +93,8 @@ portable, token-bounded. (Hermes/OpenClaw-style, adapted to markdown.)
 **Archived Projects:**
 - How to Write a Newsletter
 - Newsletter Do Hard Things
+- Udyaan - From Idea to Business
+- Webinar Funnel (Procrastination)
 
 ---
 
@@ -129,7 +130,7 @@ portable, token-bounded. (Hermes/OpenClaw-style, adapted to markdown.)
 
 **Core files:**
 - 00 Introduction to Skills Library.md (library overview + navigation)
-- Skills Index.md (complete inventory, 41 total skills)
+- Skills Index.md (human inventory; `vault-index.json` is the machine index)
 
 **Domains (5 total):**
 
@@ -183,7 +184,7 @@ portable, token-bounded. (Hermes/OpenClaw-style, adapted to markdown.)
 - ash-newsletter-voice.md (Newsletter Voice — narrative-forward, framework-focused)
 - ash-substack-voice.md (Substack Voice — direct opinion, shorter-form thought leadership)
 
-### Infrastructure & Tools (8 skills)
+### Infrastructure & Tools (12 skills)
 - document-docx-editor.md
 - document-pdf-editor.md
 - document-pptx-editor.md
@@ -192,6 +193,10 @@ portable, token-bounded. (Hermes/OpenClaw-style, adapted to markdown.)
 - skill-creator.md
 - system-help.md
 - task-scheduler.md
+- capture-routing-batch.md
+- telegram-capture.md
+- google-calendar-events.md
+- google-drive-artifacts.md
 
 **Archive:**
 - /Skills-OLD-BACKUP/ (legacy skills, do not use)
@@ -218,6 +223,10 @@ portable, token-bounded. (Hermes/OpenClaw-style, adapted to markdown.)
 
 ## Root Files
 
+- 00 Command Center.md (daily orientation surface)
+- vault-index.json (generated machine index; refreshed on commit)
+- capture_queue.jsonl (ignored append-only staging queue)
+
 **System Documentation:**
 - CLAUDE.md (constitution: how Claude behaves, rules, protocols, memory engine)
 - File Structure Registry.md (this file)
@@ -230,9 +239,9 @@ portable, token-bounded. (Hermes/OpenClaw-style, adapted to markdown.)
 ## Key Statistics
 
 - **Total Markdown files:** 344+ (added Process The Que.md + Que Routing Log stub)
-- **Active projects:** 4 (Webinar Funnel, Deep Generalist, Newsletter Becoming the Person Your Goals Belong To, Tanzeer call learning bottleneck)
+- **Active projects:** 4 (Udyaan, Deep Generalist, Newsletter Becoming the Person Your Goals Belong To, Tanzeer call learning bottleneck)
 - **Active workflows:** 6 (Webinar, Email Campaign, Welcome Sequence, Process Idea Batches, Write a Newsletter, Process The Que)
-- **Total skills:** 41 (across 5 domains)
+- **Total indexed skills:** 77 (paths only in `vault-index.json`; across 5 domains)
 - **Skills domains:** 5 (Marketing, Content, Learning & Education, Ashes Voices, Infrastructure & Tools)
 - **Monthly goals:** 11 files in /00 Self-Management/Goals/ (Feb-Dec 2026; month folders removed 2026-06-07)
 
