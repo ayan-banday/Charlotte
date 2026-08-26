@@ -6,15 +6,15 @@ date updated: 2026-08-26
 
 ## Purpose
 
-Describe the connector contract for walk-time captures. The connector receives a message from Ash, appends one JSON object per line to the repository’s `capture_queue.jsonl`, and returns a concise acknowledgement.
+Describe the GitHub-hosted connector contract for walk-time captures. The 17:30 Asia/Kolkata batch imports unseen Telegram messages and preserves them in that day's routing-proposal JSON. It then sends a concise review to Telegram.
 
 ## Contract
 
 - Input: Telegram message text plus received timestamp and message ID.
-- Storage: append-only `capture_queue.jsonl` at the vault root.
-- Output: acknowledgement containing the queue position or message ID.
-- Downstream: the evening routing batch reads the queue and creates proposals only.
+- Storage: `01 Daily Logs/Routing Proposals YYYY-MM-DD.json` plus its Markdown companion.
+- Output: a 17:30 Telegram review directing Ash to Codex for approval.
+- Downstream: `reflect for today` is the sole approval surface; it creates no calendar event until explicitly approved and configured.
 
 ## Credential boundary
 
-Ash configures the Telegram bot token in the Cursor/Codex connector. Never commit tokens, webhook URLs containing secrets, or `.env` files to this vault.
+Store `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` as GitHub Environment secrets named `charlotte-automation`. Never commit tokens, webhook URLs containing secrets, or `.env` files to this vault.

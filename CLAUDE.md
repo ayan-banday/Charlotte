@@ -83,6 +83,8 @@ date updated: YYYY-MM-DD
 | "clear up / process dispatch" | `/Workflows/Process Idea Batches.md` | Read Dispatch. Extract self-mgmt to week file. Auto-route newsletters. Suggest the rest. Clear file. |
 | "process the que" | `/Workflows/Process The Que.md` | Query Notion Que for Status=New. Auto-route self-management + newsletters. Flag the rest. Write log. |
 | "write a newsletter" | `/Workflows/Write a Newsletter.md` | Interview → mine → hook research → draft (Ash's voice) → humanize → image. |
+| "process captures" | Telegram routing batch | Read today's dated routing proposals. Never route captures from chat without explicit approval. |
+| "reflect for today" | Telegram routing approval | Open today's pending proposals, ask Ash for numbered approvals/rejections, then run the approval handler. |
 | "consolidate" / "remember this" / session end | Memory engine (below) | Route durable facts, enforce caps, recursive-compact, harvest skills. |
 
 ---
@@ -116,6 +118,10 @@ Plain markdown, vault-native. Tiers keep the hot context small.
 ## REGISTRY
 
 Master map: `File Structure Registry.md` — all folders, counts, quick links. Update it by saying "sync claude.md".
+
+## TELEGRAM ROUTING
+
+Telegram is the primary capture surface. GitHub Actions imports new messages at 17:30 Asia/Kolkata, writes dated routing proposals, and sends a Telegram review. Telegram never approves or routes anything. On `reflect for today`, read only that day's `01 Daily Logs/Routing Proposals YYYY-MM-DD.md` and request explicit numbered decisions. Apply approved items through `scripts/apply_capture_approvals.py`; ambiguous items remain blocked. Calendar requests remain `calendar_pending` until a configured calendar connector is explicitly approved.
 
 ---
 

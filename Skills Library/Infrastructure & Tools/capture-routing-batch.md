@@ -6,18 +6,17 @@ date updated: 2026-08-26
 
 ## Purpose
 
-Turn `capture_queue.jsonl` into a reviewable proposal log during the evening batch. The batch classifies captures and suggests destinations, but it does not write project notes, week files, or Google Calendar events.
+Turn newly imported Telegram captures into a reviewable proposal log during the 17:30 Asia/Kolkata GitHub batch. The batch classifies captures and suggests destinations, but it does not write project notes, week files, or Google Calendar events.
 
 ## Run
 
 ```bash
-python3 scripts/route_capture_batch.py capture_queue.jsonl \
-  --output "01 Daily Logs/Routing Proposals YYYY-MM-DD.json"
+python scripts/telegram_routing_batch.py --vault .
 ```
 
 ## Approval gate
 
-Every proposal starts with both approvals set to `false`. A proposal may execute only after Ash approves it in Telegram and confirms it in the IDE with the relevant reflection or routing command. Rejected and ambiguous proposals remain untouched and require manual handling.
+Every proposal starts as `pending`. A proposal may execute only after Ash approves it in Codex through `reflect for today`; Telegram is review delivery only. Rejected and ambiguous proposals remain untouched and require manual handling.
 
 ## Categories
 

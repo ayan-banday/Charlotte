@@ -30,7 +30,7 @@ Install the **Task Gantt** community plugin manually in Obsidian. If dated task 
 
 ## Capture and Routing
 
-Walk-time captures land in `capture_queue.jsonl`. The evening batch creates proposals only. No project note, week file, or calendar event is written until Ash approves the proposal through both Telegram and the IDE reflection flow.
+Walk-time Telegram captures are imported by the 17:30 Asia/Kolkata GitHub batch and preserved in `01 Daily Logs/Routing Proposals YYYY-MM-DD.json`. Telegram receives the review only. No project note, week file, or calendar event is written until Ash approves the proposal in Codex through `reflect for today`.
 
 - Manual workflow: [[Workflows/Process Idea Batches|Process Idea Batches]]
 - Queue batch: [[Skills Library/Infrastructure & Tools/capture-routing-batch|Capture Routing Batch]]

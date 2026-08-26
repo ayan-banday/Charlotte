@@ -10,12 +10,12 @@ The git-backed markdown repository (`Charlotte`). Canonical storage for skills, 
 _Avoid_: database, second brain (as product name)
 
 **Capture Queue**:
-Raw inbound thoughts before routing. Telegram is primary. Items land here first; nothing is filed until the evening batch proposes destinations.
+Raw inbound thoughts before routing. Telegram is primary. The 17:30 Asia/Kolkata GitHub batch imports unseen messages into that day's routing-proposal JSON; nothing is filed until the evening batch proposes destinations.
 
 _Avoid_: inbox, dispatch (as permanent home)
 
 **Routing Batch**:
-The ~6pm job that classifies Capture Queue items, proposes routes and calendar events, and waits for human approval. Nothing auto-commits.
+The 17:30 Asia/Kolkata GitHub job that classifies Capture Queue items, proposes routes and calendar events, and waits for human approval. Nothing auto-commits.
 
 _Avoid_: sync, auto-route
 
