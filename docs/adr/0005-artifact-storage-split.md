@@ -1,5 +1,7 @@
-# Work artifacts: Drive for team, project folders for personal
+# Black Hole for routed build output; Drive for team share
 
-Build outputs (PPTX, PDF, slide PNGs) must not land in vault root `output/` or unscoped `tmp/`. Team projects: Google Drive. Personal: `02 Projects/<Project>/_work/` or Drive link noted in project intro.
+Agent and Manus AI build outputs (PPTX, PDF, slide PNGs, deck scratch) route to **`Black Hole/`** at vault root — one named sink, not root `output/` or unscoped `tmp/`. Gitignore or periodic cleanup inside Black Hole is fine; the rule is *route here*, not *forbid output*.
 
-Vault `assets/` holds reference images tied to canonical docs (e.g. G9 brief figures). Gitignore `output/`, `tmp/`, `_codex_tmp/`, and all `node_modules/`.
+Finished deliverables promote out of Black Hole to: project markdown folders, `assets/<project>/` for canonical figures, or Google Drive for team-shared files. Link from project intro when on Drive.
+
+Delete legacy `output/`, `tmp/`, `_codex_tmp/` after migration into Black Hole or final homes.

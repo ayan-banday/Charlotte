@@ -48,7 +48,7 @@ A four-layer system:
 10. As Ash, I want to work in Cursor/Claude Code/Codex with Charlotte, so that copy, decks, and newsletters run end-to-end in IDE.
 11. As Ash, I want Charlotte to query Graphify before reading files, so that token use stays low.
 12. As Ash, I want team deliverables on Google Drive, so that teammates aren't in my git vault.
-13. As Ash, I want personal build artifacts in project `_work/` or Drive, never root `output/`, so that the vault stays clean.
+13. As Ash, I want agent build output routed to **Black Hole/** (Manus AI + IDE builds), so that entropy has one sink instead of scattered folders.
 14. As Ash, I want weekly reflection only in week files via IDE, so that daily notes plugin is not part of the capture loop.
 15. As Ash, I want Graphify corpus v1 curated (Projects, Skills, Workflows, System, Context), so that graph builds fast and stays clean.
 16. As Ash, I want file adds to update indexes automatically, so that I don't manually sync registry/index.
@@ -82,6 +82,11 @@ A four-layer system:
 │ source of   │  │ agent navigation     │
 │ truth       │  │ curated corpus v1    │
 └─────────────┘  └──────────────────────┘
+     │
+     ▼
+┌─────────────┐
+│ Black Hole/ │  ← routed agent + Manus build output (gitignored contents)
+└─────────────┘
              │
              ▼
 ┌──────────────────────────────────────────────────────────────┐
@@ -104,13 +109,74 @@ A four-layer system:
 
 ---
 
+## Workflow execution (newsletter, copy, webinar, builds)
+
+**Principle:** Obsidian = *what to work on*. IDE + Charlotte = *how to do the work*. Graphify = *which files to read* (not the whole vault).
+
+### Three layers for any work session
+
+| Layer | Where | What happens |
+|---|---|---|
+| **Orient** | Obsidian Command Center + Google Calendar | See active projects, Gantt, this week's events (each event = deliverable + time block) |
+| **Discover** | IDE — one sentence | Charlotte queries Graphify → workflow + skills + project intro (3–8 files max) |
+| **Execute** | IDE — workflow steps | Run skills in order; saves to project markdown; raw builds → `Black Hole/` |
+
+### How Charlotte picks a workflow
+
+1. **Trigger phrase** — `CLAUDE.md` triggers: `write a newsletter`, `clear up the dispatch`, etc.
+2. **Graphify query** — "newsletter workflow Ash voice" → `Write a Newsletter.md` + skill chain
+3. **Project intro** — `02 Projects/<Project>/00 Introduction…` lists phases → workflows per phase ([[Claude Workflow Discovery Pattern]])
+4. **Calendar event title** — event "Newsletter draft" → Charlotte loads newsletter workflow (title → intent map in router config)
+
+### Workflow map (existing vault)
+
+| You want to… | Say / GCal event | Workflow file | Skill chain (examples) |
+|---|---|---|---|
+| Write newsletter | `write a newsletter` | `Workflows/Write a Newsletter.md` | `newsletter-writing-system` → `content-hook-research` → `ash-newsletter-voice` → `text-humanizer` → `newsletter-image-generator` |
+| Email campaign | `build an email campaign` | `Workflows/Build an Email Campaign.md` | `email-campaign-writer`, `email-sequence`, `direct-response-copy` |
+| Webinar | `help with the webinar` | `Workflows/Launch a Webinar Funnel.md` | `webinar-planning` → hook → intro → value → transition → close |
+| Welcome sequence | design welcome sequence | `Workflows/Design a Welcome Sequence.md` | `email-sequence`, `jani-voice` (if client) |
+| Poster / ad copy | "write copy for [X]" | Skill direct (no full workflow) | `direct-response-copy`, `short-form-content`, or client `jani-voice` |
+| Deck / presentation | Manus AI or "build deck" | Manus handoff | Output → `Black Hole/` → you promote to Drive or project |
+| Capture routing | evening / `process captures` | `Workflows/Process Idea Batches.md` (session) + evening batch (automated) | router + approval |
+| Weekly reflection | `weekly reflection` | `Context/Reflection Protocol.md` | week file → Patterns.md |
+
+### Token budget per session (target)
+
+| Always load | ~tokens |
+|---|---|
+| `SOUL.md` + `MEMORY.md` | ~2k |
+| One workflow file | ~1–3k |
+| 2–5 skill files (workflow declares them) | ~5–15k |
+| Project intro + brain dump (if needed) | ~2–8k |
+| Graphify query result (paths only) | ~500 |
+| **Do not load** | File Structure Registry, all intros, Skills Index, Void |
+
+### Black Hole routing
+
+| Output type | First landing | After you're happy |
+|---|---|---|
+| Manus AI deck/PDF/exports | `Black Hole/<date>-<slug>/` | Drive (team) or `02 Projects/<Project>/` + link in intro |
+| IDE-generated PPTX/PDF scratch | `Black Hole/` | Same, or delete |
+| Newsletter draft (final) | `02 Projects/Newsletter…/Draft…md` | not Black Hole |
+| Newsletter banner image | `assets/` or project folder | not Black Hole |
+| Canonical doc figures | `assets/<project>/` | never Black Hole |
+
+Evening batch may **propose** promoting a Black Hole folder to Drive/project; you approve like any other proposal.
+
+### User journey diagrams
+
+See `docs/charlotte-user-journeys.md`.
+
+---
+
 ## Implementation Decisions
 
 ### Phase 1 — Vault hygiene (no new features)
 
-1. Delete `tmp/`, `_codex_tmp/` (427MB+ node_modules scratch).
-2. Gitignore: `output/`, `tmp/`, `_codex_tmp/`, `**/node_modules/`, `.graphify/cache/` (optional keep graph.json).
-3. Migrate `output/` Udyaan decks to Google Drive or `02 Projects/Udyaan/_work/`; delete duplicates (3 playable-layer variants).
+1. Create `Black Hole/` at vault root with `00 Introduction to Black Hole.md` (routing rules for Manus + agents).
+2. Migrate `output/` + `tmp/` + `_codex_tmp/` into `Black Hole/_legacy-migrate/` or Drive; then delete originals.
+3. Gitignore: `Black Hole/**` (keep intro committed), `output/`, `tmp/`, `_codex_tmp/`, `**/node_modules/`, `.graphify/cache/`.
 4. Route `Void.md` (494 lines) through one manual review session → brain dumps / archive; retire Void as capture surface.
 5. Activate `00 Inbox/capture-queue.md` or `capture_queue.jsonl` as single staging (not Dispatch + Void).
 6. Fix 20 broken workflow wikilinks (alias → lowercase-hyphenated skill names).
@@ -189,8 +255,8 @@ Ash wires API keys via Codex/Cursor connectors. Skills document invocation only.
 
 | Path | Destination |
 |---|---|
-| `output/udyaan-playable-layer*` | Google Drive Udyaan folder OR `02 Projects/Udyaan/_work/decks/` |
-| `output/pdf/*.pdf` | Drive or Udyaan `_work/` |
+| `output/udyaan-playable-layer*` | `Black Hole/_legacy/` then Drive or project |
+| `output/pdf/*.pdf` | `Black Hole/_legacy/` then Drive |
 | `05 Notes and Ideas/Random Ideas/Void.md` | Route bullets → brain dumps; archive file |
 
 ### KEEP (core vault)
@@ -207,7 +273,7 @@ Ash wires API keys via Codex/Cursor connectors. Skills document invocation only.
 | `00 Self-Management/` | 22 | Weeks, goals, patterns |
 | `assets/` | 9 imgs, 16MB | Canonical doc figures (G9, Udyaan course) |
 | `.agents/skills/` | 37 | Matt Pocock agent skills |
-| `CONTEXT.md`, `docs/adr/` | new | Domain model |
+| `Black Hole/` | routed sink | Manus + agent builds (contents gitignored) |
 
 ### PARK / ARCHIVE
 
@@ -220,6 +286,8 @@ Ash wires API keys via Codex/Cursor connectors. Skills document invocation only.
 ### GITIGNORE additions
 
 ```
+Black Hole/**
+!Black Hole/00 Introduction to Black Hole.md
 output/
 tmp/
 _codex_tmp/

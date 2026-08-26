@@ -39,10 +39,15 @@ The curated subset of vault folders indexed by Graphify for agent navigation. Ag
 
 _Avoid_: manifest, registry (for machine index)
 
-**Work Artifact**:
-Deliverable files (decks, PDFs, exports) tied to a project. Team-shared artifacts live on Google Drive. Personal drafts may live in project `_work/` or Drive — never vault root `output/`.
+**Black Hole**:
+The single routed sink for agent build output (decks, PDFs, exports, scratch). Manus AI and IDE agents write here; the evening batch or manual tidy moves finished pieces to project folders, Drive, or delete. One entropy bucket, not scattered `output/` / `tmp/`.
 
-_Avoid_: output, tmp, build folder
+_Avoid_: output, tmp, dump folder
+
+**Work Artifact**:
+A finished deliverable tied to a project. Lives in `02 Projects/<Project>/`, Google Drive (team), or `assets/` (canonical figures). Raw builds land in Black Hole first; promotion out is explicit.
+
+_Avoid_: build folder (unscoped)
 
 **Skill**:
 A reusable agent instruction file. Vault skills live in `Skills Library/`. Agent slash-command skills live in `.agents/skills/`. Do not duplicate bodies across both.
