@@ -21,7 +21,7 @@ flowchart TB
 
     subgraph orient["Orient — Obsidian + Calendar"]
         CC[Command Center note]
-        Gantt[Task Gantt / week view]
+        Gantt[Smart Gantt / week view]
         GCal[Google Calendar events]
     end
 

@@ -15,7 +15,7 @@ Ash's Charlotte vault rebuild. **Read this file first**, then the linked docs. B
 An agent-operated knowledge vault where:
 
 - **Telegram** captures thoughts while walking
-- **Obsidian** shows projects, Gantt, calendar (Task Gantt plugin + Google Calendar)
+- **Obsidian** shows projects, Gantt, calendar (Smart Gantt plugin + Google Calendar)
 - **IDE** (Cursor / Claude Code / Codex) runs workflows (newsletter, copy, webinar, builds)
 - **Graphify** + **`vault-index.json`** let agents find files without reading the whole vault (low tokens)
 - **Git commit** triggers index + graph refresh (sync point)
@@ -103,8 +103,8 @@ Repo already contains `.agents/skills/` (37 skills). Fresh clone may reinstall v
 
 Community plugins to install manually in Obsidian:
 
-1. **Task Gantt** — Gantt + optional Google Calendar two-way sync
-2. Optional: **Gantt Calendar** if week view insufficient
+1. **Smart Gantt** — Ash's plugin. Gantt from dated tasks in notes; drag to reschedule.
+2. Google Calendar remains the commitment store (events, not a task DB).
 
 Create `00 Command Center.md` at vault root (dashboard: Gantt embed, project links).
 

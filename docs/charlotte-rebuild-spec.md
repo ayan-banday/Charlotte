@@ -208,8 +208,8 @@ See `docs/charlotte-user-journeys.md`.
 ### Phase 4 — Obsidian workspace
 
 1. Install community plugins (max 2–3):
-   - **Task Gantt** — Gantt + optional Google Calendar two-way sync; one markdown file per commitment event OR gcal-only mode.
-   - **Optional:** Gantt Calendar OR Smart Gantt if Task Gantt insufficient for week view.
+   - **Smart Gantt** (Ash's choice) — Gantt from dated tasks in notes; drag bars to reschedule; embed `gantt` blocks. Primary Obsidian timeline view.
+   - Optional: Google Calendar remains the commitment store; dated events/tasks in vault notes feed Smart Gantt.
 2. Create dashboard note: `00 Command Center.md` with embedded Gantt, links to active projects, week calendar embed.
 3. Commit `.obsidian/community-plugins.json` + plugin configs to git (unlike workspace.json).
 4. Obsidian URI scheme documented on project intro notes for quick open.
@@ -218,7 +218,7 @@ See `docs/charlotte-user-journeys.md`.
 ### Phase 5 — Commitments as calendar events
 
 1. Approved proposals that are deliverables → create Google Calendar event (title, start/end, description = deliverables).
-2. Optional: markdown mirror in `02 Projects/<Project>/_commitments/` with `gcal: true` frontmatter for Task Gantt sync.
+2. Optional: markdown mirror of dated tasks in project notes so Smart Gantt can render them. Calendar events stay in Google Calendar.
 3. No Notion tasks DB. No Obsidian Tasks plugin required for v1.
 
 ### Phase 6 — Connector skill stubs
