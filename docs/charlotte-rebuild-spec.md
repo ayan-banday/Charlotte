@@ -233,11 +233,27 @@ Create thin skills in `Skills Library/Infrastructure & Tools/`:
 
 Ash wires API keys via Codex/Cursor connectors. Skills document invocation only.
 
-### Phase 7 — Auto-index on file change
+### Phase 7 — Auto-index on git commit (sync layer)
 
-1. File watcher or git hook: on add/rename/delete under operational folders → update `Projects Index.md` / `Skills Index.md` rows (or lightweight `vault-index.json` for router).
-2. Trigger Graphify `--update` on same hook (incremental).
-3. Enforce naming: new skill → lowercase-hyphenated; new project → template folder; reject or flag violations in log.
+**There is no watcher app.** Sync runs when Ash commits (and optionally 17:30 before 6pm batch).
+
+1. `git config core.hooksPath .githooks` → `post-commit` runs `scripts/charlotte-sync.sh`
+2. `scripts/charlotte_index.py` (Manus builds):
+   - Scan `02 Projects/*/` → intro path, brain dump path, parse `## Key Workflows` wikilinks
+   - Scan `Workflows/*.md` → trigger phrases
+   - Scan `Skills Library/**/*.md` → name + path only
+   - Write `vault-index.json` (schema: `docs/vault-index.example.json`)
+3. Mirror one row into `02 Projects/Projects Index.md` if project added (script or skill)
+4. `graphify --update` on corpus v1 (incremental)
+5. **Acceptance:** new project + commit → next agent reads index entry without Registry
+
+Optional: Windows Task Scheduler 17:30 → `scripts/run-charlotte-sync.cmd`
+
+### Phase 3b — project-creator rewrite (done in spec branch)
+
+- Template: intro + `01 Brain Dump for [Project].md` only
+- Skill: `Skills Library/Infrastructure & Tools/project-creator.md`
+- Ash: "new project" in IDE → interview → folder → **commit** → synced
 
 ---
 
@@ -349,7 +365,9 @@ capture_queue.jsonl
 
 ## References
 
+- `docs/manus-handoff.md` — **give this to Manus first**
 - `CONTEXT.md` — glossary
-- `docs/adr/0001`–`0005` — locked decisions
+- `docs/adr/0001`–`0006` — locked decisions
+- `docs/vault-index.example.json` — index schema
 - `CLAUDE.md` — Charlotte constitution (update pointers only in v1)
-- `.agents/skills/grill-with-docs/`, `wayfinder/`, `to-spec/`, `implement/`
+- `.agents/skills/` — Matt Pocock pack

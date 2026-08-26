@@ -1,83 +1,77 @@
 ---
-name: new-project
-description: Creates a new project in the workspace with a pre-filled project overview. Trigger this skill whenever the user says "new project", "start a project", "create a project", "I want to work on something new", "add a project", or anything that signals they want to kick off a new project. Always interview the user before creating any files.
+name: project-creator
+description: Create a new vault project from the standard template (intro + brain dump). Trigger on "new project", "start a project", "create a project", "build me a project", or "I want to work on something new". Always interview before creating files. After creation, tell Ash to commit — git commit runs the sync hook (vault-index + Graphify).
 ---
 
-# New Project
+# Project Creator
 
-This skill interviews the user about a new project, creates a folder and project overview, and registers the project in CLAUDE.md so Claude knows about it in future sessions.
-
-## Step 1 — Interview the user
-
-Before creating anything, ask these questions in a single conversational message. Don't make it feel like a form — keep it natural:
-
-1. **Name** — What's the project called?
-2. **Goal** — What is this project trying to accomplish? (one sentence is fine)
-3. **Why** — Why does this project matter to you? What's the real reason you're doing it?
-4. **Tangible Outcomes** — What does "done" look like? What will exist when this project is successful?
-5. **Open Problems** — Do you already know the main problems you'll need to solve? (totally fine if they don't know yet)
-
-Wait for their answers before doing anything else.
-
-## Step 2 — Create the project folder and overview
-
-Once you have their answers, create:
+Creates `02 Projects/<Name>/` with **Option A** structure only:
 
 ```
 02 Projects/<Project Name>/
-└── <Project Name> Overview.md
+├── 00 Introduction to <Project Name>.md
+└── 01 Brain Dump for <Project Name>.md
 ```
 
-The overview file is the most important file in any project — it's what Claude reads first every time the project comes up.
+No Overview file. No CLAUDE.md edits (token bloat). Registration happens on **git commit** via `scripts/charlotte-sync.sh` → `vault-index.json`.
 
-Use this exact template:
+Template source: `02 Projects/[Template] Project Name/`
 
-```markdown
----
-type: problems
-date: YYYY-MM-DD
-project: <Project Name>
 ---
 
-## Goal
-<their goal answer>
+## Step 1 — Interview
 
-## Why
-<their why answer>
+Ask in one message (conversational, not a form):
 
-## Tangible Outcomes
-- <outcome 1>
-- <outcome 2>
-- <outcome 3>
+1. **Name** — project name?
+2. **Goal** — one sentence outcome
+3. **Why** — why it matters now
+4. **Done looks like** — tangible outcomes (2–3 bullets)
+5. **Workflows** — which workflows will power this? (newsletter, webinar, copy, custom build, etc.)
+6. **Open problems** — known blockers, or "we'll discover"
 
-## Open Problems
-<if they gave problems, list them numbered: 1. Problem one>
-<if they didn't, write: 1. (to be defined — we'll figure these out as we go)>
-```
+Wait for answers.
 
-## Step 3 — Update CLAUDE.md
+---
 
-This step is critical — if you don't do this, the good-morning skill and future sessions won't know this project exists.
+## Step 2 — Create folder from template
 
-Open the `CLAUDE.md` file in the workspace root. Find the `## Active Projects` section. If it still has the placeholder text ("No projects yet"), replace it. Otherwise, add the new project after the existing ones.
+1. Copy structure from `[Template] Project Name/`:
+   - Rename `00 Introduction to [Template] Project Name.md` → `00 Introduction to <Project Name>.md`
+   - Rename `01 Brain Dump for [Project Name].md` → `01 Brain Dump for <Project Name>.md`
+2. Fill intro from interview: goal, why, success, phase = Discovery, **Key Workflows** section with exact wikilinks to `Workflows/*.md` files
+3. Fill brain dump header only; leave sections sparse
+4. Add more `[C]` files later as needed — not at creation
 
-Add this block:
+**Do not** create Overview.md.
 
-```markdown
-### <Project Name>
-**Goal:** <their goal>
-**Why:** <their why>
-**Key file:** `<Project Name> Overview.md`
-**Open problems:** <brief list or "to be defined">
-```
+---
 
-Also update the `## Folder Structure` section to include the new project folder under `02 Projects/`.
+## Step 3 — Register (human index only)
 
-## Step 4 — Confirm and offer to dive in
+Add one row to `02 Projects/Projects Index.md` table (status, purpose, date).
 
-Tell the user:
-- The project folder and overview are created
-- CLAUDE.md has been updated so Claude will remember this project
-- Ask: "Want to dive into one of the open problems right now, or save it for later?"
+**Do not** edit `CLAUDE.md` or `File Structure Registry.md` manually — commit hook + `sync claude.md` trigger refresh those.
 
-Keep it short — they're ready to work.
+---
+
+## Step 4 — Commit reminder (critical)
+
+Tell Ash:
+
+> Project folder is ready. **Commit and push** when you're happy — that's what updates `vault-index.json` and Graphify so the next agent session knows this project exists.
+
+Offer: dive into an open problem now, or add a Google Calendar event for first work block.
+
+---
+
+## Token rule for future sessions
+
+When this project comes up, Charlotte reads:
+
+1. `vault-index.json` entry (path + workflows) — ~200 bytes
+2. Project intro — ~2k
+3. Brain dump if mining ideas — optional
+4. Workflow file + declared skills only
+
+Never load full Projects Index or File Structure Registry for one project.

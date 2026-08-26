@@ -1,6 +1,6 @@
 ---
 date created: 2026-04-29
-date updated: 2026-04-29
+date updated: 2026-08-26 — Option A: intro + brain dump only; Overview removed
 ---
 
 # [Project Name] — Project Introduction
@@ -11,9 +11,9 @@ date updated: 2026-04-29
 
 ## Why This Project Exists
 
-**Connected to RGS:** [Which quarterly goal does this serve? Link to [[Q2 Goals]] or relevant period]
+**Connected to RGS:** [Which quarterly goal? Link to `[[C] RGS.md]]` or relevant period]
 
-**Problem it solves:** [What specific business/life problem?]
+**Problem it solves:** [Specific problem]
 
 **Success looks like:** [Concrete definition of done]
 
@@ -23,17 +23,11 @@ date updated: 2026-04-29
 
 **Phase:** [Discovery / Planning / Execution / Validation / Done]
 
-**What's been done:**
-- [Completed milestone 1]
-- [Completed milestone 2]
-
 **What's in progress:**
 - [Current work]
-- [What we're testing]
 
 **What's blocked:**
-- [Blocker 1: why it's stuck]
-- [Blocker 2: why it's stuck]
+- [Blocker or "none"]
 
 **Next milestone:** [What comes after current work]
 
@@ -41,26 +35,24 @@ date updated: 2026-04-29
 
 ## How This Folder Works
 
-- **00 Introduction.md** — This file. Project orientation.
-- **[C] [Project Name] Brain Dump.md** — Unstructured thinking space. Raw notes and questions.
-- **[C] [Project Name] Overview.md** — Organized view with tasks and workflow references.
-- **Assets folder** — Project-specific content (copy, designs, research, etc.)
+- **00 Introduction** — This file. Status, workflows, metrics. Charlotte reads this first.
+- **01 Brain Dump for [Project Name].md** — Raw capture, ideas, blockers. Evening batch may append here.
 
-**When Claude reads this project:**
-1. Starts here (intro) to understand context
-2. Checks Brain Dump for current blockers
-3. Uses Overview for task tracking
-4. References [[Workflow Name]] for systems that power this project
+Add `[C]` canonical docs and `assets/` as the project grows. Finished builds start in `Black Hole/` until promoted.
+
+**When Charlotte reads this project:**
+1. Starts here for context and phase
+2. Checks brain dump for raw ideas and blockers
+3. Loads workflows listed below (not the whole Skills Library)
 
 ---
 
 ## Key Workflows
 
-This project uses:
-- [[Workflow Name 1]] — Why it's used here
-- [[Workflow Name 2]] — Why it's used here
+List every workflow this project uses. **Required.** Sync hook parses these links into `vault-index.json`.
 
-See [[Workflows]] folder for full system documentation.
+- [[Write a Newsletter]] — when this project publishes
+- [[Workflow Name]] — why it's used here
 
 ---
 
@@ -69,19 +61,17 @@ See [[Workflows]] folder for full system documentation.
 | Metric | Target | Current | Status |
 |---|---|---|---|
 | [Metric 1] | [Target] | [Current] | On track / Behind / Ahead |
-| [Metric 2] | [Target] | [Current] | On track / Behind / Ahead |
 
 ---
 
 ## Team / Context
 
-**Owner:** [Who owns this project?]
-**Collaborators:** [Who else is involved?]
-**External dependencies:** [Other projects, teams, or stakeholders]
+**Owner:** Ash  
+**Collaborators:** [names]  
+**Shared files:** [Google Drive link if team project]
 
 ---
 
 ## Last Updated
 
-[Most recent update + what changed]
-
+[Date + what changed]

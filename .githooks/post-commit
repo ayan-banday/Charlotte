@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Runs after every git commit. Syncs vault-index + Graphify for next agent session.
+exec "$(dirname "$0")/../scripts/charlotte-sync.sh"

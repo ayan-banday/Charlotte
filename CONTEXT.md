@@ -39,6 +39,11 @@ The curated subset of vault folders indexed by Graphify for agent navigation. Ag
 
 _Avoid_: manifest, registry (for machine index)
 
+**Vault Index**:
+Machine-readable `vault-index.json` at repo root. Lists projects (paths, workflows, brain dumps), workflow triggers, skill paths. Rebuilt on every git commit. Agents read this instead of File Structure Registry.
+
+_Avoid_: scanning all markdown folders each session
+
 **Black Hole**:
 The single routed sink for agent build output (decks, PDFs, exports, scratch). Manus AI and IDE agents write here; the evening batch or manual tidy moves finished pieces to project folders, Drive, or delete. One entropy bucket, not scattered `output/` / `tmp/`.
 

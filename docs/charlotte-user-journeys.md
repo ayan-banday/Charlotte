@@ -118,15 +118,17 @@ flowchart TD
 
 ## What you touch vs what runs itself
 
-| You do | System does |
+| You do | System does on **git commit** |
 |---|---|
+| `git commit` / push | **Sync hook** → `vault-index.json` + Graphify `--update` |
 | Telegram while walking | Append Capture Queue |
 | Open Obsidian morning | Show projects + timeline + calendar |
-| Say what to work on in IDE | Graphify → workflow → skills (low tokens) |
+| Say what to work on in IDE | Read vault-index slice + Graphify + workflow only |
+| `new project` in IDE | Template folder; sync after you commit |
 | Approve 6pm proposals | Route captures, optional GCal events |
-| "reflect for today, I took a walk" | Same proposals + reflection prompt |
 | Promote Black Hole → Drive/project | Manual or approve evening proposal |
-| `weekly reflection` weekly | Patterns.md update |
+
+**No watcher app.** Commit is the sync point. Optional 17:30 scheduled sync before 6pm batch.
 
 | System never does without approval |
 |---|

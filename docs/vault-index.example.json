@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "updated_at": "2026-08-26T00:00:00Z",
+  "sync_source": "git-commit",
+  "projects": [
+    {
+      "name": "Udyaan",
+      "status": "active",
+      "folder": "02 Projects/Udyaan",
+      "intro": "02 Projects/Udyaan/00 Introduction to Udyaan.md",
+      "brain_dump": "02 Projects/Udyaan/01 Brain Dump for Udyaan.md",
+      "workflows": [],
+      "gcal_keywords": ["udyaan", "packaging", "g9"]
+    },
+    {
+      "name": "Newsletter Becoming the Person Your Goals Belong To",
+      "status": "active",
+      "folder": "02 Projects/Newsletter Becoming the Person Your Goals Belong To",
+      "intro": "02 Projects/Newsletter Becoming the Person Your Goals Belong To/00 Introduction to Newsletter Becoming the Person Your Goals Belong To.md",
+      "brain_dump": "02 Projects/Newsletter Becoming the Person Your Goals Belong To/01 Brain Dump for Newsletter Becoming the Person Your Goals Belong To.md",
+      "workflows": ["Write a Newsletter"],
+      "gcal_keywords": ["newsletter"]
+    }
+  ],
+  "workflows": [
+    {
+      "name": "Write a Newsletter",
+      "path": "Workflows/Write a Newsletter.md",
+      "triggers": ["write a newsletter", "this week's issue"]
+    },
+    {
+      "name": "Launch a Webinar Funnel",
+      "path": "Workflows/Launch a Webinar Funnel.md",
+      "triggers": ["webinar funnel", "help with the webinar"]
+    }
+  ],
+  "triggers": {
+    "write a newsletter": "Workflows/Write a Newsletter.md",
+    "new project": "Skills Library/Infrastructure & Tools/project-creator.md",
+    "reflect for today": "Context/Daily Reflection Rule.md",
+    "weekly reflection": "Context/Reflection Protocol.md"
+  }
+}
