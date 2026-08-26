@@ -1,6 +1,6 @@
 ---
 date created: 2026-04-29
-date updated: 2026-05-01 (upgraded to English skill names and verified links)
+date updated: 2026-08-17 — Repaired links to current campaign skills.
 ---
 
 # Build an Email Campaign
@@ -25,7 +25,7 @@ Before starting, you need:
 
 ## Workflow Steps
 
-### Step 1: Campaign Strategy — [[campaign-strategy]]
+### Step 1: Campaign Strategy — [[Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/campaign-strategy|campaign-strategy]]
 
 Define the entire campaign architecture before writing a single email.
 
@@ -50,7 +50,7 @@ Define the entire campaign architecture before writing a single email.
 
 ---
 
-### Step 2: Content Mining — [[content-mining]]
+### Step 2: Content Mining — [[Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/content-mining|content-mining]]
 
 Extract the raw material you'll use in emails: stories, data, mechanisms, proof.
 
@@ -74,7 +74,7 @@ Extract the raw material you'll use in emails: stories, data, mechanisms, proof.
 
 ---
 
-### Step 3: Email Brief Planner — [[email-brief]]
+### Step 3: Email Brief Planner — [[Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/email-brief|email-brief]]
 
 Outline each email before writing full copy.
 
@@ -99,7 +99,7 @@ Outline each email before writing full copy.
 
 ---
 
-### Step 4: Email Writer — [[email-writer]]
+### Step 4: Email Writer — [[Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/email-writer|email-writer]]
 
 Write the full copy for each email, one at a time.
 
@@ -180,4 +180,3 @@ Minimum viable sequence: 5 emails (Credibility → Problem → Story → Mechani
 - You're rebuilding a low-converting email campaign
 - You want to test an offer with email before bigger marketing
 - You're building a nurture/education sequence that eventually converts
-

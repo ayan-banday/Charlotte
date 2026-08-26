@@ -1,13 +1,13 @@
 ---
 date created: 2026-05-02
-date updated: 2026-08-13 — Renamed Udyaan project; provisional label removed.
+date updated: 2026-08-17 — Added Graphify vault knowledge-graph operating plan.
 ---
 
 # File Structure Registry
 
 Master map of all folders and systems. Use this instead of searching to navigate quickly.
 
-Last updated: 2026-08-13 — Udyaan: Developmental Plan + G9 research + Packaging POA.
+Last updated: 2026-08-17 — Graphify plan added to Context.
 
 ---
 
@@ -117,6 +117,7 @@ portable, token-bounded. (Hermes/OpenClaw-style, adapted to markdown.)
 - Prompt Storage Rule.md
 - Reflection Protocol.md
 - Rule Recording Protocol.md
+- Graphify Vault Knowledge Graph Plan.md (scope, operating rules, refresh path, and value model for the vault graph)
 - /Goals/
   - RGS - Full details.md (expanded yearly/quarterly breakdown)
 

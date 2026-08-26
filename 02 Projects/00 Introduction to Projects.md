@@ -71,7 +71,7 @@ date updated: YYYY-MM-DD
 [Who's involved, dependencies, or context]
 ```
 
-**Important:** Always use [[Obsidian links]] when referencing files. Links must match EXACT file names that actually exist. Never link to folder names or files that don't exist. Example: Link to `[[00 Introduction to Webinar Funnel (Procrastination)]]` (the actual file), not `[[Webinar Funnel (Procrastination)]]` (the folder).
+**Important:** Always use Obsidian links when referencing files. Links must match EXACT file names that actually exist. Never link to folder names or files that don't exist. Example: Link to `[[00 Introduction to Webinar Funnel (Procrastination)]]` (the actual file), not `[[Webinar Funnel (Procrastination)]]` (the folder).
 
 ---
 

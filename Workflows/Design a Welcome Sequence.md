@@ -1,6 +1,6 @@
 ---
 date created: 2026-04-29
-date updated: 2026-04-29
+date updated: 2026-08-17 — Repaired links to current campaign skills.
 ---
 
 # Design a Welcome Sequence
@@ -25,7 +25,7 @@ date updated: 2026-04-29
 
 ## Workflow Steps
 
-### Step 1: Welcome Campaign Strategy — [[Campaign Strategy]]
+### Step 1: Welcome Campaign Strategy — [[Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/campaign-strategy|Campaign Strategy]]
 
 Define the welcome sequence's job before writing.
 
@@ -42,7 +42,7 @@ Define the welcome sequence's job before writing.
 
 ---
 
-### Step 2: Welcome Email Architecture — [[Welcome Sequence]]
+### Step 2: Welcome Email Architecture — [[Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/welcome-sequence|Welcome Sequence]]
 
 Outline the complete welcome sequence before writing.
 
@@ -79,7 +79,7 @@ Outline the complete welcome sequence before writing.
 
 ---
 
-### Step 3: Welcome Email Copy — [[Welcome Sequence]]
+### Step 3: Welcome Email Copy — [[Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/welcome-sequence|Welcome Sequence]]
 
 Write the actual email copy for each email.
 
@@ -163,4 +163,3 @@ The welcome sequence feeds directly into [[Build an Email Campaign]].
 **Handoff point:** Last email of welcome sequence transitions readers into the first email of your main sales campaign.
 
 **Timing:** Welcome sequence runs first (7-10 days), then main campaign takes over.
-

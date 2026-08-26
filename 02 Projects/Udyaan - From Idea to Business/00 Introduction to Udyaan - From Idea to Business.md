@@ -1,6 +1,6 @@
 ---
 date created: 2026-08-11
-date updated: 2026-08-11
+date updated: 2026-08-17 — Added playable course layer and animation-game concept capture
 ---
 
 # Udyaan - From Idea to Business
@@ -9,7 +9,7 @@ Practical entrepreneurship course for Udyaan students who need to become busines
 
 **Parent context:** Udyaan
 
-**Status:** Course architecture and visual blueprint proposal created; curriculum build not yet started.
+**Status:** Course architecture and visual blueprint proposal created; the Udyaan From Idea to Business course v0 product, operating, and technical schematics now define the first build. A playable animated game layer is captured as a staged product experiment around the practical learning loop.
 
 **Primary deliverable:** [[Udyaan From Idea to Business - Course Blueprint Proposal.pdf]]
 
@@ -62,6 +62,8 @@ The course does not promise that every idea will succeed. It promises that every
 
 - [[Udyaan From Idea to Business - Course Blueprint Proposal.pdf]]
 - [[01 Brain Dump for Udyaan - From Idea to Business]]
+- [[C] Udyaan From Idea to Business v0 Schematics]] — v0 scope, curriculum, game mechanics, architecture, team, resources, and delivery gates
+- [[Udyaan Playable Course Layer - Animation Game Concept]] — source capture for the animated map, missions, feedback loop, artifacts, and cross-department build
 
 ## Open Design Questions
 

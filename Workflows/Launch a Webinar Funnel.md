@@ -1,6 +1,6 @@
 ---
 date created: 2026-04-29
-date updated: 2026-04-29
+date updated: 2026-08-17 — Repaired links to current webinar skills.
 ---
 
 # Launch a Webinar Funnel
@@ -25,7 +25,7 @@ Before starting this workflow, you need:
 
 ## Workflow Steps
 
-### Step 1: Strategic Foundation — [[Strategy & Structure]]
+### Step 1: Strategic Foundation — [[Skills Library/Marketing/Webinar Architecture/webinar-planning|Strategy & Structure]]
 
 Define the entire webinar architecture before writing a single slide.
 
@@ -42,7 +42,7 @@ Define the entire webinar architecture before writing a single slide.
 
 ---
 
-### Step 2: Opening Hook — [[Opening Hook]]
+### Step 2: Opening Hook — [[Skills Library/Marketing/Webinar Architecture/webinar-hook|Opening Hook]]
 
 Write the first 5-15 minutes that decide if people stay or leave.
 
@@ -60,7 +60,7 @@ Write the first 5-15 minutes that decide if people stay or leave.
 
 ---
 
-### Step 3: Intro Builder — [[Intro Builder]]
+### Step 3: Intro Builder — [[Skills Library/Marketing/Webinar Architecture/webinar-intro|Intro Builder]]
 
 Build the full intro phase with all commitment devices in place.
 
@@ -77,7 +77,7 @@ Build the full intro phase with all commitment devices in place.
 
 ---
 
-### Step 4: Content Builder — [[Content Builder]]
+### Step 4: Content Builder — [[Skills Library/Marketing/Webinar Architecture/webinar-value|Content Builder]]
 
 Build the 3 teaching sections that destroy objections and build buying momentum.
 
@@ -95,7 +95,7 @@ Build the 3 teaching sections that destroy objections and build buying momentum.
 
 ---
 
-### Step 5: Transition Bridge — [[Transition Bridge]]
+### Step 5: Transition Bridge — [[Skills Library/Marketing/Webinar Architecture/webinar-transition|Transition Bridge]]
 
 Create the emotional and logical bridge from content to pitch.
 
@@ -110,7 +110,7 @@ Create the emotional and logical bridge from content to pitch.
 
 ---
 
-### Step 6: Pitch & Close — [[Pitch & Close]]
+### Step 6: Pitch & Close — [[Skills Library/Marketing/Webinar Architecture/webinar-close|Pitch & Close]]
 
 Present the offer, bonuses, price, and guarantee with full framework.
 
@@ -160,4 +160,3 @@ Present the offer, bonuses, price, and guarantee with full framework.
 - You have a new offer and need a webinar to launch it
 - You want to test an offer with a webinar before bigger marketing
 - Your current webinar conversion is low and needs rebuilding from scratch
-

@@ -1,6 +1,6 @@
 ---
 date created: 2026-08-03
-date updated: 2026-08-13 — Provisional project label removed; self-directed learning model adopted
+date updated: 2026-08-15 — Added launch-event webinar outline and dry-run brief
 ---
 
 # Udyaan
@@ -67,6 +67,8 @@ Farmers and agri-businesses lose 30–45% of produce value because fresh crops s
 - **[[C] Udyaan Developmental Plan]]** — Project Documentation Standard: problem, work breakdown, revenue, team, timeline, social impact, final deliverable.
 - **[[C] G9 Banana Research]]** — pilot crop research (done).
 - **[[C] Udyaan Packaging POA]]** — plan of action + requirements for creating packaging.
+- **[[C] Team Performance Framework]]** — proposed team objectives, daily pulse, weekly scorecards, and evidence logic.
+- **[[Udyaan Launch Event and Webinar Outline]]** — one-hour launch-event flow, four belief shifts, speaker ownership, and dry-run brief.
 
 ---
 

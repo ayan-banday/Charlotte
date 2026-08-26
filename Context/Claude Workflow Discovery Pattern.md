@@ -1,6 +1,6 @@
 ---
 date created: 2026-04-30
-date updated: 2026-05-02
+date updated: 2026-08-17 — Repaired workflow-skill reference.
 ---
 
 # Claude Workflow Discovery Pattern
@@ -43,7 +43,7 @@ When creating an active project file, structure it with:
 - List relevant workflows for each phase
 - List relevant skills for each phase
 - List relevant context files (brain dumps, prior work, etc.)
-- Example for webinar Phase 1: [[Build an Email Campaign]] workflow, [[Campaign Strategy]] skill, brain dump on procrastination objections
+- Example for webinar Phase 1: [[Build an Email Campaign]] workflow, [[Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/campaign-strategy|Campaign Strategy]] skill, brain dump on procrastination objections
 
 **3. Timeline and success metrics**
 - When does each phase happen?
@@ -72,7 +72,7 @@ When you sit down to work on an active project:
 - Layered: big picture first, detail on demand
 
 **4. User picks a starting point**
-- "Let's start with [[Campaign Strategy]]"
+- "Let's start with [[Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/campaign-strategy|Campaign Strategy]]"
 
 **5. Dive into execution**
 - Claude walks through that specific workflow/skill step-by-step
@@ -125,4 +125,3 @@ When upgrading the Claude co-work system, reference this file to:
 - Map workflows/skills to phases at project creation time
 - Create the session-level prompt that references the project structure
 - Build the "which phase today?" conversation pattern
-

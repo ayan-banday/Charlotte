@@ -1,6 +1,6 @@
 ---
 date created: 2026-04-29
-date updated: 2026-06-08 — Added Process The Que (Notion-sourced capture routing, daily scheduled).
+date updated: 2026-08-17 — Repaired links to current workflow skills.
 category: System/Capture Management.
 ---
 
@@ -29,14 +29,14 @@ Rules-based categorization. Organized by Core Capability → Domain → Problem 
 
 | Workflow | Problem | Steps | Status |
 |---|---|---|---|
-| [[Launch a Webinar Funnel]] | Build a complete webinar-based offer machine from strategy to close | 1. [[Strategy & Structure]] → 2. [[Opening Hook]] → 3. [[Intro Builder]] → 4. [[Content Builder]] → 5. [[Transition Bridge]] → 6. [[Pitch & Close]] | Active |
-| [[Build an Email Campaign]] | Create a complete email sequence from strategy through conversion | 1. [[campaign-strategy]] → 2. [[content-mining]] → 3. [[email-brief]] → 4. [[email-writer]] | Active |
+| [[Launch a Webinar Funnel]] | Build a complete webinar-based offer machine from strategy to close | 1. [[Skills Library/Marketing/Webinar Architecture/webinar-planning|Strategy & Structure]] → 2. [[Skills Library/Marketing/Webinar Architecture/webinar-hook|Opening Hook]] → 3. [[Skills Library/Marketing/Webinar Architecture/webinar-intro|Intro Builder]] → 4. [[Skills Library/Marketing/Webinar Architecture/webinar-value|Content Builder]] → 5. [[Skills Library/Marketing/Webinar Architecture/webinar-transition|Transition Bridge]] → 6. [[Skills Library/Marketing/Webinar Architecture/webinar-close|Pitch & Close]] | Active |
+| [[Build an Email Campaign]] | Create a complete email sequence from strategy through conversion | 1. [[Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/campaign-strategy|campaign-strategy]] → 2. [[Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/content-mining|content-mining]] → 3. [[Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/email-brief|email-brief]] → 4. [[Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/email-writer|email-writer]] | Active |
 
 ### Creating Content / Pre-Launch
 
 | Workflow | Problem | Steps | Status |
 |---|---|---|---|
-| [[Design a Welcome Sequence]] | Set up onboarding emails for new leads before main sales sequence | 1. [[Campaign Strategy]] → 2. [[Welcome Sequence]] | Active |
+| [[Design a Welcome Sequence]] | Set up onboarding emails for new leads before main sales sequence | 1. [[Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/campaign-strategy|Campaign Strategy]] → 2. [[Skills Library/Marketing/Sales & Conversion Copy/email-campaign-writer/welcome-sequence|Welcome Sequence]] | Active |
 | [[Write a Newsletter]] | Turn an idea into a finished newsletter in Ash's voice | 1. [[newsletter-writing-system]] mine → 2. [[content-hook-research]] → 3. draft (APAGA, voice-checked vs [[ash-newsletter-voice]]) → 4. [[text-humanizer]] → 5. [[newsletter-image-generator]] | Active |
 
 ### System / Capture Management

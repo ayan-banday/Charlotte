@@ -1,7 +1,6 @@
 ---
 date created: 2026-04-29
-date updated: 2026-06-07 — Rebuilt: brain-dump → weekly raw → durable Patterns.md. Killed the
-  month-folder / rigid-daily-template system. Reflection now plugs into the memory engine.
+date updated: 2026-08-18 — Added a first-principles finance study guide to support the applied BBA cycle.
 ---
 
 # Self-Management

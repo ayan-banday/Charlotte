@@ -1,3 +1,5 @@
+
+
 # BOOK-TO-TEXTBOOK GENERATOR PROMPT
 
 ---
@@ -95,7 +97,6 @@ OUTPUT FORMAT OPTIONS
 - Concept hierarchy (Foundation → Mastery)
 - Three-layer explanations (Theory + Psychology + Application)
 - Examples and case studies
-- Practice exercises
 - Common mistakes
 - Quick reference sections
 - Self-assessment questions
@@ -218,6 +219,7 @@ Never write more than 4 sentences of continuous prose without a bullet, label, s
 - Encouraging
 - Dense formatting over dense prose — structure carries the weight, not sentence length
 
+
 **RULE 8: SCANNABILITY**
 Every sentence must earn its place by doing one of these:
 1. Explain a concept
@@ -241,8 +243,6 @@ Each chapter must have:
 - Connections to other concepts
 
 **RULE 10: PROGRESSIVE DISCLOSURE**
-- Start parts with "what you'll learn"
-- End parts with "what you now understand"
 - Build complexity gradually
 - Don't introduce concepts before dependencies
 
