@@ -32,6 +32,7 @@ tmp/
 _codex_tmp/
 **/node_modules/
 .graphify/cache/
+graphify-out/
 capture_queue.jsonl
 
 # --- OS cruft ---

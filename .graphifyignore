@@ -1,0 +1,14 @@
+# Graphify's durable Charlotte-vault corpus.
+# The default is to exclude the vault; the allowlist below keeps navigation
+# material while leaving private scratch space and volatile output unindexed.
+/*
+!/02 Projects/
+!/02 Projects/**
+!/Skills Library/
+!/Skills Library/**
+!/Workflows/
+!/Workflows/**
+!/System/
+!/System/**
+!/Context/
+!/Context/**

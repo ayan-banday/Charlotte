@@ -1,6 +1,6 @@
 ---
 date created: 2026-04-29
-date updated: 2026-08-24 — Terminal Goal Setting Q3 close
+date updated: 2026-08-24
 ---
 
 # September 2026 Goals
@@ -9,7 +9,7 @@ date updated: 2026-08-24 — Terminal Goal Setting Q3 close
 
 ---
 
-## Priority 1: Deliver VC Presentation to University Professor by September 30
+- [ ] Priority 1: Deliver VC Presentation to University Professor by September 30
 
 **Timeline:** By September 30, 2026  
 **Expected outcome:** 15–20 minute presentation delivered live covering VC rounds, dilution, category ownership, and how billion-dollar companies get built — professor confirms you understand it.  
@@ -17,7 +17,7 @@ date updated: 2026-08-24 — Terminal Goal Setting Q3 close
 
 ---
 
-## Priority 2: Market Research Document Completed by September 30
+- [ ] Priority 2: Market Research Document Completed by September 30
 
 **Timeline:** By September 30, 2026  
 **Expected outcome:** Document covers problem statement, market size in dollars (sourced), 10 competitors, venture-scale verdict, wedge angle — reviewed by [Professor Name] by September 28.  
@@ -25,7 +25,7 @@ date updated: 2026-08-24 — Terminal Goal Setting Q3 close
 
 ---
 
-## Priority 3: Three Entrepreneur Conversations at One Startup Event by September 30
+- [ ] Priority 3: Three Entrepreneur Conversations at One Startup Event by September 30
 
 **Timeline:** By September 30, 2026  
 **Expected outcome:** One startup/VC event attended. Three conversations with entrepreneurs who have built or are building businesses — not students. Names, phone numbers, and three takeaways written down. You can follow up and ask them questions later.  
@@ -33,7 +33,7 @@ date updated: 2026-08-24 — Terminal Goal Setting Q3 close
 
 ---
 
-## Priority 4: Publish One Written Piece by September 30
+- [ ] Priority 4: Publish One Written Piece by September 30
 
 **Timeline:** By September 30, 2026  
 **Expected outcome:** Essay, newsletter, or long post live at a public URL.  
@@ -41,7 +41,7 @@ date updated: 2026-08-24 — Terminal Goal Setting Q3 close
 
 ---
 
-## Priority 5: Gym Twice Per Week Every Week in September
+- [ ] Priority 5: Gym Twice Per Week Every Week in September
 
 **Timeline:** All of September 2026  
 **Expected outcome:** Minimum eight gym sessions logged — two or more per week, no zero weeks.  
@@ -72,11 +72,11 @@ date updated: 2026-08-24 — Terminal Goal Setting Q3 close
 
 ## Operational
 
-- Book professor presentation — by September 5
-- Book startup event — by September 10
-- Book university studio for October video — by September 15
-- Kill list written and executed — by September 7
-- Core book stack (3 books) with one-page summaries — by September 30
+- [ ] Book professor presentation — by September 5
+- [ ] Book startup event — by September 10
+- [ ] Book university studio for October video — by September 15
+- [ ] Kill list written and executed — by September 7
+- [ ] Core book stack (3 books) with one-page summaries — by September 30
 
 ---
 

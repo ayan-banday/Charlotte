@@ -11,7 +11,7 @@ Read and follow [`CLAUDE.md`](./CLAUDE.md) first. It is the primary instruction 
 
 ## graphify
 
-This project has a knowledge graph at graphify-out/ with cross-file relationships and vault coverage metrics.
+This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
 
 When the user types `/graphify`, use the installed graphify skill or instructions before doing anything else.
 
@@ -24,15 +24,15 @@ Rules:
 
 ### Charlotte vault graph
 
-This is a markdown knowledge vault, not a codebase. Its authoritative local graph is rebuilt with `./scripts/build-vault-graph.ps1`, not `graphify update .`. The builder indexes only the durable-vault scope in `.graphifyignore` and sends no content externally. Use `graphify-out/graph.html` for interactive inspection and `graphify-out/GRAPH_REPORT.md` for the current measurable coverage.
+This is a markdown knowledge vault, not a codebase. Its authoritative local graph is rebuilt with `graphify extract .`, which respects the durable-vault scope in `.graphifyignore`. The generated graph lives in `graphify-out/`; use `graphify-out/graph.html` for interactive inspection and `graphify-out/GRAPH_REPORT.md` for the current measurable coverage.
 
-For a relationship between vault documents, use `graphify path "A" "B" --graph graphify-out/graph.json --undirected`; then open the returned source notes to verify the relationship. `references` and `mentions` are literal, extracted relationships, never semantic claims.
+For a relationship between vault documents, use `graphify path "A" "B" --graph graphify-out/graph.json`; then open the returned source notes to verify the relationship. `references` and `mentions` are literal, extracted relationships, never semantic claims.
 
 ### Default vault-answer protocol
 
 For any non-trivial question about a project, goal, plan, decision, person, or pattern in this vault:
 
-1. Rebuild with `./scripts/build-vault-graph.ps1` if the graph predates relevant edits.
+1. Rebuild with `graphify extract .` if the graph predates relevant edits.
 2. Run `graphify query "<topic>" --graph graphify-out/graph.json`, then use `path` for the claimed connection and `explain` for a focal note when useful.
 3. Open the primary note, direct linked notes, and the newer strategic note. Prefer newer source-of-truth documents when they conflict.
 4. Answer in four parts: what is real, what changed or conflicts, the current constraint, and the next decision.
