@@ -1,6 +1,6 @@
 ---
 date created: 2026-06-07
-date updated: 2026-06-07
+date updated: 2026-08-30 — Week 35 distil: RGS for tech literacy, proceduralize-before-breakfast, venture pivot
 loaded: NOT auto-loaded — Charlotte greps it on demand (like Recall.md). Ash is never asked.
 purpose: The durable personality profile. What Ash keeps doing — energy, regulation, work, drift.
   Recurrence is the test: repeats → pattern; once → Watching → dropped. Decay by judgment.
@@ -32,19 +32,18 @@ The personality profile Charlotte consults to decide with him. Tight lines, newe
 
 ## Work mechanics
 - Prep + execution in one block kills both; do light prep in the low-energy afternoon. [strong · W21]
-- 15-min big-picture pre-study beats building sourcebooks; sourcebooks waste morning focus. [strong · W21]
+- Proceduralizing the next task (actions + knowledge needed) breaks morning stalls after breakfast/YouTube drift. [strong · W35]
+- Venture/market work gated on tech-business literacy — RGS (incl. curated YouTube) is the chosen fill, not passive doc-writing. [noted · W35]
 - Understanding precedes tools: AI amplifies input quality, it doesn't replace first-principles. [noted · W21]
-- Newsletter flow that works: idea → brain-dump → collect through the week → one section/day → outline → write in one 2–3hr block. Attention section is the hardest; he procrastinates the polish (images/quotes). [strong · W21]
 
 ## Tendencies & drift
-- The recurring root blocker: no forcing function / no focus project → learning + RGS stagnate, cheap dopamine fills in. [strong · W23]
-- Anticipation problem: when the future (college, Bangalore) outshines the present, ADHD loses the interest signal and he can't work. [strong · W23]
-- Excitement spikes (Bangalore, new AI tools) tip into "can't work" rather than fuel. [noted · W23]
-- Direction settling: dropping the product-marketing agency → build his own audience + warm-lead 1:1 coaching; money via audience + connections (Craig). [noted · W23]
-- Bottleneck is distribution, not craft: writing is good enough, not enough eyeballs → needs marketing + lead magnets + Substack notes. [strong · W23]
+- Breakfast + YouTube/Shorts without a forcing function → "what do I do next?" stall; fix = prep work before food, eat without stimulation. [strong · W35]
+- No forcing function / empty schedule → cheap dopamine fills the gap (Shorts, nap after college). [strong · W23]
+- College return (~3pm) → tired, nap, no deep work; treat as unwind unless a block is pre-committed. [noted · W35]
+- Venture pivot Aug 2026: Udyaan dropped; wedge/hypothesis + VC literacy is the active track. [noted · W35]
 
 ## Watching
 *One-off candidates. One week grace; recur → graduate, else drop.*
-- Activity set too narrow (only work / read / YouTube / walk) — starves novelty. [W21]
-- Wants a partner he can pour into; reads as connection need, not sexual. [W21]
-- Restarted therapy; consistent money starting to land. [W23]
+- Gym as morning push-ups (vs afternoon slot) — experiment starting W35. [W35]
+- September written piece consciously deprioritized. [W35]
+- Jain E-Cell startup CEO meeting — likely, not locked. [W35]

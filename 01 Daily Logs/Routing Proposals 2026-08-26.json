@@ -18,7 +18,7 @@
         "received_at": "2026-08-26T11:29:29Z"
       },
       "approval_surface": "codex",
-      "status": "pending",
+      "status": "rejected",
       "calendar_status": "not_requested"
     },
     {
@@ -35,8 +35,9 @@
         "received_at": "2026-08-26T11:29:58Z"
       },
       "approval_surface": "codex",
-      "status": "pending",
-      "calendar_status": "not_requested"
+      "status": "approved",
+      "calendar_status": "not_requested",
+      "applied_destination": "00 Self-Management/Weeks/Week 35.md"
     }
   ]
 }

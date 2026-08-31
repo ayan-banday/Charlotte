@@ -18,7 +18,7 @@
         "received_at": "2026-08-27T01:36:58Z"
       },
       "approval_surface": "codex",
-      "status": "pending",
+      "status": "rejected",
       "calendar_status": "not_requested"
     },
     {
@@ -35,8 +35,9 @@
         "received_at": "2026-08-27T01:38:06Z"
       },
       "approval_surface": "codex",
-      "status": "pending",
-      "calendar_status": "not_requested"
+      "status": "approved",
+      "calendar_status": "not_requested",
+      "applied_destination": "00 Self-Management/Weeks/Week 35.md"
     },
     {
       "source_line": 3,
@@ -52,8 +53,9 @@
         "received_at": "2026-08-27T01:42:17Z"
       },
       "approval_surface": "codex",
-      "status": "pending",
-      "calendar_status": "not_requested"
+      "status": "approved",
+      "calendar_status": "not_requested",
+      "applied_destination": "00 Self-Management/Weeks/Week 35.md"
     },
     {
       "source_line": 4,
@@ -69,8 +71,9 @@
         "received_at": "2026-08-27T02:37:57Z"
       },
       "approval_surface": "codex",
-      "status": "pending",
-      "calendar_status": "not_requested"
+      "status": "approved",
+      "calendar_status": "not_requested",
+      "applied_destination": "00 Self-Management/Weeks/Week 35.md"
     },
     {
       "source_line": 5,
@@ -86,8 +89,9 @@
         "received_at": "2026-08-27T04:07:52Z"
       },
       "approval_surface": "codex",
-      "status": "pending",
-      "calendar_status": "not_requested"
+      "status": "approved",
+      "calendar_status": "not_requested",
+      "applied_destination": "00 Self-Management/Weeks/Week 35.md"
     },
     {
       "source_line": 6,
@@ -103,8 +107,9 @@
         "received_at": "2026-08-27T11:51:53Z"
       },
       "approval_surface": "codex",
-      "status": "pending",
-      "calendar_status": "not_requested"
+      "status": "approved",
+      "calendar_status": "not_requested",
+      "applied_destination": "00 Self-Management/Weeks/Week 35.md"
     }
   ]
 }
