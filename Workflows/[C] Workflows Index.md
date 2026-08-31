@@ -43,8 +43,8 @@ Rules-based categorization. Organized by Core Capability → Domain → Problem 
 
 | Workflow | Problem | Steps | Status |
 |---|---|---|---|
-| [[Process Idea Batches]] | Route captured ideas from Dispatch to their homes (projects, self-management, domains) | 1. Read batch → 2. Auto-route (self-management, newsletters) → 3. Suggest placement (everything else) → 4. User decides → 5. Clear file | Active |
-| [[Process the Que]] | Daily automated routing of Notion Que items to vault homes — zero-friction capture surface | 1. Query Status=New → 2. Auto-route (self-management, newsletters) → 3. Flag rest as Needs Ash → 4. Write log | Active — runs nightly at 21:00 |
+| [[Process Idea Batches]] | Normalize raw captures and prepare their Obsidian routes | 1. Normalize → 2. Compare context → 3. Preview routes → 4. Confirm → 5. Write + log | Active |
+| [[Process The Queue]] | Load the Notion Queue and route approved material into Obsidian | 1. Fetch Queue → 2. Normalize → 3. Compare week/project → 4. Preview → 5. Write + log | Active — runs on reflection or Queue-processing request |
 
 ---
 
@@ -61,4 +61,4 @@ When you say "Record the workflow," I:
 
 ---
 
-Last updated: 2026-06-08 (added Process The Que)
+Last updated: 2026-08-30 (rebuilt Queue workflows for Notion → Obsidian routing)

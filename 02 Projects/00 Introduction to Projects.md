@@ -1,6 +1,6 @@
 ---
 date created: 2026-04-29
-date updated: 2026-08-26 — Archived duplicate course and parked webinar funnel
+date updated: 2026-08-30 — Added Venture-Scale Opportunity as the active RGS project.
 ---
 
 # Projects Folder Map
@@ -94,6 +94,8 @@ When you ask for help with a project:
 - [[00 Introduction to Udyaan]] — Primary Q3/Q4 vehicle. Oyedesi buyer, G9 pilot. Developmental plan + Packaging POA + G9 research live.
 - [[00 Introduction to Deep Generalist for Jani]] — Turn Jani into a Deep Generalist. Objective 1: Med school encoding via Examiners Guide.
 - [[00 Introduction to Newsletter Becoming the Person Your Goals Belong To]] — Identity-first newsletter: become the person your goals belong to, not harder execution
+
+- [[00 Introduction to Venture-Scale Opportunity]] — Discovery project for a testable venture-scale software hypothesis and September market research.
 
 (Only active projects with existing introduction files are listed here. Archived projects live in `/03 Projects Archive/`.)
 

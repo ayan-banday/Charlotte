@@ -77,14 +77,13 @@ date updated: YYYY-MM-DD
 | "record this rule" | `/Context/Rule Recording Protocol.md` | Save rule to /Context/. Add trigger here. |
 | "store this prompt" | `/Context/Prompt Storage Rule.md` | Save prompt to /Skills Library/. Update indices. |
 | "sync claude.md" | `/Context/CLAUDE.md Update Protocol.md` | Scan state. Update File Structure Registry.md. Confirm. |
-| "reflect" / "daily reflect" / a day-dump | `/Context/Daily Reflection Rule.md` | Extract raw data points into `00 Self-Management/Weeks/Week [ISO].md`. Capture only, no promotion. |
+| "reflect" / "daily reflect" / "reflect for today" / a day-dump | `/Workflows/Process The Que.md` | Load the Notion Queue, compare the batch with the week and active project, show a routing preview, then write approved routes to Obsidian. |
 | "how's my week been" | `/Context/Reflection Protocol.md` | Read only the current week file. Play it back coherently. |
 | "weekly reflection" | `/Context/Reflection Protocol.md` | Playback → Ash reflects deeply → update `Patterns.md` (graduate/decay) + refresh `MEMORY.md ## Profile`. |
-| "clear up / process dispatch" | `/Workflows/Process Idea Batches.md` | Read Dispatch. Extract self-mgmt to week file. Auto-route newsletters. Suggest the rest. Clear file. |
-| "process the que" | `/Workflows/Process The Que.md` | Query Notion Que for Status=New. Auto-route self-management + newsletters. Flag the rest. Write log. |
+| "clear up / process dispatch" | `/Workflows/Process The Que.md` | Dispatch means the Notion Queue. Load it, show the routing preview, and write only approved Obsidian routes. |
+| "process the queue" | `/Workflows/Process The Que.md` | Load the current Notion Queue, normalize it, compare context, preview routes, then log approved Obsidian writes. |
 | "write a newsletter" | `/Workflows/Write a Newsletter.md` | Interview → mine → hook research → draft (Ash's voice) → humanize → image. |
 | "process captures" | Telegram routing batch | Read today's dated routing proposals. Never route captures from chat without explicit approval. |
-| "reflect for today" | Telegram routing approval | Open today's pending proposals, ask Ash for numbered approvals/rejections, then run the approval handler. |
 | "consolidate" / "remember this" / session end | Memory engine (below) | Route durable facts, enforce caps, recursive-compact, harvest skills. |
 
 ---
@@ -121,7 +120,7 @@ Master map: `File Structure Registry.md` — all folders, counts, quick links. U
 
 ## TELEGRAM ROUTING
 
-Telegram is the primary capture surface. GitHub Actions imports new messages at 17:30 Asia/Kolkata, writes dated routing proposals, and sends a Telegram review. Telegram never approves or routes anything. On `reflect for today`, read only that day's `01 Daily Logs/Routing Proposals YYYY-MM-DD.md` and request explicit numbered decisions. Apply approved items through `scripts/apply_capture_approvals.py`; ambiguous items remain blocked. Calendar requests remain `calendar_pending` until a configured calendar connector is explicitly approved.
+Telegram is an independent capture surface. GitHub Actions imports new messages at 17:30 Asia/Kolkata, writes dated routing proposals, and sends a Telegram review. Telegram never approves or routes anything. On `process captures`, read only that day's `01 Daily Logs/Routing Proposals YYYY-MM-DD.md` and request explicit numbered decisions. Apply approved items through `scripts/apply_capture_approvals.py`; ambiguous items remain blocked. Calendar requests remain `calendar_pending` until a configured calendar connector is explicitly approved.
 
 ---
 

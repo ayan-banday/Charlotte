@@ -1,6 +1,6 @@
 ---
 date created: 2026-05-02
-date updated: 2026-05-11 — Added Process Idea Batches workflow for soft-coded idea routing system.
+date updated: 2026-08-30 — Rebuilt Queue workflows for review-first Notion → Obsidian routing.
 ---
 
 # Workflows
@@ -30,7 +30,8 @@ See `[C] Workflows Index.md` for complete list. Currently 4 active workflows:
 - Launch a Webinar Funnel (build complete webinar-based offer machine)
 - Build an Email Campaign (create email sequence from strategy to conversion)
 - Design a Welcome Sequence (set up onboarding emails for new leads)
-- Process Idea Batches (route captured ideas to appropriate homes)
+- Process Idea Batches (normalize raw captures and prepare Obsidian routes)
+- Process The Queue (load the Notion Queue, compare context, preview, and route approved items)
 
 ---
 

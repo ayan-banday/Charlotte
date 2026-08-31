@@ -55,6 +55,21 @@
       "gcal_keywords": [
         "udyaan"
       ]
+    },
+    {
+      "name": "Venture-Scale Opportunity",
+      "status": "active",
+      "folder": "02 Projects/Venture-Scale Opportunity",
+      "intro": "02 Projects/Venture-Scale Opportunity/00 Introduction to Venture-Scale Opportunity.md",
+      "brain_dump": "02 Projects/Venture-Scale Opportunity/01 Brain Dump for Venture-Scale Opportunity.md",
+      "workflows": [
+        "Process The Queue"
+      ],
+      "gcal_keywords": [
+        "venture",
+        "vc",
+        "market research"
+      ]
     }
   ],
   "workflows": [
@@ -79,19 +94,23 @@
         "launch a webinar funnel"
       ]
     },
-    {
-      "name": "Process Idea Batches",
-      "path": "Workflows/Process Idea Batches.md",
-      "triggers": [
-        "**clear up the dispatch**",
-        "**process dispatch**"
+  {
+    "name": "Process Idea Batches",
+    "path": "Workflows/Process Idea Batches.md",
+    "triggers": [
+      "normalize a capture batch"
       ]
     },
-    {
-      "name": "Process The Que",
-      "path": "Workflows/Process The Que.md",
-      "triggers": [
-        "process the que"
+  {
+    "name": "Process The Queue",
+    "path": "Workflows/Process The Que.md",
+    "triggers": [
+      "reflect",
+      "daily reflect",
+      "reflect for today",
+      "process the queue",
+      "process dispatch",
+      "clear up the dispatch"
       ]
     },
     {
@@ -105,14 +124,17 @@
     }
   ],
   "triggers": {
-    "**clear up the dispatch**": "Workflows/Process Idea Batches.md",
-    "**process dispatch**": "Workflows/Process Idea Batches.md",
+    "clear up the dispatch": "Workflows/Process The Que.md",
     "build an email campaign": "Workflows/Build an Email Campaign.md",
     "design a welcome sequence": "Workflows/Design a Welcome Sequence.md",
     "i want to write a newsletter": "Workflows/Write a Newsletter.md",
     "launch a webinar funnel": "Workflows/Launch a Webinar Funnel.md",
     "let's do this week's issue": "Workflows/Write a Newsletter.md",
-    "process the que": "Workflows/Process The Que.md",
+    "process dispatch": "Workflows/Process The Que.md",
+    "process the queue": "Workflows/Process The Que.md",
+    "reflect": "Workflows/Process The Que.md",
+    "daily reflect": "Workflows/Process The Que.md",
+    "reflect for today": "Workflows/Process The Que.md",
     "write a newsletter": "Workflows/Write a Newsletter.md"
   },
   "skills": [

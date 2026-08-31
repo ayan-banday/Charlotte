@@ -1,25 +1,26 @@
 ---
 date created: 2026-04-29
-date updated: 2026-06-07 — Rebuilt for the brain-dump → weekly raw → Patterns loop. Dropped the
-  needle-mover / day-of-week-file flow and the rigid daily template.
+date updated: 2026-08-30 — Repointed reflection to the Notion Queue → reviewed Obsidian routing flow.
 ---
 
 # Daily Reflection Rule
 
-**Trigger:** Ash dumps the day — says "reflect", "daily reflect", or just talks
-(*"woke up at 6:30, read in the sun, then…"*) — or "clear up the dispatch."
+**Trigger:** “reflect”, “daily reflect”, “reflect for today”, “process the queue”,
+“process dispatch”, or a direct day dump.
 
 ---
 
 ## What Charlotte does
 
-1. **Listen, don't interrogate.** Take the dump as raw material: what he did, what happened, what he focused on, patterns he noticed. No needle-mover quiz, no Morning/Afternoon/Evening scaffold.
+1. **Load the Queue.** For a reflection request, fetch the current Notion Queue through the MCP. For a direct day dump, treat the conversation as the raw Queue batch.
 
-2. **Extract to the current week file.** Pull the real data points into `00 Self-Management/Weeks/Week [ISO].md` under today's weekday — loose bullets, his words tightened, duplicates dropped. Create the file from the shape in `00 Introduction to Self-Management.md` if it doesn't exist. Do not restructure into the old template.
+2. **Make it readable and compare context.** Extract factual self-management, learning, strategy, active-project material, and parked ideas. Compare self-management with today’s week plan and strategy with the relevant active project, RGS, and monthly goals.
 
-3. **Idea detection.** If the dump carries an initiative (not just reflection), route it: existing project → its `01 Brain Dump`; new → scaffold with `project-creator`. Ask only if the home is ambiguous.
+3. **Preview routes before writing.** Show every proposed week-file, project, and The Void route. Ash approves, redirects, or leaves an item pending. An explicit “execute” after a preview approves those displayed routes.
 
-4. **No promotion yet.** Daily capture does **not** touch `Patterns.md` or `MEMORY.md`. Patterns graduate only on the weekly pass, on recurrence. This is what keeps the system lean.
+4. **Route approved data to Obsidian.** Use `[[Process The Queue]]`; retain the raw Notion Queue and append a route record to `00 Inbox/Queue Routing Log.md`.
+
+5. **No promotion yet.** Daily capture does **not** touch `Patterns.md` or `MEMORY.md`. Patterns graduate only on the weekly pass, on recurrence.
 
 ---
 
@@ -27,4 +28,4 @@ date updated: 2026-06-07 — Rebuilt for the brain-dump → weekly raw → Patte
 
 Capture cheap, daily. Distil once a week. Promote only what recurs.
 
-The day is raw tape in the week file. `Patterns.md` is built from the week, not the day — see `00 Self-Management/00 Introduction to Self-Management.md` and `/CLAUDE.md`.
+The Queue is raw tape. Obsidian is the durable routed record. `Patterns.md` is built from the week, not the day.

@@ -1,6 +1,6 @@
 ---
 date created: 2026-05-02
-date updated: 2026-08-26 — Archived duplicate Udyaan course and parked webinar funnel
+date updated: 2026-08-30 — Added Venture-Scale Opportunity as the active RGS discovery project
 ---
 
 # Projects Index
@@ -13,6 +13,7 @@ Active projects with current status and last update dates.
 | Deep Generalist for Jani | Turn Jani into cognitively capable, psychologically resilient deep generalist through systematic encoding | Phase 1: Encoding in progress | 2026-05-10 |
 | Newsletter Becoming the Person Your Goals Belong To | Identity-first newsletter for high-performers who chase goals from need | Ideation | 2026-05-18 |
 | Tanzeer call learning bottleneck | Collect information on learning process bottlenecks for discussion with Tanzeer | Prep (call May 19) | 2026-05-12 |
+| Venture-Scale Opportunity | Test a venture-scale software hypothesis through VC literacy, market research, and customer-workflow discovery | Discovery — Probe | 2026-08-30 |
 
 ---
 

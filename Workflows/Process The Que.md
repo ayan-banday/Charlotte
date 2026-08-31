@@ -1,127 +1,71 @@
 ---
 date created: 2026-06-08
-date updated: 2026-06-08
-notion_db: "https://www.notion.so/62d6ff4f6a37454380db0e5feab30e48"
-sibling_of: "[[Process Idea Batches]]"
+date updated: 2026-08-30 — Rebuilt for the current Notion Queue and approval-first Obsidian routing.
+notion_queue: "https://app.notion.com/p/2e6cf3b6ca8b812eb07bf472a1fad313"
+uses: "[[Process Idea Batches]]"
 ---
 
-# Process The Que
+# Process The Queue
 
-**Problem:** Ash wants frictionless capture. He opens Notion, types the thought as the title, and walks away. Once a day this routine reads every New item in The Que, routes it, and marks it done. He never manually moves anything.
+**Problem:** The Queue is the daily Notion capture surface. It holds raw thoughts, reflections, learning, and ideas that need a durable Obsidian home.
 
-**Outcome:** New items routed or flagged. Self-management data in the week file. Log entry written. No item processed twice.
+**Outcome:** Ash sees a complete, readable routing preview first. Approved material is then moved into Obsidian, while the raw Queue remains untouched.
 
-**Runs:** Automatically at 21:00 daily via scheduled task. Also: manually on "process the que."
+## Triggers
 
-**Sibling of:** `[[Process Idea Batches]]` (Dispatch version — still active for direct-session dumps).
+- “reflect”
+- “daily reflect”
+- “reflect for today”
+- “process the queue”
+- “process dispatch” or “clear up the dispatch”
 
----
+Dispatch and Queue mean the same raw-capture concept. Use the spelling **Queue** in new output.
 
-## Prerequisites
+## Workflow
 
-- Notion database "The Que" exists (URL in this file's frontmatter)
-- File Structure Registry is current with active projects and newsletters
+### 1. Load the raw Queue
 
----
+Use the Notion MCP to fetch the current Queue page. Read its text and at most its direct children. Do not follow into a child’s descendants.
 
-## Workflow Steps
+### 2. Build the readable batch
 
-### Step 1: Query for New items
+Run `[[Process Idea Batches]]` Steps 1–3. Present:
 
-Query The Que database for all rows where **Status = New**. If none: write a one-line log entry ("No new items") and stop. The routine is idempotent by design — only New rows are ever touched.
+- Self-management data.
+- Plan-versus-reality comparison.
+- Learning and strategy material.
+- Active-project material.
+- Parked ideas for The Void.
+- Any item that needs a destination decision.
 
-Determine today's **ISO week number** and **weekday** before processing any items.
+### 3. Route with Ash in the loop
 
----
+Show the preview and wait for Ash’s approval or redirects. On explicit approval, run `[[Process Idea Batches]]` Step 5.
 
-### Step 2: Route each item (one at a time)
+For a clearly scoped instruction such as “execute” after a preview, treat the preview’s destinations as approved.
 
-**Mark each item the instant it is handled** — set Status before moving to the next. A crash mid-run must not be able to double-route.
+### 4. Prevent duplicate imports
 
-Classify the thought into exactly one category:
+Before writing, read `00 Inbox/Queue Routing Log.md`. Compare the source date and normalized items with the prior log. Do not import an already logged item again unless Ash explicitly asks to reprocess it.
 
----
+### 5. Report completion
 
-#### AUTO-ROUTE → Self-management
+Return the exact destinations, the inserted readable bullets, and anything still awaiting direction.
 
-**Signs:** what he did, his state, energy, timing, obstacles, physical (sleep, meds, walks), patterns he noticed. This is the first-priority category — when in doubt between self-management and something else, route here.
+## Route map
 
-1. Open `/00 Self-Management/Weeks/Week [ISO].md`. If the file doesn't exist yet, create it from the shape in `/00 Self-Management/00 Introduction to Self-Management.md`.
-2. Append the thought as a loose bullet under today's weekday heading. Tighten and de-duplicate the words. Faithful, concise. Never invent.
-3. **Immediately** set: Status = Processed, Type = Self-management, Routed To = "Week [ISO] / [Weekday]", Processed = today's date.
-
-**Do NOT touch `Patterns.md` or `MEMORY.md`.** Daily extraction is capture only. Patterns graduate on the weekly pass via `/Context/Reflection Protocol.md`.
-
----
-
-#### AUTO-ROUTE → Newsletter
-
-**Signs:** he names a specific newsletter that matches a project in the registry.
-
-1. Locate `/02 Projects/Newsletter [Name]/01 Brain Dump for Newsletter [Name].md` via the File Structure Registry. If the path can't be resolved, treat as Flag (below).
-2. Append the thought as a bullet.
-3. **Immediately** set: Status = Processed, Type = Newsletter, Routed To = the resolved path, Processed = today's date.
-
----
-
-#### FLAG → Needs Ash
-
-All other cases:
-
-- Project-specific idea (could go to a project brain dump — needs his call)
-- Skill or workflow candidate (always his call)
-- Anything ambiguous, multi-home, or where the path can't be resolved
-
-**Set: Status = Needs Ash, Type = best-guess or Ambiguous, leave Routed To blank.**
-
-Never guess on judgment calls that belong to Ash. This is the equivalent of "suggest and wait" in the Dispatch workflow. Ash reviews Needs Ash rows whenever he likes. To re-process, he flips Status back to New.
-
----
-
-### Step 3: Write the run log
-
-Append to `/01 Daily Logs/Que Routing Log.md` (create the file if it doesn't exist):
-
-```
-## [YYYY-MM-DD HH:MM]
-- New items found: [N]
-- Routed → Week file: [N]
-- Routed → Newsletter: [N]
-- Flagged → Needs Ash: [N]
-- Errors: [N]
-  [Describe each error: which item, what path failed, what was done]
-```
-
-If a destination path couldn't be resolved, that item counts as an error AND gets flagged to Needs Ash with Type = Ambiguous.
-
----
+| Queue material | Obsidian destination |
+|---|---|
+| Actions, timing, state, energy, social context | `00 Self-Management/Weeks/Week [ISO].md` under today |
+| Venture framing, VC literacy, market-research evidence | `02 Projects/Venture-Scale Opportunity/01 Brain Dump for Venture-Scale Opportunity.md` |
+| Active project material | The named project’s `01 Brain Dump` |
+| Inactive content ecosystem or personal-brand work | `00 Inbox/The Void.md` |
+| Unclear or multi-home material | Preview only, pending Ash’s direction |
 
 ## Safety rules
 
-1. **Only ever query Status = New.** Ignore everything else. This is what makes daily runs idempotent.
-2. **Mark immediately.** Set Status before moving to the next item. Never batch-update at the end.
-3. **Path can't be resolved → Needs Ash + Ambiguous.** Never create a wrong file.
-4. **Faithful + concise.** Tighten his words, never invent content.
-5. **Self-management is priority one.** Route it first within each batch.
-
----
-
-## Decision boundary
-
-| Category | Confidence needed | Action |
-|---|---|---|
-| Self-management | Obvious language (state, energy, timing, what he did) | Auto-route → week file |
-| Named newsletter (matches registry) | Named explicitly | Auto-route → brain dump |
-| Project brain dump | Plausible but needs judgment | Flag → Needs Ash |
-| Skill / workflow candidate | Always a judgment call | Flag → Needs Ash |
-| Anything unclear | — | Flag → Needs Ash |
-
----
-
-## When to use
-
-**Manual trigger:** "process the que" → Charlotte reads this file and executes it against The Que.
-**Automated:** runs daily at 21:00 via Windows Task Scheduler.
-
-This is the Notion-sourced sibling of `[[Process Idea Batches]]`. Both coexist. The Que is the primary capture surface going forward. Dispatch remains for direct-session dumps.
-
+1. Never delete or rewrite raw Queue content.
+2. Never infer that an unmentioned planned item failed.
+3. Capture daily facts only. Promote patterns during weekly reflection, not during routing.
+4. Preserve hypotheses as hypotheses. Do not commit a wedge, ICP, or strategy without Ash’s explicit decision.
+5. The Notion Queue is input; Obsidian is the durable routed record.
