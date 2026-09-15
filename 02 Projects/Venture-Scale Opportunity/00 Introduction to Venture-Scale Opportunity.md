@@ -1,6 +1,6 @@
 ---
 date created: 2026-08-30
-date updated: 2026-08-30
+date updated: 2026-09-14 — Added the evidence-led Commitment-to-Delivery Sourcebook v0.2.
 ---
 
 # Venture-Scale Opportunity
@@ -13,7 +13,7 @@ Develop and test a venture-scale software opportunity that can clear the RGS wed
 
 September is for venture literacy and market research, not product build. The working concept is decision infrastructure for founder-led service firms: cited, importance-ranked recommendations for proposal qualification and scope-exception review, with mandatory escalation when confidence is low.
 
-The candidate ICP is 20–75 person performance-marketing agencies using HubSpot. It is a hypothesis, not a committed direction. No customer conversations, validated workflow, economic case, or committed wedge exists yet.
+The candidate ICP is 20–75 person performance-marketing agencies using HubSpot. It is a hypothesis, not a committed direction. A second, stronger probe is now documented: $6M–$100M execution-heavy B2B firms, beginning with MSPs, systems integrators, and project-based professional services. Two preliminary operator confirmations are recorded, but no structured customer reconstruction, validated workflow, economic case, or committed wedge exists yet. See [[Problem Sourcebook v0.1]] and [[Commitment-to-Delivery Sourcebook v0.2]].
 
 ## September Outcome
 

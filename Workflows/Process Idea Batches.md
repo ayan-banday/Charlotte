@@ -27,6 +27,14 @@ Separate the raw material into:
 
 Preserve the underlying meaning. Group duplicates and turn fragments into readable bullets; do not invent facts.
 
+For a daily reflection, first reconstruct the day as a factual table:
+
+| Time | What happened |
+|---|---|
+| [time or range] | [concrete activity, interaction, output, rest, travel, food, or named data gap] |
+
+Use all available timestamps. Mark uncertainty and gaps directly. Bold only **Experiment**, **Recurring thought**, **Idea**, and **Decision** where present. The table has no interpretation or state column.
+
 ### 2. Compare the relevant context
 
 - Self-management: read the current ISO week file and today’s plan, if present.
@@ -43,7 +51,11 @@ Use this format before any write:
 ## Queue routing preview — YYYY-MM-DD
 
 ### Self-management → Week [ISO], [weekday]
-- [readable factual bullets]
+| Time | What happened |
+|---|---|
+| [time or range] | [readable factual record] |
+
+- [plan-versus-reality or next-day plan, when explicitly stated]
 
 ### Active project → [project brain dump]
 - [claim, evidence, question, or next test]

@@ -1,0 +1,276 @@
+{"kind":"deck","id":"pr/dkus70","name":"Deck"}
+{"kind":"layout","layoutId":"2660a428-a850-44fc-90a7-cea21f32897b","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"aafa81b1-c29e-4817-80f3-676121f695da","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/yghnuh","slide":1,"title":"Turn buyer evidence into stronger B2B campaigns","textShapes":2}
+{"kind":"shape","id":"sh/7m14falk","slide":1,"bbox":[550,134,166,166]}
+{"kind":"textbox","id":"sh/8na5of25","slide":1,"text":"Turn buyer evidence into stronger B2B campaigns","textPreview":"Turn buyer evidence into stronger B2B campaigns","textChars":47,"textLines":1,"bbox":[248,340,785,116]}
+{"kind":"textbox","id":"sh/9ojmhk3q","slide":1,"text":"A new way for B2B demand-generation teams to learn from the market","textPreview":"A new way for B2B demand-generation teams to learn from the market","textChars":66,"textLines":1,"bbox":[290,482,700,42]}
+{"kind":"notes","id":"nt/yghnuh","slide":1,"text":""}
+{"kind":"slide","id":"sl/54o1dz","slide":2,"title":"> The problem","textShapes":13}
+{"kind":"shape","id":"sh/za5s7ihk","slide":2,"bbox":[0,0,300,720]}
+{"kind":"textbox","id":"sh/kbe903y5","slide":2,"text":"> The problem","textPreview":"> The problem","textChars":13,"textLines":1,"bbox":[52,56,196,26]}
+{"kind":"textbox","id":"sh/lcna98zq","slide":2,"text":"One offer meets four buyer tests","textPreview":"One offer meets four buyer tests","textChars":32,"textLines":1,"bbox":[52,112,210,235]}
+{"kind":"textbox","id":"sh/mdgb2dgb","slide":2,"text":"The buyer does not experience separate marketing, sales, and CRM systems.","textPreview":"The buyer does not experience separate marketing, sales, and CRM systems.","textChars":73,"textLines":1,"bbox":[52,352,198,170]}
+{"kind":"shape","id":"sh/7epsbihg","slide":2,"bbox":[344,244,195,176]}
+{"kind":"textbox","id":"sh/8fyt4ny1","slide":2,"text":"Offer","textPreview":"Offer","textChars":5,"textLines":1,"bbox":[362,266,158,26]}
+{"kind":"textbox","id":"sh/9g7adszm","slide":2,"text":"‘Create more qualified meetings’","textPreview":"‘Create more qualified meetings’","textChars":32,"textLines":1,"bbox":[362,315,158,66]}
+{"kind":"shape","id":"sh/uhgb6xg7","slide":2,"bbox":[546,306,40,30]}
+{"kind":"shape","id":"sh/vipsf2hs","slide":2,"bbox":[569,244,195,176]}
+{"kind":"textbox","id":"sh/n2tgbq9o","slide":2,"text":"Buyer doubt","textPreview":"Buyer doubt","textChars":11,"textLines":1,"bbox":[587,266,158,26]}
+{"kind":"textbox","id":"sh/21kzils3","slide":2,"text":"‘What does qualified mean?’","textPreview":"‘What does qualified mean?’","textChars":27,"textLines":1,"bbox":[587,315,158,66]}
+{"kind":"shape","id":"sh/94vyd0ru","slide":2,"bbox":[771,306,40,30]}
+{"kind":"shape","id":"sh/o32hkva9","slide":2,"bbox":[794,244,195,176]}
+{"kind":"textbox","id":"sh/fytg7q9c","slide":2,"text":"Sales call","textPreview":"Sales call","textChars":10,"textLines":1,"bbox":[812,266,158,26]}
+{"kind":"textbox","id":"sh/exkfels7","slide":2,"text":"‘Can you prove this works for us?’","textPreview":"‘Can you prove this works for us?’","textChars":34,"textLines":1,"bbox":[812,315,158,66]}
+{"kind":"shape","id":"sh/10by90ri","slide":2,"bbox":[996,306,40,30]}
+{"kind":"shape","id":"sh/0z2xgvax","slide":2,"bbox":[1019,244,195,176]}
+{"kind":"textbox","id":"sh/judgja9w","slide":2,"text":"CRM outcome","textPreview":"CRM outcome","textChars":11,"textLines":1,"bbox":[1037,266,158,26]}
+{"kind":"textbox","id":"sh/yt4zq5sb","slide":2,"text":"Lost: unclear proof and poor fit","textPreview":"Lost: unclear proof and poor fit","textChars":32,"textLines":1,"bbox":[1037,315,158,66]}
+{"kind":"textbox","id":"sh/up8ji9cj","slide":2,"text":"The company stores each part of this journey somewhere else.","textPreview":"The company stores each part of this journey somewhere else.","textChars":60,"textLines":1,"bbox":[345,472,720,30]}
+{"kind":"textbox","id":"sh/vqhkret4","slide":2,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[1220,654,24,18]}
+{"kind":"notes","id":"nt/54o1dz","slide":2,"text":""}
+{"kind":"slide","id":"sl/5ndm0p","slide":3,"title":"> The insight","textShapes":9}
+{"kind":"shape","id":"sh/6x0felcf","slide":3,"bbox":[0,0,300,720]}
+{"kind":"textbox","id":"sh/t0bypgbq","slide":3,"text":"> The insight","textPreview":"> The insight","textChars":13,"textLines":1,"bbox":[52,56,196,26]}
+{"kind":"textbox","id":"sh/sz2xgvu5","slide":3,"text":"Dashboards show what. Buyers explain why.","textPreview":"Dashboards show what. Buyers explain why.","textChars":41,"textLines":1,"bbox":[52,112,210,235]}
+{"kind":"textbox","id":"sh/fmtgrqtw","slide":3,"text":"A conversion rate cannot tell a team whether the offer was unclear, unproven, or aimed at the wrong buyer.","textPreview":"A conversion rate cannot tell a team whether the offer was unclear, unproven, or aimed at the wrong buyer.","textChars":106,"textLines":1,"bbox":[52,352,198,170]}
+{"kind":"shape","id":"sh/ulkfilcb","slide":3,"bbox":[370,186,365,270]}
+{"kind":"textbox","id":"sh/hobyt0b2","slide":3,"text":"Quantitative data","textPreview":"Quantitative data","textChars":17,"textLines":1,"bbox":[410,222,290,34]}
+{"kind":"textbox","id":"sh/gn2xkvuh","slide":3,"text":"24 meetings\n3 opportunities\n1 closed deal","textPreview":"24 meetings | 3 opportunities | 1 closed deal","textChars":41,"textLines":3,"bbox":[410,288,250,110]}
+{"kind":"shape","id":"sh/3qdgvats","slide":3,"bbox":[802,186,365,270]}
+{"kind":"textbox","id":"sh/2pkfm5c7","slide":3,"text":"Qualitative buyer language","textPreview":"Qualitative buyer language","textChars":26,"textLines":1,"bbox":[842,222,285,34]}
+{"kind":"textbox","id":"sh/4va9ove9","slide":3,"text":"‘What does qualified mean?’\n‘Can you prove this works for us?’\n‘We tried this before.’","textPreview":"‘What does qualified mean?’ | ‘Can you prove this works for us?’ | ‘We tried this before.’","textChars":86,"textLines":3,"bbox":[842,288,270,115]}
+{"kind":"shape","id":"sh/pgjqh0fu","slide":3,"bbox":[743,300,44,36]}
+{"kind":"textbox","id":"sh/2tsrmlw3","slide":3,"text":"Numbers describe the result. Buyer language explains the decision behind it.","textPreview":"Numbers describe the result. Buyer language explains the decision behind it.","textChars":76,"textLines":1,"bbox":[372,520,750,34]}
+{"kind":"textbox","id":"sh/3u18fqxo","slide":3,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[1220,654,24,18]}
+{"kind":"notes","id":"nt/5ndm0p","slide":3,"text":""}
+{"kind":"slide","id":"sl/kql0me","slide":4,"title":"> Why now","textShapes":10}
+{"kind":"shape","id":"sh/8nalw7ud","slide":4,"bbox":[0,0,300,720]}
+{"kind":"textbox","id":"sh/7m1432ds","slide":4,"text":"> Why now","textPreview":"> Why now","textChars":9,"textLines":1,"bbox":[52,56,196,26]}
+{"kind":"textbox","id":"sh/6ls3uxw7","slide":4,"text":"AI makes buyer language usable now","textPreview":"AI makes buyer language usable now","textChars":34,"textLines":1,"bbox":[52,112,210,235]}
+{"kind":"textbox","id":"sh/lkjm1svm","slide":4,"text":"The technical change is the ability to turn authorised evidence into a working campaign decision.","textPreview":"The technical change is the ability to turn authorised evidence into a working campaign decision.","textChars":97,"textLines":1,"bbox":[52,352,198,170]}
+{"kind":"shape","id":"sh/kjalsneh","slide":4,"bbox":[370,160,150,88]}
+{"kind":"textbox","id":"sh/zi14z2dw","slide":4,"text":"AI","textPreview":"AI","textChars":2,"textLines":1,"bbox":[398,187,105,28]}
+{"kind":"shape","id":"sh/yh83qxwb","slide":4,"bbox":[540,204,56,0]}
+{"kind":"textbox","id":"sh/5g3mdwv6","slide":4,"text":"Understands recurring questions, proof requests, and objections across buyer conversations","textPreview":"Understands recurring questions, proof requests, and objections across buyer conversations","textChars":90,"textLines":1,"bbox":[624,176,480,62]}
+{"kind":"shape","id":"sh/4fu54rul","slide":4,"bbox":[370,302,150,88]}
+{"kind":"textbox","id":"sh/epgratw3","slide":4,"text":"APIs + MCP","textPreview":"APIs + MCP","textChars":10,"textLines":1,"bbox":[398,329,105,28]}
+{"kind":"shape","id":"sh/za9s3edo","slide":4,"bbox":[540,346,56,0]}
+{"kind":"textbox","id":"sh/0bi9cjet","slide":4,"text":"Bring authorised campaign, conversation, and outcome data into one workflow","textPreview":"Bring authorised campaign, conversation, and outcome data into one workflow","textChars":75,"textLines":1,"bbox":[624,318,480,62]}
+{"kind":"shape","id":"sh/1cra5ove","slide":4,"bbox":[370,444,150,88]}
+{"kind":"textbox","id":"sh/qlgr69wr","slide":4,"text":"Campaign cadence","textPreview":"Campaign cadence","textChars":16,"textLines":1,"bbox":[398,471,105,28]}
+{"kind":"shape","id":"sh/rmpszedc","slide":4,"bbox":[540,488,56,0]}
+{"kind":"textbox","id":"sh/cny98jex","slide":4,"text":"Lets a team test what it learned in the next campaign, not next year","textPreview":"Lets a team test what it learned in the next campaign, not next year","textChars":68,"textLines":1,"bbox":[624,460,480,62]}
+{"kind":"textbox","id":"sh/do7a1ovi","slide":4,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1220,654,24,18]}
+{"kind":"notes","id":"nt/kql0me","slide":4,"text":""}
+{"kind":"slide","id":"sl/i59k1h","slide":5,"title":"> The thesis","textShapes":5}
+{"kind":"textbox","id":"sh/ni5orqx0","slide":5,"text":"> The thesis","textPreview":"> The thesis","textChars":12,"textLines":1,"bbox":[72,64,260,25]}
+{"kind":"textbox","id":"sh/ojepkvel","slide":5,"text":"The company that learns from every offer outpaces the company that only measures campaigns","textPreview":"The company that learns from every offer outpaces the company that only measures campaigns","textChars":90,"textLines":1,"bbox":[72,175,1000,220]}
+{"kind":"textbox","id":"sh/pkn6t0f6","slide":5,"text":"Each offer creates buyer language and commercial outcomes. The next offer should begin with that learning.","textPreview":"Each offer creates buyer language and commercial outcomes. The next offer should begin with that learning.","textChars":106,"textLines":1,"bbox":[76,436,800,85]}
+{"kind":"textbox","id":"sh/alg7m5wb","slide":5,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1220,654,24,18]}
+{"kind":"shape","id":"sh/bmpovaxw","slide":5,"bbox":[920,445,130,130]}
+{"kind":"textbox","id":"sh/cnypoveh","slide":5,"text":"offer\nlearning","textPreview":"offer | learning","textChars":14,"textLines":2,"bbox":[944,484,88,52]}
+{"kind":"notes","id":"nt/i59k1h","slide":5,"text":""}
+{"kind":"slide","id":"sl/no25hj","slide":6,"title":"> The product","textShapes":11}
+{"kind":"shape","id":"sh/at0rahcv","slide":6,"bbox":[0,0,300,720]}
+{"kind":"textbox","id":"sh/xwbalwbm","slide":6,"text":"> The product","textPreview":"> The product","textChars":13,"textLines":1,"bbox":[52,56,196,26]}
+{"kind":"textbox","id":"sh/wvi9cru1","slide":6,"text":"The product creates the next campaign brief","textPreview":"The product creates the next campaign brief","textChars":43,"textLines":1,"bbox":[52,112,210,235]}
+{"kind":"textbox","id":"sh/jits76tc","slide":6,"text":"The brief recommends what the team should say, prove, answer, exclude, and test next.","textPreview":"The brief recommends what the team should say, prove, answer, exclude, and test next.","textChars":85,"textLines":1,"bbox":[52,352,198,170]}
+{"kind":"shape","id":"sh/ixkre1cr","slide":6,"bbox":[350,160,216,62]}
+{"kind":"textbox","id":"sh/5kba9gbi","slide":6,"text":"Campaign assets","textPreview":"Campaign assets","textChars":15,"textLines":1,"bbox":[375,179,165,24]}
+{"kind":"shape","id":"sh/kj29gbux","slide":6,"bbox":[350,260,216,62]}
+{"kind":"textbox","id":"sh/7mtsb6to","slide":6,"text":"Buyer conversations","textPreview":"Buyer conversations","textChars":19,"textLines":1,"bbox":[375,279,165,24]}
+{"kind":"shape","id":"sh/6lkri1c3","slide":6,"bbox":[350,360,216,62]}
+{"kind":"textbox","id":"sh/onylof6l","slide":6,"text":"CRM outcomes","textPreview":"CRM outcomes","textChars":12,"textLines":1,"bbox":[375,379,165,24]}
+{"kind":"textbox","id":"sh/9ormhkn6","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[602,255,64,55]}
+{"kind":"shape","id":"sh/mlg3m5of","slide":6,"bbox":[690,146,434,300]}
+{"kind":"textbox","id":"sh/nmp4fap0","slide":6,"text":"Market Narrative Intelligence","textPreview":"Market Narrative Intelligence","textChars":29,"textLines":1,"bbox":[730,184,340,34]}
+{"kind":"textbox","id":"sh/wbi5sz6x","slide":6,"text":"Evidence-backed campaign brief","textPreview":"Evidence-backed campaign brief","textChars":30,"textLines":1,"bbox":[730,245,330,32]}
+{"kind":"textbox","id":"sh/xcrml4n2","slide":6,"text":"Offer\nProof\nObjection response\nQualification rule\nSales copy to test","textPreview":"Offer | Proof | Objection response | Qualification rule | Sales copy to test","textChars":68,"textLines":5,"bbox":[730,302,270,126]}
+{"kind":"textbox","id":"sh/ap03qpor","slide":6,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[1220,654,24,18]}
+{"kind":"notes","id":"nt/no25hj","slide":6,"text":""}
+{"kind":"slide","id":"sl/cb6adr","slide":7,"title":"> The output","textShapes":16}
+{"kind":"shape","id":"sh/szipo7yh","slide":7,"bbox":[0,0,300,720]}
+{"kind":"textbox","id":"sh/7y9of2hw","slide":7,"text":"> The output","textPreview":"> The output","textChars":12,"textLines":1,"bbox":[52,56,196,26]}
+{"kind":"textbox","id":"sh/6x07mxgb","slide":7,"text":"Buyer objections shape sales copy","textPreview":"Buyer objections shape sales copy","textChars":33,"textLines":1,"bbox":[52,112,210,235]}
+{"kind":"textbox","id":"sh/h4bqlcze","slide":7,"text":"Market Narrative Intelligence gives the team a brief they can approve and turn into copy.","textPreview":"Market Narrative Intelligence gives the team a brief they can approve and turn into copy.","textChars":89,"textLines":1,"bbox":[52,352,198,170]}
+{"kind":"shape","id":"sh/g32ps7yt","slide":7,"bbox":[336,160,255,64]}
+{"kind":"textbox","id":"sh/f2t8j2h8","slide":7,"text":"Buyer language","textPreview":"Buyer language","textChars":14,"textLines":1,"bbox":[354,180,220,24]}
+{"kind":"shape","id":"sh/u1k7qxgn","slide":7,"bbox":[336,224,255,92]}
+{"kind":"textbox","id":"sh/psvqpcza","slide":7,"text":"What does qualified mean?","textPreview":"What does qualified mean?","textChars":25,"textLines":1,"bbox":[354,245,217,51]}
+{"kind":"shape","id":"sh/4rmpwryp","slide":7,"bbox":[336,316,255,92]}
+{"kind":"textbox","id":"sh/yx83yl8b","slide":7,"text":"Can you prove this works for us?","textPreview":"Can you prove this works for us?","textChars":32,"textLines":1,"bbox":[354,337,217,51]}
+{"kind":"shape","id":"sh/jyhkr69w","slide":7,"bbox":[336,408,255,92]}
+{"kind":"textbox","id":"sh/kzql0bqh","slide":7,"text":"We tried this before.","textPreview":"We tried this before.","textChars":21,"textLines":1,"bbox":[354,429,217,51]}
+{"kind":"shape","id":"sh/l0zmtg7m","slide":7,"bbox":[628,160,255,64]}
+{"kind":"textbox","id":"sh/61s32l87","slide":7,"text":"Campaign decision","textPreview":"Campaign decision","textChars":17,"textLines":1,"bbox":[646,180,220,24]}
+{"kind":"shape","id":"sh/7214vqps","slide":7,"bbox":[628,224,255,92]}
+{"kind":"textbox","id":"sh/snal4vqd","slide":7,"text":"Define the qualification standard","textPreview":"Define the qualification standard","textChars":33,"textLines":1,"bbox":[646,245,217,51]}
+{"kind":"shape","id":"sh/tojmx07y","slide":7,"bbox":[628,316,255,92]}
+{"kind":"textbox","id":"sh/m5o3q183","slide":7,"text":"Lead with comparable proof","textPreview":"Lead with comparable proof","textChars":26,"textLines":1,"bbox":[646,337,217,51]}
+{"kind":"shape","id":"sh/n6xkjm9o","slide":7,"bbox":[628,408,255,92]}
+{"kind":"textbox","id":"sh/rad0r2pg","slide":7,"text":"Address the failed alternative","textPreview":"Address the failed alternative","textChars":30,"textLines":1,"bbox":[646,429,217,51]}
+{"kind":"shape","id":"sh/q9kzyxov","slide":7,"bbox":[920,160,255,64]}
+{"kind":"textbox","id":"sh/dcvits76","slide":7,"text":"Sales-copy change","textPreview":"Sales-copy change","textChars":17,"textLines":1,"bbox":[938,180,220,24]}
+{"kind":"shape","id":"sh/cbmh0n61","slide":7,"bbox":[920,224,255,92]}
+{"kind":"textbox","id":"sh/36t0nip4","slide":7,"text":"State who the offer is for","textPreview":"State who the offer is for","textChars":26,"textLines":1,"bbox":[938,245,217,51]}
+{"kind":"shape","id":"sh/25kzudoj","slide":7,"bbox":[920,316,255,92]}
+{"kind":"textbox","id":"sh/p8bips7a","slide":7,"text":"Open with the relevant case study","textPreview":"Open with the relevant case study","textChars":33,"textLines":1,"bbox":[938,337,217,51]}
+{"kind":"shape","id":"sh/472hwn6p","slide":7,"bbox":[920,408,255,92]}
+{"kind":"textbox","id":"sh/n2x0zm5o","slide":7,"text":"Explain the filtering process","textPreview":"Explain the filtering process","textChars":29,"textLines":1,"bbox":[938,429,217,51]}
+{"kind":"textbox","id":"sh/m14j6ho3","slide":7,"text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[1220,654,24,18]}
+{"kind":"notes","id":"nt/cb6adr","slide":7,"text":""}
+{"kind":"slide","id":"sl/7utli5","slide":8,"title":"> The wedge","textShapes":8}
+{"kind":"shape","id":"sh/k3atwvmx","slide":8,"bbox":[0,0,300,720]}
+{"kind":"textbox","id":"sh/j21c3qls","slide":8,"text":"> The wedge","textPreview":"> The wedge","textChars":11,"textLines":1,"bbox":[52,56,196,26]}
+{"kind":"textbox","id":"sh/y1sbul47","slide":8,"text":"Demand-generation teams are first","textPreview":"Demand-generation teams are first","textChars":33,"textLines":1,"bbox":[52,112,210,235]}
+{"kind":"textbox","id":"sh/xgju1g3m","slide":8,"text":"They own pipeline outcomes and repeatedly decide what to say, what proof to use, and who to qualify out.","textPreview":"They own pipeline outcomes and repeatedly decide what to say, what proof to use, and who to qualify out.","textChars":104,"textLines":1,"bbox":[52,352,198,170]}
+{"kind":"shape","id":"sh/wfqtsbm1","slide":8,"bbox":[370,180,310,104]}
+{"kind":"textbox","id":"sh/behcz6lg","slide":8,"text":"Which offer leads the next campaign?","textPreview":"Which offer leads the next campaign?","textChars":36,"textLines":1,"bbox":[394,209,258,52]}
+{"kind":"shape","id":"sh/ad8bq14v","slide":8,"bbox":[750,180,310,104]}
+{"kind":"textbox","id":"sh/9czuxg3a","slide":8,"text":"What proof earns attention?","textPreview":"What proof earns attention?","textChars":27,"textLines":1,"bbox":[774,209,258,52]}
+{"kind":"shape","id":"sh/obqtobm5","slide":8,"bbox":[370,350,310,104]}
+{"kind":"textbox","id":"sh/e1gfi9wz","slide":8,"text":"Which objections should copy answer?","textPreview":"Which objections should copy answer?","textChars":36,"textLines":1,"bbox":[394,379,258,52]}
+{"kind":"shape","id":"sh/z2pwbuxk","slide":8,"bbox":[750,350,310,104]}
+{"kind":"textbox","id":"sh/03yxkze5","slide":8,"text":"Which buyers should the campaign qualify out?","textPreview":"Which buyers should the campaign qualify out?","textChars":45,"textLines":1,"bbox":[774,379,258,52]}
+{"kind":"textbox","id":"sh/14red4fq","slide":8,"text":"8","textPreview":"8","textChars":1,"textLines":1,"bbox":[1220,654,24,18]}
+{"kind":"notes","id":"nt/7utli5","slide":8,"text":""}
+{"kind":"slide","id":"sl/29m5fv","slide":9,"title":"> The category","textShapes":12}
+{"kind":"shape","id":"sh/fy5kny9o","slide":9,"bbox":[0,0,300,720]}
+{"kind":"textbox","id":"sh/0zylw3q9","slide":9,"text":"> The category","textPreview":"> The category","textChars":14,"textLines":1,"bbox":[52,56,196,26]}
+{"kind":"textbox","id":"sh/1072p8ru","slide":9,"text":"A new category begins with the offer","textPreview":"A new category begins with the offer","textChars":36,"textLines":1,"bbox":[52,112,210,235]}
+{"kind":"textbox","id":"sh/2lg3yd8f","slide":9,"text":"This is not a feature race. It is a different unit of commercial learning.","textPreview":"This is not a feature race. It is a different unit of commercial learning.","textChars":74,"textLines":1,"bbox":[52,352,198,170]}
+{"kind":"shape","id":"sh/nmp4ri90","slide":9,"bbox":[362,145,258,86]}
+{"kind":"shape","id":"sh/onyl0nql","slide":9,"bbox":[620,145,505,86]}
+{"kind":"textbox","id":"sh/po7mts76","slide":9,"text":"Gong","textPreview":"Gong","textChars":4,"textLines":1,"bbox":[385,172,210,28]}
+{"kind":"textbox","id":"sh/ipc3mt8b","slide":9,"text":"Conversation","textPreview":"Conversation","textChars":12,"textLines":1,"bbox":[647,170,440,36]}
+{"kind":"shape","id":"sh/jqlkfe9w","slide":9,"bbox":[362,231,258,86]}
+{"kind":"shape","id":"sh/72hgfets","slide":9,"bbox":[620,231,505,86]}
+{"kind":"textbox","id":"sh/618fm9cn","slide":9,"text":"HubSpot / CRM","textPreview":"HubSpot / CRM","textChars":13,"textLines":1,"bbox":[385,258,210,28]}
+{"kind":"textbox","id":"sh/tozyhoby","slide":9,"text":"Contact, deal, and outcome","textPreview":"Contact, deal, and outcome","textChars":26,"textLines":1,"bbox":[647,256,440,36]}
+{"kind":"shape","id":"sh/8nqxojud","slide":9,"bbox":[362,317,258,86]}
+{"kind":"shape","id":"sh/jyxgbutw","slide":9,"bbox":[620,317,505,86]}
+{"kind":"textbox","id":"sh/yxofipcb","slide":9,"text":"Marketing analytics","textPreview":"Marketing analytics","textChars":19,"textLines":1,"bbox":[385,344,210,28]}
+{"kind":"textbox","id":"sh/l0zyd4b2","slide":9,"text":"Campaign and performance","textPreview":"Campaign and performance","textChars":24,"textLines":1,"bbox":[647,342,440,36]}
+{"kind":"shape","id":"sh/kz6xkzuh","slide":9,"bbox":[362,403,258,86]}
+{"kind":"shape","id":"sh/buxg7ut0","slide":9,"bbox":[620,403,505,86]}
+{"kind":"textbox","id":"sh/atofepcf","slide":9,"text":"Market Narrative Intelligence","textPreview":"Market Narrative Intelligence","textChars":29,"textLines":1,"bbox":[385,430,210,28]}
+{"kind":"textbox","id":"sh/e54zqpw7","slide":9,"text":"Offer, buyer response, outcome, and next decision","textPreview":"Offer, buyer response, outcome, and next decision","textChars":49,"textLines":1,"bbox":[647,428,440,36]}
+{"kind":"textbox","id":"sh/fqdgjuxs","slide":9,"text":"9","textPreview":"9","textChars":1,"textLines":1,"bbox":[1220,654,24,18]}
+{"kind":"notes","id":"nt/29m5fv","slide":9,"text":""}
+{"kind":"slide","id":"sl/a3vre3","slide":10,"title":"> The moat","textShapes":13}
+{"kind":"shape","id":"sh/id0jm9cv","slide":10,"bbox":[0,0,300,720]}
+{"kind":"textbox","id":"sh/50b2h4b6","slide":10,"text":"> The moat","textPreview":"> The moat","textChars":10,"textLines":1,"bbox":[52,56,196,26]}
+{"kind":"textbox","id":"sh/kz21ozal","slide":10,"text":"The offer-learning loop compounds","textPreview":"The offer-learning loop compounds","textChars":33,"textLines":1,"bbox":[52,112,210,235]}
+{"kind":"textbox","id":"sh/va90but4","slide":10,"text":"Raw qualitative data exists everywhere. The advantage comes from linking it to approved decisions and commercial outcomes, then using it again.","textPreview":"Raw qualitative data exists everywhere. The advantage comes from linking it to approved decisions and commercial outcomes, then using it ...","textChars":143,"textLines":1,"bbox":[52,352,198,170]}
+{"kind":"shape","id":"sh/a90jipcj","slide":10,"bbox":[430,155,190,86]}
+{"kind":"textbox","id":"sh/xcr2d4ba","slide":10,"text":"Offer launched","textPreview":"Offer launched","textChars":14,"textLines":1,"bbox":[454,177,145,45]}
+{"kind":"shape","id":"sh/wbi1kzup","slide":10,"bbox":[752,155,190,86]}
+{"kind":"textbox","id":"sh/f6dknet8","slide":10,"text":"Buyer language\n+ outcome","textPreview":"Buyer language | + outcome","textChars":24,"textLines":2,"bbox":[776,177,145,45]}
+{"kind":"shape","id":"sh/u5kjutsn","slide":10,"bbox":[752,380,190,86]}
+{"kind":"textbox","id":"sh/c32hofup","slide":10,"text":"Campaign brief\napproved","textPreview":"Campaign brief | approved","textChars":23,"textLines":2,"bbox":[776,402,145,45]}
+{"kind":"shape","id":"sh/x4bixkva","slide":10,"bbox":[430,380,190,86]}
+{"kind":"textbox","id":"sh/a1kzm5cj","slide":10,"text":"New offer\ntested","textPreview":"New offer | tested","textChars":16,"textLines":2,"bbox":[454,402,145,45]}
+{"kind":"textbox","id":"sh/b2t0vad4","slide":10,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[637,176,64,42]}
+{"kind":"textbox","id":"sh/of2hkvud","slide":10,"text":"↓","textPreview":"↓","textChars":1,"textLines":1,"bbox":[822,271,40,62]}
+{"kind":"textbox","id":"sh/pgbit0vy","slide":10,"text":"←","textPreview":"←","textChars":1,"textLines":1,"bbox":[639,401,64,42]}
+{"kind":"textbox","id":"sh/2dkzi5cn","slide":10,"text":"↑","textPreview":"↑","textChars":1,"textLines":1,"bbox":[377,271,40,62]}
+{"kind":"textbox","id":"sh/net0rqd8","slide":10,"text":"Every cycle makes the next recommendation more grounded in the customer’s market.","textPreview":"Every cycle makes the next recommendation more grounded in the customer’s market.","textChars":81,"textLines":1,"bbox":[365,538,720,32]}
+{"kind":"textbox","id":"sh/0bihgvuh","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1220,654,24,18]}
+{"kind":"notes","id":"nt/a3vre3","slide":10,"text":""}
+{"kind":"slide","id":"sl/rn33uh","slide":11,"title":"> The market","textShapes":16}
+{"kind":"shape","id":"sh/vutsbihk","slide":11,"bbox":[0,0,300,720]}
+{"kind":"textbox","id":"sh/wv2tkny5","slide":11,"text":"> The market","textPreview":"> The market","textChars":12,"textLines":1,"bbox":[52,56,196,26]}
+{"kind":"textbox","id":"sh/xwbadszq","slide":11,"text":"Demand generation first. Other offers next.","textPreview":"Demand generation first. Other offers next.","textChars":43,"textLines":1,"bbox":[52,112,210,235]}
+{"kind":"textbox","id":"sh/mp0red03","slide":11,"text":"The first team is demand generation. The same learning system can later improve the other commercial messages a company sends.","textPreview":"The first team is demand generation. The same learning system can later improve the other commercial messages a company sends.","textChars":126,"textLines":1,"bbox":[52,352,198,170]}
+{"kind":"shape","id":"sh/nq9s7yho","slide":11,"bbox":[344,210,178,206]}
+{"kind":"textbox","id":"sh/8ri9g3y9","slide":11,"text":"Demand generation","textPreview":"Demand generation","textChars":17,"textLines":1,"bbox":[361,239,142,45]}
+{"kind":"textbox","id":"sh/9sba98ze","slide":11,"text":"Which offer should lead the next campaign?","textPreview":"Which offer should lead the next campaign?","textChars":42,"textLines":1,"bbox":[361,310,142,74]}
+{"kind":"textbox","id":"sh/y10rat0r","slide":11,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[525,289,24,26]}
+{"kind":"shape","id":"sh/z29s3yhc","slide":11,"bbox":[556,210,178,206]}
+{"kind":"textbox","id":"sh/7exwfyxg","slide":11,"text":"Product marketing","textPreview":"Product marketing","textChars":17,"textLines":1,"bbox":[573,239,142,45]}
+{"kind":"textbox","id":"sh/6dovmtgv","slide":11,"text":"Which positioning and proof should lead a launch?","textPreview":"Which positioning and proof should lead a launch?","textChars":49,"textLines":1,"bbox":[573,310,142,74]}
+{"kind":"textbox","id":"sh/tgfeh8f6","slide":11,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[737,289,24,26]}
+{"kind":"shape","id":"sh/8f6do3y1","slide":11,"bbox":[768,210,178,206]}
+{"kind":"textbox","id":"sh/vixwjixc","slide":11,"text":"Sales enablement","textPreview":"Sales enablement","textChars":16,"textLines":1,"bbox":[785,239,142,45]}
+{"kind":"textbox","id":"sh/uhovqdwr","slide":11,"text":"Which proof and objection response should sales use?","textPreview":"Which proof and objection response should sales use?","textChars":52,"textLines":1,"bbox":[785,310,142,74]}
+{"kind":"textbox","id":"sh/hkzelsfi","slide":11,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[949,289,24,26]}
+{"kind":"shape","id":"sh/gjqdsnex","slide":11,"bbox":[980,210,178,206]}
+{"kind":"textbox","id":"sh/bmdc7ex8","slide":11,"text":"Customer success","textPreview":"Customer success","textChars":16,"textLines":1,"bbox":[997,239,142,45]}
+{"kind":"textbox","id":"sh/al4ve9gn","slide":11,"text":"Which renewal or expansion offer should the customer receive?","textPreview":"Which renewal or expansion offer should the customer receive?","textChars":61,"textLines":1,"bbox":[997,310,142,74]}
+{"kind":"textbox","id":"sh/e1szmhgb","slide":11,"text":"The system stays the same: offer → buyer response → commercial outcome → better next offer","textPreview":"The system stays the same: offer → buyer response → commercial outcome → better next offer","textChars":90,"textLines":1,"bbox":[350,500,750,33]}
+{"kind":"textbox","id":"sh/f21gvmhw","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1220,654,24,18]}
+{"kind":"notes","id":"nt/rn33uh","slide":11,"text":""}
+{"kind":"slide","id":"sl/entp43","slide":12,"title":"> The value","textShapes":12}
+{"kind":"shape","id":"sh/kbypgfmh","slide":12,"bbox":[0,0,300,720]}
+{"kind":"textbox","id":"sh/ja5o7a5w","slide":12,"text":"> The value","textPreview":"> The value","textChars":11,"textLines":1,"bbox":[52,56,196,26]}
+{"kind":"textbox","id":"sh/y9w7e54b","slide":12,"text":"Value appears in qualified pipeline","textPreview":"Value appears in qualified pipeline","textChars":35,"textLines":1,"bbox":[52,112,210,235]}
+{"kind":"textbox","id":"sh/t076dkny","slide":12,"text":"Market Narrative Intelligence earns its place when stronger offers create more of the demand a sales team can actually close.","textPreview":"Market Narrative Intelligence earns its place when stronger offers create more of the demand a sales team can actually close.","textChars":125,"textLines":1,"bbox":[52,352,198,170]}
+{"kind":"shape","id":"sh/8fypkzmd","slide":12,"bbox":[350,265,155,95]}
+{"kind":"textbox","id":"sh/7epobu5s","slide":12,"text":"Campaign brief\nadopted","textPreview":"Campaign brief | adopted","textChars":22,"textLines":2,"bbox":[368,292,119,44]}
+{"kind":"textbox","id":"sh/6dg7ip47","slide":12,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[513,292,34,34]}
+{"kind":"shape","id":"sh/94n610nu","slide":12,"bbox":[560,265,155,95]}
+{"kind":"textbox","id":"sh/oje58vm9","slide":12,"text":"Qualified replies\nor meetings","textPreview":"Qualified replies | or meetings","textChars":29,"textLines":2,"bbox":[578,292,119,44]}
+{"kind":"textbox","id":"sh/upkf254z","slide":12,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[723,292,34,34]}
+{"kind":"shape","id":"sh/fqdgva5k","slide":12,"bbox":[770,265,155,95]}
+{"kind":"textbox","id":"sh/grmx4fm5","slide":12,"text":"Sales-accepted\nopportunities","textPreview":"Sales-accepted | opportunities","textChars":28,"textLines":2,"bbox":[788,292,119,44]}
+{"kind":"textbox","id":"sh/hcvyxknq","slide":12,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[933,292,34,34]}
+{"kind":"shape","id":"sh/2d4z6p4v","slide":12,"bbox":[980,265,155,95]}
+{"kind":"textbox","id":"sh/3edgzu5g","slide":12,"text":"Qualified\npipeline","textPreview":"Qualified | pipeline","textChars":18,"textLines":2,"bbox":[998,292,119,44]}
+{"kind":"textbox","id":"sh/4fmh8fm1","slide":12,"text":"The pilot compares this result with the team’s current workflow and a smart analyst using the same tools.","textPreview":"The pilot compares this result with the team’s current workflow and a smart analyst using the same tools.","textChars":105,"textLines":1,"bbox":[350,468,780,33]}
+{"kind":"textbox","id":"sh/pgvy1knm","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1220,654,24,18]}
+{"kind":"notes","id":"nt/entp43","slide":12,"text":""}
+{"kind":"slide","id":"sl/prmjys","slide":13,"title":"> The test","textShapes":11}
+{"kind":"shape","id":"sh/dcjylcre","slide":13,"bbox":[0,0,300,720]}
+{"kind":"textbox","id":"sh/q9sfqxsn","slide":13,"text":"> The test","textPreview":"> The test","textChars":10,"textLines":1,"bbox":[52,56,196,26]}
+{"kind":"textbox","id":"sh/ra1gj298","slide":13,"text":"The pilot separates product from analyst work","textPreview":"The pilot separates product from analyst work","textChars":45,"textLines":1,"bbox":[52,112,210,235]}
+{"kind":"textbox","id":"sh/47qxonah","slide":13,"text":"The pilot does not ask whether the output looks impressive. It asks whether the brief changes a campaign decision and its commercial result.","textPreview":"The pilot does not ask whether the output looks impressive. It asks whether the brief changes a campaign decision and its commercial result.","textChars":140,"textLines":1,"bbox":[52,352,198,170]}
+{"kind":"shape","id":"sh/p8jyhsr2","slide":13,"bbox":[350,185,230,245]}
+{"kind":"textbox","id":"sh/2l8fmxsr","slide":13,"text":"Current workflow","textPreview":"Current workflow","textChars":16,"textLines":1,"bbox":[370,220,185,52]}
+{"kind":"textbox","id":"sh/3mhgfi9c","slide":13,"text":"Manual campaign review\nExisting reports\nTeam judgement","textPreview":"Manual campaign review | Existing reports | Team judgement","textChars":54,"textLines":3,"bbox":[370,305,185,78]}
+{"kind":"shape","id":"sh/gjqxknal","slide":13,"bbox":[615,185,230,245]}
+{"kind":"textbox","id":"sh/hkzydsr6","slide":13,"text":"Analyst + AI","textPreview":"Analyst + AI","textChars":12,"textLines":1,"bbox":[635,220,185,52]}
+{"kind":"textbox","id":"sh/dsnexkzy","slide":13,"text":"Existing stack\nGeneral AI synthesis\nOne-off recommendation","textPreview":"Existing stack | General AI synthesis | One-off recommendation","textChars":58,"textLines":3,"bbox":[635,305,185,78]}
+{"kind":"shape","id":"sh/srexofyd","slide":13,"bbox":[880,185,230,245]}
+{"kind":"textbox","id":"sh/rq5wvahs","slide":13,"text":"Market Narrative Intelligence","textPreview":"Market Narrative Intelligence","textChars":29,"textLines":1,"bbox":[900,220,185,52]}
+{"kind":"textbox","id":"sh/qpwfm5gn","slide":13,"text":"Offer-learning record\nEvidence-backed brief\nApproved next offer","textPreview":"Offer-learning record | Evidence-backed brief | Approved next offer","textChars":63,"textLines":3,"bbox":[900,305,185,78]}
+{"kind":"textbox","id":"sh/5o3et0z2","slide":13,"text":"One recurring campaign decision. Three comparable ways to make it.","textPreview":"One recurring campaign decision. Three comparable ways to make it.","textChars":66,"textLines":1,"bbox":[353,496,640,32]}
+{"kind":"textbox","id":"sh/4nuxkfyh","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1220,654,24,18]}
+{"kind":"notes","id":"nt/prmjys","slide":13,"text":""}
+{"kind":"slide","id":"sl/qecsiu","slide":14,"title":"> The proof","textShapes":12}
+{"kind":"shape","id":"sh/cfmlc3e1","slide":14,"bbox":[0,0,300,720]}
+{"kind":"textbox","id":"sh/bet4jyxg","slide":14,"text":"> The proof","textPreview":"> The proof","textChars":11,"textLines":1,"bbox":[52,56,196,26]}
+{"kind":"textbox","id":"sh/qdk3atwv","slide":14,"text":"The pilot creates four proofs","textPreview":"The pilot creates four proofs","textChars":29,"textLines":1,"bbox":[52,112,210,235]}
+{"kind":"textbox","id":"sh/pcb2hofa","slide":14,"text":"Can a B2B demand-generation team use an evidence-backed campaign brief to make a better commercial decision?","textPreview":"Can a B2B demand-generation team use an evidence-backed campaign brief to make a better commercial decision?","textChars":108,"textLines":1,"bbox":[52,352,198,170]}
+{"kind":"shape","id":"sh/or2l8jep","slide":14,"bbox":[352,175,320,112]}
+{"kind":"textbox","id":"sh/3qtkfyx4","slide":14,"text":"Use","textPreview":"Use","textChars":3,"textLines":1,"bbox":[374,198,230,27]}
+{"kind":"textbox","id":"sh/2pk36twz","slide":14,"text":"Do teams adopt the brief?","textPreview":"Do teams adopt the brief?","textChars":25,"textLines":1,"bbox":[374,237,265,30]}
+{"kind":"shape","id":"sh/98fmtsfe","slide":14,"bbox":[742,175,320,112]}
+{"kind":"textbox","id":"sh/8n6lkne9","slide":14,"text":"Difference","textPreview":"Difference","textChars":10,"textLines":1,"bbox":[764,198,230,27]}
+{"kind":"textbox","id":"sh/epwz6dcn","slide":14,"text":"Does it produce a decision an analyst misses?","textPreview":"Does it produce a decision an analyst misses?","textChars":45,"textLines":1,"bbox":[764,237,265,30]}
+{"kind":"shape","id":"sh/fq5gfid8","slide":14,"bbox":[352,345,320,112]}
+{"kind":"textbox","id":"sh/greh8nut","slide":14,"text":"Outcome","textPreview":"Outcome","textChars":7,"textLines":1,"bbox":[374,368,230,27]}
+{"kind":"textbox","id":"sh/1snihsve","slide":14,"text":"Does it improve a leading qualified-demand signal?","textPreview":"Does it improve a leading qualified-demand signal?","textChars":50,"textLines":1,"bbox":[374,407,265,30]}
+{"kind":"shape","id":"sh/6lcz2dcr","slide":14,"bbox":[742,345,320,112]}
+{"kind":"textbox","id":"sh/rm5gbidc","slide":14,"text":"Repeatability","textPreview":"Repeatability","textChars":13,"textLines":1,"bbox":[764,368,230,27]}
+{"kind":"textbox","id":"sh/sneh4nux","slide":14,"text":"Do multiple teams share the same decision structure?","textPreview":"Do multiple teams share the same decision structure?","textChars":52,"textLines":1,"bbox":[764,407,265,30]}
+{"kind":"textbox","id":"sh/tonydsvi","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1220,654,24,18]}
+{"kind":"notes","id":"nt/qecsiu","slide":14,"text":""}
+{"kind":"slide","id":"sl/1rq7m4","slide":15,"title":"> What happens next","textShapes":14}
+{"kind":"shape","id":"sh/gzmd4fyh","slide":15,"bbox":[0,0,300,720]}
+{"kind":"textbox","id":"sh/fetcvahw","slide":15,"text":"> What happens next","textPreview":"> What happens next","textChars":19,"textLines":1,"bbox":[52,56,196,26]}
+{"kind":"textbox","id":"sh/edkb25gr","slide":15,"text":"Next: test the brief with real teams","textPreview":"Next: test the brief with real teams","textChars":36,"textLines":1,"bbox":[52,112,210,235]}
+{"kind":"textbox","id":"sh/tcbutkz6","slide":15,"text":"The work now is simple: reach the right teams, listen to their last campaign, and build the smallest useful prototype.","textPreview":"The work now is simple: reach the right teams, listen to their last campaign, and build the smallest useful prototype.","textChars":118,"textLines":1,"bbox":[52,352,198,170]}
+{"kind":"textbox","id":"sh/sb2t0fyl","slide":15,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[352,153,28,28]}
+{"kind":"textbox","id":"sh/ratcrah0","slide":15,"text":"Reach B2B demand-generation agencies on LinkedIn","textPreview":"Reach B2B demand-generation agencies on LinkedIn","textChars":48,"textLines":1,"bbox":[435,146,540,28]}
+{"kind":"textbox","id":"sh/69kby5gf","slide":15,"text":"Find teams running recurring outbound or demand-generation campaigns.","textPreview":"Find teams running recurring outbound or demand-generation campaigns.","textChars":69,"textLines":1,"bbox":[435,185,530,44]}
+{"kind":"textbox","id":"sh/58bup0zu","slide":15,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[352,285,28,28]}
+{"kind":"textbox","id":"sh/472twvy9","slide":15,"text":"Set up discovery meetings","textPreview":"Set up discovery meetings","textChars":25,"textLines":1,"bbox":[435,278,540,28]}
+{"kind":"textbox","id":"sh/idknat0n","slide":15,"text":"Reconstruct a recent offer, buyer conversations, and commercial outcome.","textPreview":"Reconstruct a recent offer, buyer conversations, and commercial outcome.","textChars":72,"textLines":1,"bbox":[435,317,530,44]}
+{"kind":"textbox","id":"sh/3etojy18","slide":15,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[352,417,28,28]}
+{"kind":"textbox","id":"sh/4f25c3it","slide":15,"text":"Build the first campaign-brief prototype","textPreview":"Build the first campaign-brief prototype","textChars":40,"textLines":1,"bbox":[435,410,540,28]}
+{"kind":"textbox","id":"sh/5gb6l8je","slide":15,"text":"Turn that evidence into one decision the team can test next.","textPreview":"Turn that evidence into one decision the team can test next.","textChars":60,"textLines":1,"bbox":[435,449,530,44]}
+{"kind":"shape","id":"sh/up0n6t0r","slide":15,"bbox":[352,557,700,70]}
+{"kind":"textbox","id":"sh/vatofy1w","slide":15,"text":"Resources needed: agency introductions, early pilot feedback, and prototype support","textPreview":"Resources needed: agency introductions, early pilot feedback, and prototype support","textChars":83,"textLines":1,"bbox":[378,578,640,25]}
+{"kind":"textbox","id":"sh/gb2583ih","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1220,654,24,18]}
+{"kind":"notes","id":"nt/1rq7m4","slide":15,"text":""}

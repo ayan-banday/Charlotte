@@ -1,6 +1,6 @@
 ---
 date created: 2026-04-29
-date updated: 2026-08-18 — Added a first-principles finance study guide to support the applied BBA cycle.
+date updated: 2026-09-06 — Added Week 37 as the active ISO weekly record.
 ---
 
 # Self-Management

@@ -318,7 +318,7 @@ Each barrier is an objective you need to clear. Key results show current state v
   - *Why for you:* Q3 written piece + video compounds public signal. Camera excuse eliminated.
 
 **People**
-
+	 
 - **Outcome 6:** Co-founder finalized
   - *What it means:* Committed partner — equity discussed, both building same thing, something shipped together in Q4.
   - *Why for you:* Q3 entrepreneur conversations + Q4 hypothesis/grant give something real to co-found around.

@@ -27,10 +27,12 @@ Dispatch and Queue mean the same raw-capture concept. Use the spelling **Queue**
 
 Use the Notion MCP to fetch the current Queue page. Read its text and at most its direct children. Do not follow into a child’s descendants.
 
-### 2. Build the readable batch
+### 2. Play back the day and build the readable batch
 
 Run `[[Process Idea Batches]]` Steps 1–3. Present:
 
+- A factual timeline table, `Time | What happened`, before interpretation. Use all available timestamps, name gaps, and never invent activities or timing.
+- Inline emphasis only for **Experiment**, **Recurring thought**, **Idea**, and **Decision**.
 - Self-management data.
 - Plan-versus-reality comparison.
 - Learning and strategy material.

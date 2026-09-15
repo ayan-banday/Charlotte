@@ -1,0 +1,252 @@
+{"kind":"deck","id":"pr/nyi3rp","name":"Deck"}
+{"kind":"layout","layoutId":"8395fcdd-7567-47bb-8ae2-dbc9c5be6da7","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"32fee419-a9b0-4e32-a2b4-c042e0b8f56f","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/tpcdh7","slide":1,"title":"DISCOVERY DECK","textShapes":6}
+{"kind":"shape","id":"sh/g7ax0nu5","slide":1,"bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/f61wr2dk","slide":1,"text":"DISCOVERY DECK","textPreview":"DISCOVERY DECK","textChars":14,"textLines":1,"bbox":[60,58,500,24]}
+{"kind":"textbox","id":"sh/u5sfyxcz","slide":1,"text":"The Promise\nProblem","textPreview":"The Promise | Problem","textChars":19,"textLines":2,"bbox":[60,142,675,190]}
+{"kind":"shape","id":"sh/t4jepsvu","slide":1,"bbox":[60,370,150,0]}
+{"kind":"textbox","id":"sh/s3adwnu9","slide":1,"text":"A grant-stage test of how B2B teams learn from buyer response.","textPreview":"A grant-stage test of how B2B teams learn from buyer response.","textChars":62,"textLines":1,"bbox":[60,402,575,58]}
+{"kind":"textbox","id":"sh/7i1wnido","slide":1,"text":"“We will add five new members every month\nwithout cutting prices.”","textPreview":"“We will add five new members every month | without cutting prices.”","textChars":66,"textLines":2,"bbox":[775,180,410,118]}
+{"kind":"textbox","id":"sh/6hsvudc3","slide":1,"text":"The campaign ends.\nThe promise should not.","textPreview":"The campaign ends. | The promise should not.","textChars":42,"textLines":2,"bbox":[775,342,360,90]}
+{"kind":"textbox","id":"sh/d0ne1cvy","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1175,673,45,20]}
+{"kind":"notes","id":"nt/tpcdh7","slide":1,"text":"Internal deck. The example promise is illustrative, not a customer claim. Narrative premise informed by Market Narrative Intelligence Presentation Draft.md and 01 Brain Dump and Unstructured Thinking.md."}
+{"kind":"slide","id":"sl/ld1l4x","slide":2,"title":"A SIMPLE BUYER MOMENT","textShapes":7}
+{"kind":"textbox","id":"sh/1w7i983m","slide":2,"text":"A SIMPLE BUYER MOMENT","textPreview":"A SIMPLE BUYER MOMENT","textChars":21,"textLines":1,"bbox":[60,58,500,24]}
+{"kind":"textbox","id":"sh/e9wjet4v","slide":2,"text":"One promise enters the market","textPreview":"One promise enters the market","textChars":29,"textLines":1,"bbox":[60,110,690,122]}
+{"kind":"textbox","id":"sh/fa507ylg","slide":2,"text":"Brightside Growth tells a gym owner:","textPreview":"Brightside Growth tells a gym owner:","textChars":36,"textLines":1,"bbox":[60,250,360,30]}
+{"kind":"shape","id":"sh/s7e1c3m5","slide":2,"bbox":[475,168,650,280]}
+{"kind":"textbox","id":"sh/t8ni583a","slide":2,"text":"We will add five new members every month without cutting prices.","textPreview":"We will add five new members every month without cutting prices.","textChars":64,"textLines":1,"bbox":[535,228,535,104]}
+{"kind":"shape","id":"sh/65wzat4z","slide":2,"bbox":[535,365,225,0]}
+{"kind":"textbox","id":"sh/r6503ylk","slide":2,"text":"A clear commercial promise.","textPreview":"A clear commercial promise.","textChars":27,"textLines":1,"bbox":[535,390,330,26]}
+{"kind":"textbox","id":"sh/43uh8jmt","slide":2,"text":"ILLUSTRATIVE EXAMPLE","textPreview":"ILLUSTRATIVE EXAMPLE","textChars":20,"textLines":1,"bbox":[60,678,680,18]}
+{"kind":"textbox","id":"sh/54niho3e","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1175,673,45,20]}
+{"kind":"notes","id":"nt/ld1l4x","slide":2,"text":"Illustrative example used to make the buyer-learning problem concrete. It is not customer evidence."}
+{"kind":"slide","id":"sl/l0mgk8","slide":3,"title":"THE BUYER RESPONSE","textShapes":8}
+{"kind":"textbox","id":"sh/vqx0r2to","slide":3,"text":"THE BUYER RESPONSE","textPreview":"THE BUYER RESPONSE","textChars":18,"textLines":1,"bbox":[60,58,500,24]}
+{"kind":"textbox","id":"sh/wr61k7a9","slide":3,"text":"The buyer tests the promise","textPreview":"The buyer tests the promise","textChars":27,"textLines":1,"bbox":[60,110,690,122]}
+{"kind":"textbox","id":"sh/hszitcbu","slide":3,"text":"A buyer does not respond to a campaign. They test the claim inside it.","textPreview":"A buyer does not respond to a campaign. They test the claim inside it.","textChars":70,"textLines":1,"bbox":[60,246,440,70]}
+{"kind":"shape","id":"sh/it8jmhsf","slide":3,"bbox":[615,170,450,108]}
+{"kind":"textbox","id":"sh/juh0vmtk","slide":3,"text":"Will they stay?","textPreview":"Will they stay?","textChars":15,"textLines":1,"bbox":[660,204,340,38]}
+{"kind":"shape","id":"sh/4fq1o7a5","slide":3,"bbox":[695,325,450,108]}
+{"kind":"textbox","id":"sh/5gzixcbq","slide":3,"text":"Have you done this for a gym like mine?","textPreview":"Have you done this for a gym like mine?","textChars":39,"textLines":1,"bbox":[735,351,360,54]}
+{"kind":"textbox","id":"sh/6h8jqhsb","slide":3,"text":"The question shows the proof gap.","textPreview":"The question shows the proof gap.","textChars":33,"textLines":1,"bbox":[615,505,430,30]}
+{"kind":"textbox","id":"sh/rihkzmtw","slide":3,"text":"ILLUSTRATIVE EXAMPLE","textPreview":"ILLUSTRATIVE EXAMPLE","textChars":20,"textLines":1,"bbox":[60,678,680,18]}
+{"kind":"textbox","id":"sh/vu5kj6xw","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1175,673,45,20]}
+{"kind":"notes","id":"nt/l0mgk8","slide":3,"text":"Illustrative example. The core framing, marketing and sales as phases of one promise, derives from 01 Brain Dump and Unstructured Thinking.md."}
+{"kind":"slide","id":"sl/syvcp7","slide":4,"title":"WHAT BREAKS","textShapes":11}
+{"kind":"textbox","id":"sh/gnq94zip","slide":4,"text":"WHAT BREAKS","textPreview":"WHAT BREAKS","textChars":11,"textLines":1,"bbox":[60,58,500,24]}
+{"kind":"textbox","id":"sh/fmhsbu14","slide":4,"text":"The answer breaks into pieces","textPreview":"The answer breaks into pieces","textChars":29,"textLines":1,"bbox":[60,110,690,122]}
+{"kind":"textbox","id":"sh/ul8r2p0j","slide":4,"text":"One buyer story. Three separate systems.","textPreview":"One buyer story. Three separate systems.","textChars":40,"textLines":1,"bbox":[60,250,380,35]}
+{"kind":"shape","id":"sh/tkfa94jy","slide":4,"bbox":[500,220,190,180]}
+{"kind":"textbox","id":"sh/sj690zid","slide":4,"text":"Campaign","textPreview":"Campaign","textChars":8,"textLines":1,"bbox":[522,246,150,25]}
+{"kind":"textbox","id":"sh/7ixs7u1s","slide":4,"text":"Promise","textPreview":"Promise","textChars":7,"textLines":1,"bbox":[522,302,145,70]}
+{"kind":"shape","id":"sh/6horyp07","slide":4,"bbox":[750,220,190,180]}
+{"kind":"textbox","id":"sh/dgjaloj2","slide":4,"text":"Sales call","textPreview":"Sales call","textChars":10,"textLines":1,"bbox":[772,246,150,25]}
+{"kind":"textbox","id":"sh/cfatcjih","slide":4,"text":"Buyer doubt\nand response","textPreview":"Buyer doubt | and response","textChars":24,"textLines":2,"bbox":[772,302,145,70]}
+{"kind":"shape","id":"sh/ihcv2dw7","slide":4,"bbox":[1000,220,190,180]}
+{"kind":"textbox","id":"sh/jilwbids","slide":4,"text":"CRM","textPreview":"CRM","textChars":3,"textLines":1,"bbox":[1022,246,150,25]}
+{"kind":"textbox","id":"sh/kjud4ned","slide":4,"text":"Outcome\nand reason","textPreview":"Outcome | and reason","textChars":18,"textLines":2,"bbox":[1022,302,145,70]}
+{"kind":"shape","id":"sh/5k3ed8vy","slide":4,"bbox":[690,310,45,0]}
+{"kind":"shape","id":"sh/adsvytwv","slide":4,"bbox":[940,310,45,0]}
+{"kind":"textbox","id":"sh/velc7ydg","slide":4,"text":"No system owns the full promise.","textPreview":"No system owns the full promise.","textChars":32,"textLines":1,"bbox":[500,472,500,35]}
+{"kind":"textbox","id":"sh/wfud03e1","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1175,673,45,20]}
+{"kind":"notes","id":"nt/syvcp7","slide":4,"text":"Problem statement synthesized from 01 Brain Dump and Unstructured Thinking.md and 04 Market Narrative Intelligence Presentation Draft.md. The split between campaign, sales, and CRM is the product hypothesis, not a validated market fact."}
+{"kind":"slide","id":"sl/5fyww6","slide":5,"title":"THE COST OF THE SPLIT","textShapes":11}
+{"kind":"textbox","id":"sh/kj29ofa5","slide":5,"text":"THE COST OF THE SPLIT","textPreview":"THE COST OF THE SPLIT","textChars":21,"textLines":1,"bbox":[60,58,500,24]}
+{"kind":"textbox","id":"sh/zitsva9k","slide":5,"text":"More activity repeats the same mistake","textPreview":"More activity repeats the same mistake","textChars":38,"textLines":1,"bbox":[60,110,690,122]}
+{"kind":"textbox","id":"sh/yhkrm5sz","slide":5,"text":"More messages, dashboards, and AI drafts still repeat an unproven promise.","textPreview":"More messages, dashboards, and AI drafts still repeat an unproven promise.","textChars":74,"textLines":1,"bbox":[60,250,450,68]}
+{"kind":"shape","id":"sh/9ova1krm","slide":5,"bbox":[610,180,245,260]}
+{"kind":"textbox","id":"sh/8nm9sfah","slide":5,"text":"May","textPreview":"May","textChars":3,"textLines":1,"bbox":[640,214,100,25]}
+{"kind":"textbox","id":"sh/7mdsza9w","slide":5,"text":"Five new\nmembers\nevery month","textPreview":"Five new | members | every month","textChars":28,"textLines":3,"bbox":[640,270,165,90]}
+{"kind":"shape","id":"sh/ml4rqpsb","slide":5,"bbox":[930,180,245,260]}
+{"kind":"textbox","id":"sh/psrap0ri","slide":5,"text":"June","textPreview":"June","textChars":4,"textLines":1,"bbox":[960,214,100,25]}
+{"kind":"textbox","id":"sh/ori9gvax","slide":5,"text":"Five new\nmembers\nevery month","textPreview":"Five new | members | every month","textChars":28,"textLines":3,"bbox":[960,270,165,90]}
+{"kind":"textbox","id":"sh/i943mlsj","slide":5,"text":"same promise","textPreview":"same promise","textChars":12,"textLines":1,"bbox":[848,308,80,20]}
+{"kind":"shape","id":"sh/jadkv6t4","slide":5,"bbox":[855,348,65,0]}
+{"kind":"textbox","id":"sh/4b6lobap","slide":5,"text":"The campaign ends.\nThe promise should not.","textPreview":"The campaign ends. | The promise should not.","textChars":42,"textLines":2,"bbox":[610,478,510,72]}
+{"kind":"textbox","id":"sh/5cf2xgbu","slide":5,"text":"ILLUSTRATIVE EXAMPLE","textPreview":"ILLUSTRATIVE EXAMPLE","textChars":20,"textLines":1,"bbox":[60,678,680,18]}
+{"kind":"textbox","id":"sh/6do3qlsf","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1175,673,45,20]}
+{"kind":"notes","id":"nt/5fyww6","slide":5,"text":"Illustrative example. Claim is a framing statement, not a quantified performance claim. This slide deliberately avoids asserting that existing tools are ineffective."}
+{"kind":"slide","id":"sl/gtcqb1","slide":6,"title":"THE REFRAME","textShapes":8}
+{"kind":"textbox","id":"sh/ovi18jid","slide":6,"text":"THE REFRAME","textPreview":"THE REFRAME","textChars":11,"textLines":1,"bbox":[60,58,500,24]}
+{"kind":"textbox","id":"sh/3u90fehs","slide":6,"text":"Promise, not campaign","textPreview":"Promise, not campaign","textChars":21,"textLines":1,"bbox":[60,110,690,122]}
+{"kind":"textbox","id":"sh/2t0j6907","slide":6,"text":"The campaign is a container. The promise travels through it.","textPreview":"The campaign is a container. The promise travels through it.","textChars":60,"textLines":1,"bbox":[60,246,495,64]}
+{"kind":"textbox","id":"sh/dkbilozu","slide":6,"text":"Campaign-led","textPreview":"Campaign-led","textChars":12,"textLines":1,"bbox":[620,170,220,24]}
+{"kind":"textbox","id":"sh/cz21cji9","slide":6,"text":"Promise-led","textPreview":"Promise-led","textChars":11,"textLines":1,"bbox":[930,170,220,24]}
+{"kind":"shape","id":"sh/by90jyh4","slide":6,"bbox":[610,220,250,250]}
+{"kind":"textbox","id":"sh/qx0jat0j","slide":6,"text":"Launch\nMeasure\nArchive\nRepeat","textPreview":"Launch | Measure | Archive | Repeat","textChars":29,"textLines":4,"bbox":[650,260,160,145]}
+{"kind":"shape","id":"sh/t47i94zq","slide":6,"bbox":[920,220,270,250]}
+{"kind":"textbox","id":"sh/s3y10zi5","slide":6,"text":"Make promise\nCapture buyer test\nLink outcome\nChange next decision","textPreview":"Make promise | Capture buyer test | Link outcome | Change next decision","textChars":65,"textLines":4,"bbox":[952,255,200,168]}
+{"kind":"textbox","id":"sh/ep0vyh03","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1175,673,45,20]}
+{"kind":"notes","id":"nt/gtcqb1","slide":6,"text":"Product reframe from user direction and 04 Market Narrative Intelligence Presentation Draft.md. The two workflows are conceptual contrasts, not benchmark data."}
+{"kind":"slide","id":"sl/nqnr4r","slide":7,"title":"THE PRODUCT","textShapes":17}
+{"kind":"textbox","id":"sh/r6ts7yd8","slide":7,"text":"THE PRODUCT","textPreview":"THE PRODUCT","textChars":11,"textLines":1,"bbox":[60,58,500,24]}
+{"kind":"textbox","id":"sh/s72tg3et","slide":7,"text":"Every promise needs a record","textPreview":"Every promise needs a record","textChars":28,"textLines":1,"bbox":[60,110,690,122]}
+{"kind":"shape","id":"sh/d8bu98ve","slide":7,"bbox":[60,235,305,28]}
+{"kind":"textbox","id":"sh/ih0ba9wr","slide":7,"text":"MARKET NARRATIVE INTELLIGENCE","textPreview":"MARKET NARRATIVE INTELLIGENCE","textChars":29,"textLines":1,"bbox":[72,241,281,16]}
+{"kind":"textbox","id":"sh/3i9s3edc","slide":7,"text":"Market Narrative Intelligence connects the promise, proof, buyer doubt, and revenue result in one editable record.","textPreview":"Market Narrative Intelligence connects the promise, proof, buyer doubt, and revenue result in one editable record.","textChars":114,"textLines":1,"bbox":[60,295,425,104]}
+{"kind":"shape","id":"sh/4jitcjex","slide":7,"bbox":[560,160,590,385]}
+{"kind":"textbox","id":"sh/54ra5ov2","slide":7,"text":"PROMISE RECORD","textPreview":"PROMISE RECORD","textChars":14,"textLines":1,"bbox":[595,192,270,20]}
+{"kind":"textbox","id":"sh/ud0b69wf","slide":7,"text":"Promise","textPreview":"Promise","textChars":7,"textLines":1,"bbox":[595,235,130,18]}
+{"kind":"textbox","id":"sh/ve9szed0","slide":7,"text":"Five new members every month","textPreview":"Five new members every month","textChars":28,"textLines":1,"bbox":[740,233,360,25]}
+{"kind":"shape","id":"sh/jyhk7ux4","slide":7,"bbox":[595,270,505,0]}
+{"kind":"textbox","id":"sh/yx8jypgj","slide":7,"text":"Proof needed","textPreview":"Proof needed","textChars":12,"textLines":1,"bbox":[595,292,130,18]}
+{"kind":"textbox","id":"sh/l0z29kfa","slide":7,"text":"Retention after month three","textPreview":"Retention after month three","textChars":27,"textLines":1,"bbox":[740,290,360,25]}
+{"kind":"shape","id":"sh/kzq10fyp","slide":7,"bbox":[595,327,505,0]}
+{"kind":"textbox","id":"sh/721kbux0","slide":7,"text":"Buyer asked","textPreview":"Buyer asked","textChars":11,"textLines":1,"bbox":[595,349,130,18]}
+{"kind":"textbox","id":"sh/618j2pgv","slide":7,"text":"Will they stay?","textPreview":"Will they stay?","textChars":15,"textLines":1,"bbox":[740,347,360,25]}
+{"kind":"shape","id":"sh/t4j2d4f6","slide":7,"bbox":[595,384,505,0]}
+{"kind":"textbox","id":"sh/83a14zyl","slide":7,"text":"CRM result","textPreview":"CRM result","textChars":10,"textLines":1,"bbox":[595,406,130,18]}
+{"kind":"textbox","id":"sh/n6xkzaxw","slide":7,"text":"Outcome and loss reason","textPreview":"Outcome and loss reason","textChars":23,"textLines":1,"bbox":[740,404,360,25]}
+{"kind":"shape","id":"sh/m5ojq5gb","slide":7,"bbox":[595,441,505,0]}
+{"kind":"textbox","id":"sh/qlwned0z","slide":7,"text":"Next decision","textPreview":"Next decision","textChars":13,"textLines":1,"bbox":[595,463,130,18]}
+{"kind":"textbox","id":"sh/rm547ihk","slide":7,"text":"Change the next promise","textPreview":"Change the next promise","textChars":23,"textLines":1,"bbox":[740,461,360,25]}
+{"kind":"textbox","id":"sh/cne5g3i5","slide":7,"text":"ILLUSTRATIVE EXAMPLE","textPreview":"ILLUSTRATIVE EXAMPLE","textChars":20,"textLines":1,"bbox":[60,678,680,18]}
+{"kind":"textbox","id":"sh/donm98zq","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1175,673,45,20]}
+{"kind":"notes","id":"nt/nqnr4r","slide":7,"text":"Product concept grounded in 04 Market Narrative Intelligence Presentation Draft.md: a system of record connecting promise, proof, objections, buyer response and outcome. Example contents are illustrative."}
+{"kind":"slide","id":"sl/ue231w","slide":8,"title":"WHAT CHANGES","textShapes":10}
+{"kind":"textbox","id":"sh/5kr694j2","slide":8,"text":"WHAT CHANGES","textPreview":"WHAT CHANGES","textChars":12,"textLines":1,"bbox":[60,58,500,24]}
+{"kind":"textbox","id":"sh/ih0nypkb","slide":8,"text":"The next campaign changes for a reason","textPreview":"The next campaign changes for a reason","textChars":38,"textLines":1,"bbox":[60,110,690,122]}
+{"kind":"textbox","id":"sh/ji947u1w","slide":8,"text":"The buyer question and the CRM result change the promise, not just the report.","textPreview":"The buyer question and the CRM result change the promise, not just the report.","textChars":78,"textLines":1,"bbox":[60,248,420,85]}
+{"kind":"textbox","id":"sh/wvi5wf25","slide":8,"text":"Before","textPreview":"Before","textChars":6,"textLines":1,"bbox":[590,182,120,22]}
+{"kind":"shape","id":"sh/xwrm5k3q","slide":8,"bbox":[590,220,260,148]}
+{"kind":"textbox","id":"sh/atgnupkf","slide":8,"text":"Five new\nmembers every month","textPreview":"Five new | members every month","textChars":28,"textLines":2,"bbox":[618,257,210,70]}
+{"kind":"textbox","id":"sh/vu943al0","slide":8,"text":"Buyer asked about retention","textPreview":"Buyer asked about retention","textChars":27,"textLines":1,"bbox":[875,260,220,45]}
+{"kind":"shape","id":"sh/ory5sf29","slide":8,"bbox":[860,335,240,0]}
+{"kind":"textbox","id":"sh/9s7m1k3u","slide":8,"text":"After","textPreview":"After","textChars":5,"textLines":1,"bbox":[875,397,120,22]}
+{"kind":"shape","id":"sh/dwvu14ri","slide":8,"bbox":[875,425,300,190]}
+{"kind":"textbox","id":"sh/cvmtsjax","slide":8,"text":"Five new members\nwho stay past\nmonth three","textPreview":"Five new members | who stay past | month three","textChars":42,"textLines":3,"bbox":[905,457,240,120]}
+{"kind":"textbox","id":"sh/budcze9c","slide":8,"text":"ILLUSTRATIVE EXAMPLE","textPreview":"ILLUSTRATIVE EXAMPLE","textChars":20,"textLines":1,"bbox":[60,678,680,18]}
+{"kind":"textbox","id":"sh/qt4bq9sr","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1175,673,45,20]}
+{"kind":"notes","id":"nt/ue231w","slide":8,"text":"Illustrative example. It demonstrates the core product claim that commercial learning should change the next decision. It does not state an observed customer result."}
+{"kind":"slide","id":"sl/jxhe10","slide":9,"title":"WHY NOW","textShapes":11}
+{"kind":"textbox","id":"sh/elkbyt0n","slide":9,"text":"WHY NOW","textPreview":"WHY NOW","textChars":7,"textLines":1,"bbox":[60,58,500,24]}
+{"kind":"textbox","id":"sh/1obu98je","slide":9,"text":"Evidence\nalready exists","textPreview":"Evidence | already exists","textChars":23,"textLines":2,"bbox":[60,110,620,122]}
+{"kind":"textbox","id":"sh/0n2t03it","slide":9,"text":"Campaign assets, sales calls, and CRM outcomes contain the missing link.","textPreview":"Campaign assets, sales calls, and CRM outcomes contain the missing link.","textChars":72,"textLines":1,"bbox":[60,246,450,72]}
+{"kind":"shape","id":"sh/nqtcbi1k","slide":9,"bbox":[628,230,18,18]}
+{"kind":"textbox","id":"sh/mpkb2d0z","slide":9,"text":"Campaign assets","textPreview":"Campaign assets","textChars":15,"textLines":1,"bbox":[550,280,175,26]}
+{"kind":"textbox","id":"sh/9cvudsja","slide":9,"text":"What was promised","textPreview":"What was promised","textChars":17,"textLines":1,"bbox":[550,315,175,24]}
+{"kind":"shape","id":"sh/obmt4nip","slide":9,"bbox":[838,230,18,18]}
+{"kind":"textbox","id":"sh/bedcfihg","slide":9,"text":"Sales calls","textPreview":"Sales calls","textChars":11,"textLines":1,"bbox":[760,280,175,26]}
+{"kind":"textbox","id":"sh/ad4b6d0v","slide":9,"text":"What buyers tested","textPreview":"What buyers tested","textChars":18,"textLines":1,"bbox":[760,315,175,24]}
+{"kind":"shape","id":"sh/cbu5kri5","slide":9,"bbox":[1048,230,18,18]}
+{"kind":"textbox","id":"sh/dc3mtczq","slide":9,"text":"CRM outcomes","textPreview":"CRM outcomes","textChars":12,"textLines":1,"bbox":[970,280,175,26]}
+{"kind":"textbox","id":"sh/q9cnih0f","slide":9,"text":"What happened","textPreview":"What happened","textChars":13,"textLines":1,"bbox":[970,315,175,24]}
+{"kind":"shape","id":"sh/bal4rmh0","slide":9,"bbox":[600,410,480,0]}
+{"kind":"shape","id":"sh/0fe5orih","slide":9,"bbox":[695,450,300,88]}
+{"kind":"textbox","id":"sh/lgn6xwz2","slide":9,"text":"One promise record","textPreview":"One promise record","textChars":18,"textLines":1,"bbox":[725,477,240,32]}
+{"kind":"textbox","id":"sh/ydwnmh0b","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1175,673,45,20]}
+{"kind":"notes","id":"nt/jxhe10","slide":9,"text":"Source-system framing from 00 Introduction to Venture-Scale Opportunity.md and 04 Market Narrative Intelligence Presentation Draft.md. Availability and access quality must be validated in pilot work."}
+{"kind":"slide","id":"sl/emxfb7","slide":10,"title":"THE BENCHMARK","textShapes":12}
+{"kind":"textbox","id":"sh/7mhczqpc","slide":10,"text":"THE BENCHMARK","textPreview":"THE BENCHMARK","textChars":13,"textLines":1,"bbox":[60,58,500,24]}
+{"kind":"textbox","id":"sh/8nqd8v6x","slide":10,"text":"An analyst rebuilds the story today","textPreview":"An analyst rebuilds the story today","textChars":35,"textLines":1,"bbox":[60,110,690,122]}
+{"kind":"textbox","id":"sh/tozu107i","slide":10,"text":"Teams export data, replay calls, and write a new brief by hand.","textPreview":"Teams export data, replay calls, and write a new brief by hand.","textChars":63,"textLines":1,"bbox":[60,246,420,68]}
+{"kind":"shape","id":"sh/up8va5o3","slide":10,"bbox":[500,205,175,155]}
+{"kind":"textbox","id":"sh/vqhc3apo","slide":10,"text":"CRM export","textPreview":"CRM export","textChars":10,"textLines":1,"bbox":[518,235,140,24]}
+{"kind":"textbox","id":"sh/gbqdcf69","slide":10,"text":"Outcome\nand reason","textPreview":"Outcome | and reason","textChars":18,"textLines":2,"bbox":[518,287,140,60]}
+{"kind":"shape","id":"sh/hcje5k7u","slide":10,"bbox":[710,205,175,155]}
+{"kind":"textbox","id":"sh/idsvepoz","slide":10,"text":"Call review","textPreview":"Call review","textChars":11,"textLines":1,"bbox":[728,235,140,24]}
+{"kind":"textbox","id":"sh/3e1w7apk","slide":10,"text":"Buyer question\nand response","textPreview":"Buyer question | and response","textChars":27,"textLines":2,"bbox":[728,287,140,60]}
+{"kind":"shape","id":"sh/v6p47qtc","slide":10,"bbox":[920,205,175,155]}
+{"kind":"textbox","id":"sh/a5g3elc7","slide":10,"text":"Campaign review","textPreview":"Campaign review","textChars":15,"textLines":1,"bbox":[938,235,140,24]}
+{"kind":"textbox","id":"sh/x87m90bi","slide":10,"text":"Promise\nand proof","textPreview":"Promise | and proof","textChars":17,"textLines":2,"bbox":[938,287,140,60]}
+{"kind":"shape","id":"sh/w7ylgvux","slide":10,"bbox":[710,435,370,95]}
+{"kind":"textbox","id":"sh/n2543qtg","slide":10,"text":"Analyst + general AI\ncreates the next brief","textPreview":"Analyst + general AI | creates the next brief","textChars":43,"textLines":2,"bbox":[745,456,300,52]}
+{"kind":"textbox","id":"sh/m1w3alcv","slide":10,"text":"This is the benchmark.","textPreview":"This is the benchmark.","textChars":22,"textLines":1,"bbox":[60,507,365,30]}
+{"kind":"textbox","id":"sh/94nm50bm","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1175,673,45,20]}
+{"kind":"notes","id":"nt/emxfb7","slide":10,"text":"Competitive baseline is drawn from 03 Marketing Intelligence Competitive Landscape.md. The document identifies the key substitute as internal stack + analyst + general LLM. This slide does not claim superiority."}
+{"kind":"slide","id":"sl/ns9piv","slide":11,"title":"THE FIRST USER","textShapes":11}
+{"kind":"textbox","id":"sh/pgf2pkf6","slide":11,"text":"THE FIRST USER","textPreview":"THE FIRST USER","textChars":14,"textLines":1,"bbox":[60,58,500,24]}
+{"kind":"textbox","id":"sh/2dojepgf","slide":11,"text":"Start before the next campaign goes live","textPreview":"Start before the next campaign goes live","textChars":40,"textLines":1,"bbox":[60,110,690,122]}
+{"kind":"textbox","id":"sh/3exknax0","slide":11,"text":"A growth lead at a 20–75-person performance-marketing agency using HubSpot.","textPreview":"A growth lead at a 20–75-person performance-marketing agency using HubSpot.","textChars":75,"textLines":1,"bbox":[60,246,480,74]}
+{"kind":"shape","id":"sh/cjqlkzyh","slide":11,"bbox":[632,225,16,16]}
+{"kind":"textbox","id":"sh/dkz2t4f2","slide":11,"text":"Growth lead","textPreview":"Growth lead","textChars":11,"textLines":1,"bbox":[560,275,160,25]}
+{"kind":"textbox","id":"sh/qh83ipgr","slide":11,"text":"Chooses\nthe next move","textPreview":"Chooses | the next move","textChars":21,"textLines":2,"bbox":[560,316,160,52]}
+{"kind":"shape","id":"sh/rihkruxc","slide":11,"bbox":[837,225,16,16]}
+{"kind":"textbox","id":"sh/0nqlozyt","slide":11,"text":"Agency owner","textPreview":"Agency owner","textChars":12,"textLines":1,"bbox":[765,275,160,25]}
+{"kind":"textbox","id":"sh/l8j2x4fe","slide":11,"text":"Pays for\nthe result","textPreview":"Pays for | the result","textChars":19,"textLines":2,"bbox":[765,316,160,52]}
+{"kind":"shape","id":"sh/14f65kny","slide":11,"bbox":[1042,225,16,16]}
+{"kind":"textbox","id":"sh/036pwf6d","slide":11,"text":"CRM owner","textPreview":"CRM owner","textChars":9,"textLines":1,"bbox":[970,275,160,25]}
+{"kind":"textbox","id":"sh/f2xo3a58","slide":11,"text":"Grants\ndata access","textPreview":"Grants | data access","textChars":18,"textLines":2,"bbox":[970,316,160,52]}
+{"kind":"shape","id":"sh/e1o7u5on","slide":11,"bbox":[560,410,570,0]}
+{"kind":"textbox","id":"sh/psz69kna","slide":11,"text":"Run the first review when a live commercial decision still matters.","textPreview":"Run the first review when a live commercial decision still matters.","textChars":67,"textLines":1,"bbox":[560,450,550,44]}
+{"kind":"textbox","id":"sh/o7qp0fmp","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1175,673,45,20]}
+{"kind":"notes","id":"nt/ns9piv","slide":11,"text":"Customer target from 00 Introduction to Venture-Scale Opportunity.md. This is a chosen starting segment and role map for pilot recruitment, not a signed customer profile."}
+{"kind":"slide","id":"sl/ueaow7","slide":12,"title":"THE TEST","textShapes":11}
+{"kind":"textbox","id":"sh/2psvipwf","slide":12,"text":"THE TEST","textPreview":"THE TEST","textChars":8,"textLines":1,"bbox":[60,58,500,24]}
+{"kind":"textbox","id":"sh/psjutkf6","slide":12,"text":"Use the same evidence. Make a better decision.","textPreview":"Use the same evidence. Make a better decision.","textChars":46,"textLines":1,"bbox":[60,110,690,122]}
+{"kind":"textbox","id":"sh/oradkfel","slide":12,"text":"The pilot compares workflows on source traceability, decision change, and right-fit pipeline.","textPreview":"The pilot compares workflows on source traceability, decision change, and right-fit pipeline.","textChars":93,"textLines":1,"bbox":[60,244,480,75]}
+{"kind":"shape","id":"sh/f21cnax4","slide":12,"bbox":[545,175,185,300]}
+{"kind":"textbox","id":"sh/e18ve5wj","slide":12,"text":"Current workflow","textPreview":"Current workflow","textChars":16,"textLines":1,"bbox":[563,210,150,45]}
+{"kind":"shape","id":"sh/14jupkfa","slide":12,"bbox":[573,275,130,0]}
+{"kind":"textbox","id":"sh/g3adgfep","slide":12,"text":"Separate tools\nSeparate handoffs\nSeparate reports","textPreview":"Separate tools | Separate handoffs | Separate reports","textChars":49,"textLines":3,"bbox":[563,305,150,98]}
+{"kind":"shape","id":"sh/zylwzex8","slide":12,"bbox":[755,175,185,300]}
+{"kind":"textbox","id":"sh/yxcvq9wn","slide":12,"text":"Analyst + general AI","textPreview":"Analyst + general AI","textChars":20,"textLines":1,"bbox":[773,210,150,45]}
+{"kind":"shape","id":"sh/wzmhcn6d","slide":12,"bbox":[783,275,130,0]}
+{"kind":"textbox","id":"sh/x0vi5sni","slide":12,"text":"Rebuilds the story\nby hand\nCreates a brief","textPreview":"Rebuilds the story | by hand | Creates a brief","textChars":42,"textLines":3,"bbox":[773,305,150,98]}
+{"kind":"shape","id":"sh/ax4zaxo7","slide":12,"bbox":[965,175,185,300]}
+{"kind":"textbox","id":"sh/byd0325s","slide":12,"text":"MNI","textPreview":"MNI","textChars":3,"textLines":1,"bbox":[983,210,150,45]}
+{"kind":"shape","id":"sh/ov2h8n61","slide":12,"bbox":[993,275,130,0]}
+{"kind":"textbox","id":"sh/9wvi1s7m","slide":12,"text":"One promise record\nEvidence linked\nNext decision shown","textPreview":"One promise record | Evidence linked | Next decision shown","textChars":54,"textLines":3,"bbox":[983,305,150,98]}
+{"kind":"textbox","id":"sh/m9kz6dov","slide":12,"text":"Same inputs. Different record. Compare the decision.","textPreview":"Same inputs. Different record. Compare the decision.","textChars":52,"textLines":1,"bbox":[545,535,610,30]}
+{"kind":"textbox","id":"sh/nut0zipg","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1175,673,45,20]}
+{"kind":"notes","id":"nt/ueaow7","slide":12,"text":"Evaluation design derived from 03 Marketing Intelligence Competitive Landscape.md, which identifies speed, traceability, decision quality and qualified revenue as areas the product must beat or prove. No outcome is claimed before the pilot."}
+{"kind":"slide","id":"sl/nlf0ww","slide":13,"title":"THE PROOF PATH","textShapes":16}
+{"kind":"textbox","id":"sh/w3ihcnel","slide":13,"text":"THE PROOF PATH","textPreview":"THE PROOF PATH","textChars":14,"textLines":1,"bbox":[60,58,500,24]}
+{"kind":"textbox","id":"sh/bi903ix0","slide":13,"text":"The pilot earns the next step","textPreview":"The pilot earns the next step","textChars":29,"textLines":1,"bbox":[60,110,690,122]}
+{"kind":"textbox","id":"sh/ah0zaxwf","slide":13,"text":"Build a small test that creates one clear decision, not a long implementation.","textPreview":"Build a small test that creates one clear decision, not a long implementation.","textChars":78,"textLines":1,"bbox":[60,246,450,72]}
+{"kind":"textbox","id":"sh/9gri1sfa","slide":13,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[565,195,170,84]}
+{"kind":"textbox","id":"sh/ofih8nep","slide":13,"text":"teams","textPreview":"teams","textChars":5,"textLines":1,"bbox":[565,290,170,46]}
+{"kind":"textbox","id":"sh/ne90zix4","slide":13,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[770,195,170,84]}
+{"kind":"textbox","id":"sh/md0z6dwj","slide":13,"text":"source types","textPreview":"source types","textChars":12,"textLines":1,"bbox":[770,290,170,46]}
+{"kind":"textbox","id":"sh/1c7ix8fy","slide":13,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[975,195,170,84]}
+{"kind":"textbox","id":"sh/0byh43ed","slide":13,"text":"live decision\nper team","textPreview":"live decision | per team","textChars":22,"textLines":2,"bbox":[975,290,170,46]}
+{"kind":"shape","id":"sh/qx8rmt4n","slide":13,"bbox":[585,405,520,0]}
+{"kind":"shape","id":"sh/byh8vyl8","slide":13,"bbox":[632,397,18,18]}
+{"kind":"textbox","id":"sh/cjq9o32d","slide":13,"text":"Reconstruct","textPreview":"Reconstruct","textChars":11,"textLines":1,"bbox":[560,435,170,24]}
+{"kind":"textbox","id":"sh/xkjqx83y","slide":13,"text":"Link one promise\nto its evidence","textPreview":"Link one promise | to its evidence","textChars":32,"textLines":2,"bbox":[560,470,170,45]}
+{"kind":"shape","id":"sh/2t8rit4b","slide":13,"bbox":[837,397,18,18]}
+{"kind":"textbox","id":"sh/3uh8relw","slide":13,"text":"Run","textPreview":"Run","textChars":3,"textLines":1,"bbox":[765,435,170,24]}
+{"kind":"textbox","id":"sh/ovq9kjmh","slide":13,"text":"Use it in a live\ncommercial choice","textPreview":"Use it in a live | commercial choice","textChars":34,"textLines":2,"bbox":[765,470,170,45]}
+{"kind":"shape","id":"sh/pwzqto32","slide":13,"bbox":[1042,397,18,18]}
+{"kind":"textbox","id":"sh/epore94f","slide":13,"text":"Compare","textPreview":"Compare","textChars":7,"textLines":1,"bbox":[970,435,170,24]}
+{"kind":"textbox","id":"sh/fqx8nel0","slide":13,"text":"Pursue, probe,\nor pass","textPreview":"Pursue, probe, | or pass","textChars":22,"textLines":2,"bbox":[970,470,170,45]}
+{"kind":"textbox","id":"sh/judova1s","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1175,673,45,20]}
+{"kind":"notes","id":"nt/nlf0ww","slide":13,"text":"Pilot scope from 00 Introduction to Venture-Scale Opportunity.md and 04 Market Narrative Intelligence Presentation Draft.md: two or three B2B teams and three source types. This deck uses two teams as a deliberately small starting scope."}
+{"kind":"slide","id":"sl/ty0hpt","slide":14,"title":"THE VENTURE PATH","textShapes":10}
+{"kind":"textbox","id":"sh/ja18ju1o","slide":14,"text":"THE VENTURE PATH","textPreview":"THE VENTURE PATH","textChars":16,"textLines":1,"bbox":[60,58,500,24]}
+{"kind":"textbox","id":"sh/4ba9czit","slide":14,"text":"The record earns its expansion","textPreview":"The record earns its expansion","textChars":30,"textLines":1,"bbox":[60,110,690,122]}
+{"kind":"textbox","id":"sh/5wjqlkje","slide":14,"text":"The same record must help the next commercial decision before the product moves to another one.","textPreview":"The same record must help the next commercial decision before the product moves to another one.","textChars":95,"textLines":1,"bbox":[60,246,460,84]}
+{"kind":"shape","id":"sh/u58r65kr","slide":14,"bbox":[545,220,135,135]}
+{"kind":"textbox","id":"sh/v618fa1c","slide":14,"text":"Demand\ncampaign","textPreview":"Demand | campaign","textChars":15,"textLines":2,"bbox":[559,260,107,55]}
+{"kind":"shape","id":"sh/w7a98f2x","slide":14,"bbox":[710,220,135,135]}
+{"kind":"textbox","id":"sh/h8jqhkji","slide":14,"text":"Product\nlaunch","textPreview":"Product | launch","textChars":14,"textLines":2,"bbox":[724,260,107,55]}
+{"kind":"shape","id":"sh/e1cri90b","slide":14,"bbox":[875,220,135,135]}
+{"kind":"textbox","id":"sh/f2lsre1g","slide":14,"text":"Sales\nproof","textPreview":"Sales | proof","textChars":11,"textLines":2,"bbox":[889,260,107,55]}
+{"kind":"shape","id":"sh/vy1onel4","slide":14,"bbox":[1040,220,135,135]}
+{"kind":"textbox","id":"sh/axsnut4j","slide":14,"text":"Renewal\noffer","textPreview":"Renewal | offer","textChars":13,"textLines":2,"bbox":[1054,260,107,55]}
+{"kind":"textbox","id":"sh/xkj6po3a","slide":14,"text":"Same promise record","textPreview":"Same promise record","textChars":19,"textLines":1,"bbox":[545,410,630,30]}
+{"kind":"shape","id":"sh/wjapwjmp","slide":14,"bbox":[595,455,530,0]}
+{"kind":"textbox","id":"sh/jmloryl0","slide":14,"text":"Expansion follows proof, not a category claim.","textPreview":"Expansion follows proof, not a category claim.","textChars":46,"textLines":1,"bbox":[545,510,630,32]}
+{"kind":"textbox","id":"sh/ils7yt4v","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1175,673,45,20]}
+{"kind":"notes","id":"nt/ty0hpt","slide":14,"text":"Expansion logic follows 04 Market Narrative Intelligence Presentation Draft.md: land on campaigns, then expand only if the same promise record transfers across product launches, sales proof and renewal offers. This is a conditional venture path, not a market-size claim."}
+{"kind":"slide","id":"sl/gdoph1","slide":15,"title":"THE ASK","textShapes":12}
+{"kind":"shape","id":"sh/zq5wnatg","slide":15,"bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/krexgfa1","slide":15,"text":"THE ASK","textPreview":"THE ASK","textChars":7,"textLines":1,"bbox":[60,58,500,24]}
+{"kind":"textbox","id":"sh/lsnep0bm","slide":15,"text":"Give us two teams\nand one decision each","textPreview":"Give us two teams | and one decision each","textChars":39,"textLines":2,"bbox":[60,125,720,122]}
+{"kind":"textbox","id":"sh/mtwfi5s7","slide":15,"text":"By September 30: a Pursue, Probe, or Pass decision backed by reconstructed buyer evidence.","textPreview":"By September 30: a Pursue, Probe, or Pass decision backed by reconstructed buyer evidence.","textChars":90,"textLines":1,"bbox":[60,315,590,70]}
+{"kind":"shape","id":"sh/7upwrats","slide":15,"bbox":[725,155,200,145]}
+{"kind":"textbox","id":"sh/8fyxkfax","slide":15,"text":"Two introductions","textPreview":"Two introductions","textChars":17,"textLines":1,"bbox":[743,180,165,44]}
+{"kind":"textbox","id":"sh/9g7etkbi","slide":15,"text":"Performance marketing\nagencies","textPreview":"Performance marketing | agencies","textChars":30,"textLines":2,"bbox":[743,242,165,38]}
+{"kind":"shape","id":"sh/uhgfmps3","slide":15,"bbox":[955,155,200,145]}
+{"kind":"textbox","id":"sh/vipwvuto","slide":15,"text":"Three source types","textPreview":"Three source types","textChars":18,"textLines":1,"bbox":[973,180,165,44]}
+{"kind":"textbox","id":"sh/7yd8nu9o","slide":15,"text":"Campaigns, calls, CRM","textPreview":"Campaigns, calls, CRM","textChars":21,"textLines":1,"bbox":[973,242,165,38]}
+{"kind":"shape","id":"sh/6x47ups3","slide":15,"bbox":[725,345,200,145]}
+{"kind":"textbox","id":"sh/t0fqpkru","slide":15,"text":"Mentor supervision","textPreview":"Mentor supervision","textChars":18,"textLines":1,"bbox":[743,370,165,44]}
+{"kind":"textbox","id":"sh/sz6pwzq9","slide":15,"text":"Review the commercial decision","textPreview":"Review the commercial decision","textChars":30,"textLines":1,"bbox":[743,432,165,38]}
+{"kind":"shape","id":"sh/jud8ja9s","slide":15,"bbox":[955,345,200,145]}
+{"kind":"textbox","id":"sh/it47q5s7","slide":15,"text":"Prototype resource","textPreview":"Prototype resource","textChars":18,"textLines":1,"bbox":[973,370,165,44]}
+{"kind":"textbox","id":"sh/5wvqlkry","slide":15,"text":"Build the promise record","textPreview":"Build the promise record","textChars":24,"textLines":1,"bbox":[973,432,165,38]}
+{"kind":"textbox","id":"sh/kvmpsfad","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1175,673,45,20]}
+{"kind":"notes","id":"nt/gdoph1","slide":15,"text":"Ask and September 30 decision point from 00 Introduction to Venture-Scale Opportunity.md. The ask is scoped for professors and discovery support, not an investment round."}

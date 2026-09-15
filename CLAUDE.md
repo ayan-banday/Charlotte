@@ -77,7 +77,7 @@ date updated: YYYY-MM-DD
 | "record this rule" | `/Context/Rule Recording Protocol.md` | Save rule to /Context/. Add trigger here. |
 | "store this prompt" | `/Context/Prompt Storage Rule.md` | Save prompt to /Skills Library/. Update indices. |
 | "sync claude.md" | `/Context/CLAUDE.md Update Protocol.md` | Scan state. Update File Structure Registry.md. Confirm. |
-| "reflect" / "daily reflect" / "reflect for today" / a day-dump | `/Workflows/Process The Que.md` | Load the Notion Queue, compare the batch with the week and active project, show a routing preview, then write approved routes to Obsidian. |
+| "reflect" / "daily reflect" / "reflect for today" / "show me my day" / a day-dump | `/Context/Daily Reflection Rule.md` | Load the Notion Queue, show the factual timeline and routing preview defined there, then write only approved routes to Obsidian. |
 | "how's my week been" | `/Context/Reflection Protocol.md` | Read only the current week file. Play it back coherently. |
 | "weekly reflection" | `/Context/Reflection Protocol.md` | Playback → Ash reflects deeply → update `Patterns.md` (graduate/decay) + refresh `MEMORY.md ## Profile`. |
 | "clear up / process dispatch" | `/Workflows/Process The Que.md` | Dispatch means the Notion Queue. Load it, show the routing preview, and write only approved Obsidian routes. |
