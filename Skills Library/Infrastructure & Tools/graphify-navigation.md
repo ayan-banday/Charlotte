@@ -1,6 +1,6 @@
 ---
 date created: 2026-08-26
-date updated: 2026-08-26
+date updated: 2026-10-02 — Corrected markdown rebuild command and documented agent extraction without API keys.
 ---
 # Graphify Navigation
 
@@ -25,7 +25,7 @@ Exclude `Black Hole/`, `output/`, `tmp/`, `_codex_tmp/`, `node_modules/`, and `.
 From the repository root, verify the local executable:
 
 ```bash
-graphify --version
+graphify --help
 ```
 
 If the command is unavailable, install Graphify using Ash’s existing machine-specific method, then rerun the check. The repository does not vendor the executable, Python package, cache, or generated graph because those are environment-specific and can be large. The handoff currently names `graphify-vault` as the Python package fallback; confirm the exact package/CLI name on the target machine before installing.
@@ -38,7 +38,11 @@ The Git post-commit hook runs:
 scripts/charlotte-sync.sh
 ```
 
-That script always rebuilds `vault-index.json`. When `graphify` is available on the local `PATH`, it also runs an incremental update over the canonical corpus. When it is unavailable, the index still refreshes and the hook reports the missing optional dependency.
+That script always rebuilds `vault-index.json`. When `graphify` is available on the local `PATH`, it runs `graphify extract "$ROOT"`. This incrementally re-extracts changed notes using `.graphifyignore`; `graphify update` only refreshes code through AST extraction and cannot refresh this markdown vault. When extraction fails or Graphify is unavailable, the index still refreshes and the hook marks `graphify-out/.needs_update`.
+
+Headless semantic extraction needs a configured backend. Without an API key, use the installed Graphify skill's agent extraction workflow: extract changed notes, merge them with the saved extraction, then rebuild the graph, report, and HTML. Keep unchanged sources, replace changed-source fragments, and stamp only successfully extracted files in the manifest. A pending marker is cleared only after a verified refresh.
+
+Verify that exported nodes retain `label` and `source_file`, check changed-note coverage, and smoke-test `query`, `path`, and `explain`. Extracted `references` and `mentions` must come from literal source evidence; inferred connections remain explicitly labelled and require verification in the notes.
 
 ## Query patterns
 
@@ -54,4 +58,4 @@ Return paths and short relevance context first. Read only the project introducti
 
 ## Ownership boundary
 
-Git owns the sync hook, corpus rules, query conventions, and `vault-index.json`. Each local machine owns the Graphify installation and its generated `.graphify/graph.json`. Do not add Graphify credentials or machine-specific installation paths to the repository.
+Git owns the sync hook, corpus rules, query conventions, and `vault-index.json`. Each local machine owns the Graphify installation and its generated `graphify-out/graph.json`. Do not add Graphify credentials or machine-specific installation paths to the repository.

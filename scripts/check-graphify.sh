@@ -7,7 +7,7 @@ cd "$ROOT"
 
 if command -v graphify >/dev/null 2>&1; then
   echo "[charlotte-graphify] executable: $(command -v graphify)"
-  graphify --version
+  graphify --help
   exit 0
 fi
 

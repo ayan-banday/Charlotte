@@ -18,14 +18,19 @@ fi
 python3 "$ROOT/scripts/charlotte_index.py" "$ROOT"
 
 if command -v graphify >/dev/null 2>&1; then
-  graphify "$ROOT" --update \
-    --include "02 Projects" \
-    --include "Skills Library" \
-    --include "Workflows" \
-    --include "System" \
-    --include "Context"
+  # extract handles markdown changes; update is AST-only. .graphifyignore
+  # defines the durable-vault scope for CLI and agent-driven extraction.
+  if graphify extract "$ROOT"; then
+    rm -f "$ROOT/graphify-out/.needs_update"
+  else
+    mkdir -p "$ROOT/graphify-out"
+    touch "$ROOT/graphify-out/.needs_update"
+    echo "[charlotte-sync] Graph rebuild pending; run the Graphify skill to refresh changed notes" >&2
+  fi
 else
-  echo "[charlotte-sync] Graphify CLI not installed; skipped semantic graph update" >&2
+  mkdir -p "$ROOT/graphify-out"
+  touch "$ROOT/graphify-out/.needs_update"
+  echo "[charlotte-sync] Graphify CLI not installed; graph rebuild pending" >&2
 fi
 
 echo "[charlotte-sync] done"
