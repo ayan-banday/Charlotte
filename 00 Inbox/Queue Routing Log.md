@@ -136,3 +136,31 @@ Records approved imports from the Notion Queue. The raw Notion capture is normal
 - No items routed to The Void.
 
 **Raw source retained:** yes. No Notion content was altered.
+
+## 2026-09-15 — approved import
+
+**Source:** Direct planning dump in chat. Notion Queue was not altered.
+
+- September 16 running, meditation, SaaS-research, planning, college-travel, LinkedIn, and Toastmasters-preparation plan → `00 Self-Management/Weeks/Week 38.md`.
+- Bounded small-SaaS research framing, explicitly retained as a learning hypothesis rather than a wedge decision → `02 Projects/Venture-Scale Opportunity/01 Brain Dump for Venture-Scale Opportunity.md`.
+- SaaS research prompt was referenced but not supplied in chat, so no prompt text was saved.
+
+**Raw source retained:** user chat retained; no external source was changed.
+
+## 2026-09-16–17 — approved import
+
+**Source:** The Queue, Warzone → Creative Clarity.
+
+- September 16–17 day records, interview-rubric deadline, Friday capacity constraint, and learning-to-Substack operating loop → `00 Self-Management/Weeks/Week 38.md`.
+- No separate venture or The Void route: the smaller-company thought remains a learning hypothesis, and distribution is already an active fortnight commitment.
+
+**Raw source retained:** no. At Ash's explicit request, the Queue's processed raw capture text was cleared; its child pages and Queue structure were retained.
+
+## 2026-09-19 — approved import
+
+**Source:** The Queue, Warzone → Creative Clarity.
+
+- September 19 timeline, creator-system work, plan comparison, judgment/context insight, and social-study observation → `00 Self-Management/Weeks/Week 38.md`.
+- Candidate Substack note and the now-active personal-brand-strategy reopening condition → `00 Inbox/The Void.md`.
+
+**Raw source retained:** yes. No Notion content was altered.

@@ -1,6 +1,6 @@
 ---
 date created: 2026-08-30
-date updated: 2026-09-09
+date updated: 2026-09-19 — Added candidate distribution insight and a concrete reopening session for personal-brand strategy
 ---
 
 # The Void
@@ -21,6 +21,11 @@ Uncommitted ideas with no active project home. Review only when their reopening 
 - Keep the personal narrative distinct from the eventual company narrative.
 
 **Reopen when:** a distribution project or public-output rhythm is active.
+
+### September 19 parking
+
+- **Candidate note:** Judgment is accumulated context applied to a goal at a particular moment. AI may increasingly match execution and retain information, but the claim needs examples and a sharper distinction before publication.
+- **Reopening decision:** Distribution is now an active fortnight commitment. Use the September 20 brand-strategy session to define the publishing lens and turn it into one named public-output assignment.
 
 ## Relationship deep-dive research (Female best friend connection)
 

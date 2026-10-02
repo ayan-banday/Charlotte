@@ -1,6 +1,6 @@
 ---
 date created: 2026-06-07
-date updated: 2026-08-30 — Week 35 distil: RGS for tech literacy, proceduralize-before-breakfast, venture pivot
+date updated: 2026-09-15 — Watching pruned (W35 entries expired, no recurrence); journaling-when-anxious added
 loaded: NOT auto-loaded — Charlotte greps it on demand (like Recall.md). Ash is never asked.
 purpose: The durable personality profile. What Ash keeps doing — energy, regulation, work, drift.
   Recurrence is the test: repeats → pattern; once → Watching → dropped. Decay by judgment.
@@ -43,7 +43,5 @@ The personality profile Charlotte consults to decide with him. Tight lines, newe
 - Venture pivot Aug 2026: Udyaan dropped; wedge/hypothesis + VC literacy is the active track. [noted · W35]
 
 ## Watching
-*One-off candidates. One week grace; recur → graduate, else drop.*
-- Gym as morning push-ups (vs afternoon slot) — experiment starting W35. [W35]
-- September written piece consciously deprioritized. [W35]
-- Jain E-Cell startup CEO meeting — likely, not locked. [W35]
+*One-off candidates. One cycle's grace; recur → graduate, else drop.*
+- Journaling when anxious — self-reported as genuinely helpful, added to the regulation toolkit. [W38]

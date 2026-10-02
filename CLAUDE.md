@@ -1,6 +1,6 @@
 ---
 date created: 2026-04-29
-date updated: 2026-08-26 — Added Graphify-first navigation and commit-sync guidance.
+date updated: 2026-09-15 — Added Plan the Fortnight trigger.
 ---
 
 # CLAUDE CONSTITUTION
@@ -84,6 +84,7 @@ date updated: YYYY-MM-DD
 | "process the queue" | `/Workflows/Process The Que.md` | Load the current Notion Queue, normalize it, compare context, preview routes, then log approved Obsidian writes. |
 | "write a newsletter" | `/Workflows/Write a Newsletter.md` | Interview → mine → hook research → draft (Ash's voice) → humanize → image. |
 | "process captures" | Telegram routing batch | Read today's dated routing proposals. Never route captures from chat without explicit approval. |
+| "plan the fortnight" / "two-week plan" / "monthly plan" | `/Workflows/Plan the Fortnight.md` | Extract RGS + current Week file, surface barrier gaps, build a two-week plan across 5 work types with timeline + win condition + forcing function per goal. |
 | "consolidate" / "remember this" / session end | Memory engine (below) | Route durable facts, enforce caps, recursive-compact, harvest skills. |
 
 ---

@@ -1,6 +1,6 @@
 ---
 date created: 2026-08-30
-date updated: 2026-09-14 — Added the evidence-led Commitment-to-Delivery Sourcebook v0.2.
+date updated: 2026-09-15 — Added a bounded small-SaaS opportunity scan as a learning surface, not a venture-direction change.
 ---
 
 # Venture-Scale Opportunity

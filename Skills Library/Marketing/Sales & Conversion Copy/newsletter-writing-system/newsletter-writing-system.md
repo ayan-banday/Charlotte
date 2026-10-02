@@ -9,9 +9,9 @@ Ash's vollständiges System: von der rohen Idee zum fertigen Newsletter. Zwei Pr
 
 ## Die zwei Prompts
 
-| Prompt | Wann nutzen | Datei |
-|--------|-------------|-------|
-| **1. Mining Prompt** | Rohe Idee ausgraben — Anker setzen, Konzepte benennen, emotionalen Kern finden, Value Equation bestimmen | `prompts/mining.md` |
+| Prompt                           | Wann nutzen                                                                                                       | Datei                           |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------- |
+| **1. Mining Prompt**             | Rohe Idee ausgraben — Anker setzen, Konzepte benennen, emotionalen Kern finden, Value Equation bestimmen          | `prompts/mining.md`             |
 | **2. Newsletter Writing Prompt** | Aus den Mined Insights einen fertigen Newsletter bauen — Story Gates, APAGA-Struktur, Full Draft oder Chisel Mode | `prompts/newsletter-writing.md` |
 
 ---

@@ -1,6 +1,6 @@
 ---
 date created: 2026-04-29
-date updated: 2026-08-17 — Repaired links to current workflow skills.
+date updated: 2026-09-15 — Added Plan the Fortnight (self-management planning).
 category: System/Capture Management.
 ---
 
@@ -46,6 +46,12 @@ Rules-based categorization. Organized by Core Capability → Domain → Problem 
 | [[Process Idea Batches]] | Normalize raw captures and prepare their Obsidian routes | 1. Normalize → 2. Compare context → 3. Preview routes → 4. Confirm → 5. Write + log | Active |
 | [[Process The Queue]] | Load the Notion Queue and route approved material into Obsidian | 1. Fetch Queue → 2. Normalize → 3. Compare week/project → 4. Preview → 5. Write + log | Active — runs on reflection or Queue-processing request |
 
+### Self-Management / Planning
+
+| Workflow | Problem | Steps | Status |
+|---|---|---|---|
+| [[Plan the Fortnight]] | Translate RGS (yearly strategy) into an executable two-week plan | 1. Extract RGS + current Week file → 2. Surface barrier gaps → 3. Brain dump or section-by-section → 4. Format check (timeline + win condition + forcing function) → 5. Compile | Active |
+
 ---
 
 ## How to Add a New Workflow
@@ -61,4 +67,4 @@ When you say "Record the workflow," I:
 
 ---
 
-Last updated: 2026-08-30 (rebuilt Queue workflows for Notion → Obsidian routing)
+Last updated: 2026-09-15 (added Plan the Fortnight, fixed from a stray monthly prompt that referenced a nonexistent "REDO" artifact)
